@@ -95,7 +95,7 @@ li:nth-child(3n+2)::before{{background:#C8963E;color:#3A2A20}}
 .sub{{font:500 32px/1.35 "DM Sans",sans-serif;opacity:.9}}
 .handle{{position:absolute;left:0;right:0;bottom:64px;text-align:center;font:500 28px "DM Sans";letter-spacing:.03em;opacity:.85}}
 </style><div class="wrap"><h1>{html.escape(s.get('title','Shop the picks'))}</h1><ol>{items}</ol>
-<div class="key">link in bio</div><div class="sub">My Amazon favorites for every item, all in one place.</div></div>{HANDLE}"""
+<div class="key">link in bio</div><div class="sub">{html.escape(s.get("sub","My Amazon favorites for every item, all in one place."))}</div></div>{HANDLE}"""
 
 
 LINK_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2.4" stroke-linecap="round" '
