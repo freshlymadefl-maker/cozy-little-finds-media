@@ -1,0 +1,215 @@
+[
+ {
+  "name": "bfA-1",
+  "type": "cover",
+  "eyebrow": "BLACK FRIDAY CAME EARLY",
+  "title": "Deals worth it",
+  "size": 140,
+  "sub": "the ones I'd actually buy",
+  "imgs": [
+   "src/bf/barefoot.jpg",
+   "src/bf/blissy_w.jpg",
+   "src/bf/stanley_w.jpg",
+   "src/bf/thera_w.jpg"
+  ]
+ },
+ {
+  "name": "bfA-2",
+  "type": "product",
+  "n": 1,
+  "img": "src/bf/barefoot.jpg",
+  "eyebrow": "ON SALE · BAREFOOT DREAMS",
+  "label": "The blanket",
+  "price": "",
+  "line": "The one on every influencer's couch. *Finally on sale.*"
+ },
+ {
+  "name": "bfA-3",
+  "type": "product",
+  "n": 2,
+  "img": "src/bf/blissy_w.jpg",
+  "eyebrow": "ON SALE · BLISSY SILK",
+  "label": "The pillowcase",
+  "price": "",
+  "line": "Silk for her skin, her blowout and her *beauty sleep.*"
+ },
+ {
+  "name": "bfA-4",
+  "type": "product",
+  "n": 3,
+  "img": "src/bf/stanley_w.jpg",
+  "pos": "center 30%",
+  "eyebrow": "ON SALE · STANLEY QUENCHER",
+  "label": "The tumbler",
+  "price": "",
+  "line": "Yes, still. *Especially* in this color."
+ },
+ {
+  "name": "bfA-5",
+  "type": "product",
+  "n": 4,
+  "img": "src/bf/thera_w.jpg",
+  "eyebrow": "ON SALE · THERAGUN PRIME",
+  "label": "The massage gun",
+  "price": "",
+  "line": "For whoever *carried all the groceries in one trip.*"
+ },
+ {
+  "name": "bfA-6",
+  "type": "cta",
+  "title": "28 deals worth it",
+  "items": [
+   "Cozy throws & silk",
+   "Stanley, YETI & Theragun",
+   "Beats, Bose & Marshall",
+   "Shark FlexStyle & Revlon",
+   "Keurig, Ninja SLUSHi & more"
+  ],
+  "sub": "Deals at time of posting. They change fast, so check before you buy."
+ },
+ {
+  "name": "bfB-1",
+  "type": "cover",
+  "eyebrow": "BLACK FRIDAY",
+  "title": "The deal *sheet*",
+  "size": 140,
+  "sub": "everything worth it, in one place",
+  "imgs": [
+   "src/u25/laneige.jpg",
+   "src/bf/barefoot.jpg",
+   "src/bf/stanley_w.jpg",
+   "src/bf/blissy_w.jpg"
+  ]
+ },
+ {
+  "name": "bfB-2",
+  "type": "cta",
+  "title": "For her",
+  "items": [
+   "Barefoot Dreams throw & socks",
+   "Blissy silk pillowcase",
+   "Shark FlexStyle",
+   "Revlon One-Step",
+   "Laneige + Sol de Janeiro"
+  ],
+  "sub": "Deals at time of posting. They change fast, so check before you buy."
+ },
+ {
+  "name": "bfB-3",
+  "type": "cta",
+  "title": "For him",
+  "items": [
+   "Theragun Prime",
+   "Beats Studio Pro & Solo 4",
+   "Marshall Emberton III",
+   "YETI Rambler mug",
+   "Kindle Paperwhite"
+  ],
+  "sub": "Deals at time of posting. They change fast, so check before you buy."
+ },
+ {
+  "name": "bfB-4",
+  "type": "cta",
+  "title": "For the house",
+  "items": [
+   "Keurig K-Elite",
+   "Ninja SLUSHi",
+   "Cuisinart ice cream maker",
+   "Shark robot vacuum",
+   "Echo Show 15"
+  ],
+  "sub": "Deals at time of posting. They change fast, so check before you buy."
+ },
+ {
+  "name": "bfB-5",
+  "type": "cta",
+  "title": "Stocking stuffers",
+  "items": [
+   "Stanley Quencher",
+   "Satin pillowcase set",
+   "Satin pajama set",
+   "Tech travel organizer",
+   "Fire TV Stick 4K"
+  ],
+  "sub": "Deals at time of posting. They change fast, so check before you buy."
+ },
+ {
+  "name": "cmC-1",
+  "type": "cover",
+  "eyebrow": "CYBER MONDAY",
+  "title": "Last *call*",
+  "size": 160,
+  "sub": "the deals still worth it",
+  "imgs": [
+   "src/bf/thera_w.jpg",
+   "src/u25/sdj.jpg",
+   "src/bf/blissy_w.jpg",
+   "src/bf/barefoot.jpg"
+  ]
+ },
+ {
+  "name": "st-bfA",
+  "type": "story",
+  "eyebrow": "NEW POST",
+  "title": "Black Friday came *early*",
+  "img": "src/bf/barefoot.jpg",
+  "cta": "28 deals → link in bio",
+  "note": "the ones I'd actually buy"
+ },
+ {
+  "name": "st-bf-here",
+  "type": "story",
+  "eyebrow": "IT'S HERE",
+  "title": "Happy Black *Friday*",
+  "img": "src/bf/stanley_w.jpg",
+  "cta": "my deal sheet → link in bio",
+  "note": "coffee first, cart second"
+ },
+ {
+  "name": "st-bf-sheet",
+  "type": "story",
+  "eyebrow": "NEW POST",
+  "title": "The deal sheet is *live*",
+  "img": "src/bf/blissy_w.jpg",
+  "cta": "for her, him & the house",
+  "note": "link in bio"
+ },
+ {
+  "name": "st-weekend",
+  "type": "story",
+  "eyebrow": "STILL GOING",
+  "title": "The deals are *still on*",
+  "img": "src/bf/thera_w.jpg",
+  "cta": "28 picks → link in bio",
+  "note": "for whoever skipped Friday"
+ },
+ {
+  "name": "st-stocking",
+  "type": "story",
+  "eyebrow": "SUNDAY SCROLL",
+  "title": "Stocking stuffers, *sorted*",
+  "img": "src/u25/pillow.jpg",
+  "cta": "link in bio",
+  "note": "under $25 at time of posting"
+ },
+ {
+  "name": "st-cm",
+  "type": "story",
+  "eyebrow": "CYBER MONDAY",
+  "title": "Last *call*",
+  "img": "src/u25/laneige.jpg",
+  "cta": "deal sheet → link in bio",
+  "note": "after today they're gone"
+ },
+ {
+  "name": "st-jlab-last",
+  "type": "story",
+  "eyebrow": "ENDS TONIGHT",
+  "title": "Extra 15% off *JLab*",
+  "img": "src/jlab/lux_mauve.jpg",
+  "cta": "tap \"JLab deal\" in bio",
+  "note": "last day for code JLAB15",
+  "code": "JLAB15",
+  "code_note": "CODE"
+ }
+]
