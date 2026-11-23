@@ -1,0 +1,52 @@
+[
+ {
+  "name": "guide-holiday-favorites-him",
+  "type": "guide",
+  "eyebrow": "GIFTS FOR HIM",
+  "title": "Holiday *Favorites*",
+  "items": [
+   {
+    "img": "src/brand/jbl_c.png",
+    "x": 40,
+    "y": 40,
+    "w": 185,
+    "rot": -12
+   },
+   {
+    "img": "src/brand/ember_c.png",
+    "x": 230,
+    "y": 60,
+    "w": 330,
+    "rot": -3
+   },
+   {
+    "img": "src/brand/bose_c.png",
+    "x": 560,
+    "y": 20,
+    "w": 480,
+    "rot": -8
+   },
+   {
+    "img": "src/brand/beanie_c.png",
+    "x": 30,
+    "y": 470,
+    "w": 400,
+    "rot": -6
+   },
+   {
+    "img": "src/brand/airtag_c.png",
+    "x": 420,
+    "y": 440,
+    "w": 260,
+    "rot": 10
+   },
+   {
+    "img": "src/brand/ugg_c.png",
+    "x": 400,
+    "y": 720,
+    "w": 640,
+    "rot": -4
+   }
+  ]
+ }
+]

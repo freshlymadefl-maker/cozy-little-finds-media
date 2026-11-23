@@ -128,7 +128,28 @@ body{{background:#2F4A3A url("{s['bg']}") center/cover no-repeat}}
 </style>{photo}{items}<div class="tag">{tag}</div><div class="link">{LINK_SVG}{html.escape(s.get('link', 'All on amazon'))}</div><div class="ad">#AD</div>"""
 
 
-KINDS = {"vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage}
+def guide(s):
+    """Packed gift-guide collage (like the owner's best post, "Holiday Favorites": 2.6K views).
+    Fields: items [{img,x,y,w,rot}] packed edge to edge over the top ~75%, eyebrow (small caps line, e.g. "GIFTS FOR HIM"),
+    title (big, e.g. "Holiday Favorites"), bg (optional pattern image; default solid pine with a soft diagonal band)."""
+    items = "".join(
+        f'<img class="item" src="{i["img"]}" style="left:{i["x"]}px;top:{i["y"]}px;width:{i["w"]}px;transform:rotate({i.get("rot", 0)}deg)">'
+        for i in s["items"])
+    bg = f'url("{s["bg"]}") center/cover no-repeat' if s.get("bg") else "linear-gradient(135deg,#2F4A3A 0 46%,#365444 46% 58%,#2F4A3A 58%)"
+    return f"""<style>{BASE}
+body{{background:{bg};background-color:#2F4A3A}}
+.item{{position:absolute;filter:drop-shadow(0 12px 16px rgba(0,0,0,.42))}}
+.foot{{position:absolute;left:0;right:0;bottom:0;height:300px;background:linear-gradient(180deg,rgba(47,74,58,0) 0,rgba(47,74,58,.92) 38%,#2F4A3A 100%)}}
+.eb{{position:absolute;left:0;right:0;bottom:200px;text-align:center;color:#F8E2A8;font:700 34px "Courier Prime",monospace;letter-spacing:.2em}}
+.title{{position:absolute;left:0;right:0;bottom:64px;text-align:center;color:#F4EBDD;font:600 {s.get('size', 128)}px/1 "Fraunces",serif;letter-spacing:-.015em}}
+.link{{position:absolute;left:36px;top:36px;display:flex;align-items:center;gap:12px;background:#fff;border-radius:20px;padding:12px 24px 12px 18px;font:500 36px "DM Sans",sans-serif;color:#111;box-shadow:0 6px 18px rgba(0,0,0,.25);z-index:5}}
+.link svg{{width:38px;height:38px}}
+.ad{{position:absolute;right:28px;bottom:24px;background:#F4EBDD;color:#2F4A3A;font:700 22px "Courier Prime",monospace;letter-spacing:.06em;padding:5px 11px;border-radius:6px}}
+</style>{items}<div class="foot"></div><div class="eb">{html.escape(s.get('eyebrow', ''))}</div><div class="title">{em(s['title'])}</div>
+<div class="ad">#AD</div>"""
+
+
+KINDS = {"vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide}
 
 
 def render(spec):
