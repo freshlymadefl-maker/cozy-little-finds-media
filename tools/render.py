@@ -146,7 +146,17 @@ body{{background:{bg};background-color:#2F4A3A}}
 .link svg{{width:38px;height:38px}}
 .ad{{position:absolute;right:28px;bottom:24px;background:#F4EBDD;color:#2F4A3A;font:700 22px "Courier Prime",monospace;letter-spacing:.06em;padding:5px 11px;border-radius:6px}}
 </style>{items}<div class="foot"></div><div class="eb">{html.escape(s.get('eyebrow', ''))}</div><div class="title">{em(s['title'])}</div>
-<div class="ad">#AD</div>"""
+<div class="ad">#AD</div>{code_badge(s)}"""
+
+
+def code_badge(s):
+    """Optional promo-code ticket (top-right) for deal posts: code + small line (e.g. 'EXTRA 15% OFF')."""
+    if not s.get("code"):
+        return ""
+    return (f'<div style="position:absolute;right:40px;top:40px;z-index:6;background:#F4EBDD;color:#2F4A3A;border:3px dashed #9E2B32;'
+            f'border-radius:18px;padding:16px 28px;text-align:center;transform:rotate(4deg);box-shadow:0 8px 20px rgba(0,0,0,.3)">'
+            f'<div style="font:700 24px Courier Prime,monospace;letter-spacing:.14em;color:#9E2B32">{html.escape(s.get("code_note", "USE CODE"))}</div>'
+            f'<div style="font:700 60px/1.05 Fraunces,serif;letter-spacing:.02em">{html.escape(s["code"])}</div></div>')
 
 
 def tweet(s):

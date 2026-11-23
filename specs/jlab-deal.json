@@ -1,0 +1,12 @@
+[
+ {"name":"jlab-deal-v1","type":"guide","eyebrow":"EXTRA 15% OFF · ENDS 11/30","title":"Earbuds, *but chic*","size":118,
+  "code":"JLAB15","code_note":"EXTRA 15% OFF CODE",
+  "items":[
+   {"img":"src/jlab/lux_mauve.png","x":20,"y":60,"w":470,"rot":-8},
+   {"img":"src/jlab/lux_sage.png","x":560,"y":250,"w":420,"rot":9},
+   {"img":"src/jlab/air_rose.png","x":330,"y":330,"w":330,"rot":-4},
+   {"img":"src/jlab/air_lilac.png","x":40,"y":640,"w":300,"rot":6},
+   {"img":"src/jlab/pop_cloud.png","x":360,"y":720,"w":330,"rot":-3},
+   {"img":"src/jlab/flex_cloud.png","x":700,"y":700,"w":320,"rot":-10}
+  ]}
+]
