@@ -149,7 +149,19 @@ body{{background:{bg};background-color:#2F4A3A}}
 <div class="ad">#AD</div>"""
 
 
-KINDS = {"vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide}
+def tweet(s):
+    """Viral plain-text one-liner (looks like a screenshot-able thought, huge send rates).
+    Fields: text (use \\n for line breaks), align left|center, bg (default near-white), size (default 62)."""
+    lines = "<br>".join(html.escape(t) for t in s["text"].split("\n"))
+    al = s.get("align", "left")
+    return f"""<style>{BASE}
+body{{background:{s.get('bg', '#FBFAF8')};display:flex;align-items:center;justify-content:center}}
+.t{{width:960px;text-align:{al};color:#141414;font:500 {s.get('size', 62)}px/1.32 "DM Sans",-apple-system,"Segoe UI",sans-serif;letter-spacing:-.01em}}
+.h{{position:absolute;left:0;right:0;bottom:56px;text-align:center;color:#141414;opacity:.28;font:500 24px "DM Sans";letter-spacing:.06em}}
+</style><div class="t">{lines}</div><div class="h">@cozylittlefindsdaily</div>"""
+
+
+KINDS = {"tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide}
 
 
 def render(spec):
