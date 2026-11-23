@@ -153,7 +153,8 @@ def code_badge(s):
     """Optional promo-code ticket (top-right) for deal posts: code + small line (e.g. 'EXTRA 15% OFF')."""
     if not s.get("code"):
         return ""
-    return (f'<div style="position:absolute;right:40px;top:40px;z-index:6;background:#F4EBDD;color:#2F4A3A;border:3px dashed #9E2B32;'
+    top=1100 if s.get("_story") else 40
+    return (f'<div style="position:absolute;right:40px;top:{top}px;z-index:6;background:#F4EBDD;color:#2F4A3A;border:3px dashed #9E2B32;'
             f'border-radius:18px;padding:16px 28px;text-align:center;transform:rotate(4deg);box-shadow:0 8px 20px rgba(0,0,0,.3)">'
             f'<div style="font:700 30px Courier Prime,monospace;letter-spacing:.12em;color:#9E2B32">{html.escape(s.get("code_note", "USE CODE"))}</div>'
             f'<div style="font:700 84px/1.05 Fraunces,serif;letter-spacing:.02em">{html.escape(s["code"])}</div></div>')
@@ -179,16 +180,17 @@ body{{background:#F4EBDD;font-family:"DM Sans",sans-serif;color:#2F4A3A}}
 
 
 def story(s):
+    s=dict(s); s["_story"]=1
     """1080x1920 Story frame: pine background, eyebrow, big title, optional image card, button-like CTA pill.
     Fields: eyebrow, title, img (optional), cta, note (optional), code (optional ticket)."""
     img = f'<div class="card"><img src="{s["img"]}"></div>' if s.get("img") else ""
     return f"""<style>html,body{{margin:0;width:1080px;height:1920px}}body{{position:relative;overflow:hidden;background:#2F4A3A;color:#F4EBDD;font-family:"DM Sans",sans-serif}}
-.eb{{position:absolute;left:0;right:0;top:210px;text-align:center;font:700 44px "Courier Prime",monospace;letter-spacing:.2em;color:#F8E2A8}}
-.t{{position:absolute;left:60px;right:60px;top:285px;text-align:center;font:600 124px/1.0 "Fraunces",serif}}
-.card{{position:absolute;left:150px;right:150px;top:640px;height:840px;border-radius:390px 390px 26px 26px;overflow:hidden;background:#fff}}
+.eb{{position:absolute;left:0;right:0;top:280px;text-align:center;font:700 44px "Courier Prime",monospace;letter-spacing:.2em;color:#F8E2A8}}
+.t{{position:absolute;left:70px;right:70px;top:345px;text-align:center;font:600 124px/1.0 "Fraunces",serif}}
+.card{{position:absolute;left:170px;right:170px;top:610px;height:690px;border-radius:390px 390px 26px 26px;overflow:hidden;background:#fff}}
 .card img{{width:100%;height:100%;object-fit:cover}}
-.cta{{position:absolute;left:50%;transform:translateX(-50%);top:1550px;background:#F4EBDD;color:#2F4A3A;font:700 56px "DM Sans";padding:30px 64px;border-radius:60px;white-space:nowrap}}
-.note{{position:absolute;left:40px;right:40px;top:1705px;text-align:center;font:italic 400 54px "Fraunces",serif;opacity:.9}}
+.cta{{position:absolute;left:50%;transform:translateX(-50%);top:1340px;background:#F4EBDD;color:#2F4A3A;font:700 56px "DM Sans";padding:30px 64px;border-radius:60px;white-space:nowrap}}
+.note{{position:absolute;left:80px;right:80px;top:1470px;text-align:center;font:italic 400 54px "Fraunces",serif;opacity:.9}}
 </style><div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="t">{em(s['title'])}</div>{img}
 <div class="cta">{html.escape(s.get('cta','link in bio'))}</div><div class="note">{em(s.get('note',''))}</div>{code_badge(s)}"""
 
