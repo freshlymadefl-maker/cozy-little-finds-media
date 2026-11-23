@@ -1,0 +1,130 @@
+[
+ {
+  "name": "u25-1-cover",
+  "type": "guide",
+  "eyebrow": "GIFTS UNDER $25",
+  "title": "That look *expensive*",
+  "size": 112,
+  "items": [
+   {
+    "img": "src/u25/pillow_c.png",
+    "x": 40,
+    "y": 60,
+    "w": 620,
+    "rot": -6
+   },
+   {
+    "img": "src/u25/candle_c.png",
+    "x": 610,
+    "y": 90,
+    "w": 430,
+    "rot": 5
+   },
+   {
+    "img": "src/u25/sdj_c.png",
+    "x": 690,
+    "y": 470,
+    "w": 230,
+    "rot": 12
+   },
+   {
+    "img": "src/u25/claw_c.png",
+    "x": 120,
+    "y": 560,
+    "w": 430,
+    "rot": -8
+   }
+  ]
+ },
+ {
+  "name": "u25-2",
+  "type": "product",
+  "n": 1,
+  "img": "src/u25/laneige.jpg",
+  "eyebrow": "LANEIGE LIP SLEEPING MASK",
+  "price": "$18",
+  "line": "On every nightstand in America. Hers is next.",
+  "label": "The lip mask"
+ },
+ {
+  "name": "u25-3",
+  "type": "product",
+  "n": 2,
+  "img": "src/u25/sdj.jpg",
+  "eyebrow": "SOL DE JANEIRO CHEIROSA 62",
+  "price": "$19.50",
+  "line": "Smells like a vacation *she didn't pay for.*",
+  "label": "The mist"
+ },
+ {
+  "name": "u25-4",
+  "type": "product",
+  "n": 3,
+  "img": "src/u25/pillow.jpg",
+  "eyebrow": "KITSCH SATIN PILLOWCASE",
+  "price": "$16",
+  "line": "Blowout insurance, but make it *plaid.*",
+  "label": "The pillowcase"
+ },
+ {
+  "name": "u25-5",
+  "type": "product",
+  "n": 4,
+  "img": "src/u25/candle2.jpg",
+  "eyebrow": "VOLUSPA PETITE CANDLE",
+  "price": "$18",
+  "line": "Makes any bathroom feel like a *hotel bathroom.*",
+  "label": "The candle"
+ },
+ {
+  "name": "u25-6",
+  "type": "product",
+  "n": 5,
+  "img": "src/u25/claw.jpg",
+  "eyebrow": "KITSCH PUFFY CLAW CLIP",
+  "price": "$8",
+  "line": "The stocking stuffer she'll wear *every single day.*",
+  "label": "The claw clip"
+ },
+ {
+  "name": "u25-7-cta",
+  "type": "cta",
+  "title": "25 gifts under $25",
+  "items": [
+   "Lip mask + mist",
+   "Satin pillowcase",
+   "Candles & cozy socks",
+   "Pearls, bows & clips",
+   "+ 20 more she'll love"
+  ]
+ },
+ {
+  "name": "story-u25",
+  "type": "story",
+  "eyebrow": "NEW POST",
+  "title": "Gifts under $25 that look *expensive*",
+  "img": "src/u25/laneige.jpg",
+  "cta": "25 picks → link in bio",
+  "note": "(she'll never know)"
+ },
+ {
+  "name": "story-jlab",
+  "type": "story",
+  "eyebrow": "ENDS 11/30",
+  "title": "Extra 15% off *JLab*",
+  "img": "src/jlab/lux_mauve.jpg",
+  "cta": "tap \"JLab deal\" in bio",
+  "note": "stacks on Black Friday prices",
+  "code": "JLAB15",
+  "code_note": "CODE"
+ },
+ {
+  "name": "story-countdown",
+  "type": "story",
+  "eyebrow": "PSA",
+  "title": "Black Friday is *this week.*",
+  "img": "src/u25/pillow.jpg",
+  "cta": "my picks → link in bio",
+  "note": "start the list now, thank me later"
+ }
+]

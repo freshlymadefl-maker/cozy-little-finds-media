@@ -159,6 +159,40 @@ def code_badge(s):
             f'<div style="font:700 60px/1.05 Fraunces,serif;letter-spacing:.02em">{html.escape(s["code"])}</div></div>')
 
 
+def product(s):
+    """One product per carousel slide: cream card, big photo in an arched frame, number tag, name, price, one witty line.
+    Fields: img, n (slide number), name, price, line, eyebrow (optional small caps, e.g. 'UNDER $25')."""
+    return f"""<style>{BASE}
+body{{background:#F4EBDD;font-family:"DM Sans",sans-serif;color:#2F4A3A}}
+.frame{{position:absolute;left:90px;right:90px;top:90px;height:820px;border-radius:450px 450px 28px 28px;overflow:hidden;background:#fff;box-shadow:0 18px 40px rgba(47,74,58,.18)}}
+.frame img{{width:100%;height:100%;object-fit:cover}}
+.num{{position:absolute;left:70px;top:70px;width:96px;height:96px;border-radius:50%;background:#9E2B32;color:#F4EBDD;font:600 50px/96px "Fraunces",serif;text-align:center;z-index:3}}
+.eb{{position:absolute;left:0;right:0;top:950px;text-align:center;font:700 26px "Courier Prime",monospace;letter-spacing:.2em;color:#C8963E}}
+.name{{position:absolute;left:80px;right:80px;top:995px;text-align:center;font:600 64px/1.05 "Fraunces",serif}}
+.price{{display:inline-block;margin-left:14px;font:700 40px "Courier Prime",monospace;color:#9E2B32;vertical-align:middle}}
+.line{{position:absolute;left:110px;right:110px;top:1150px;text-align:center;font:italic 400 40px/1.25 "Fraunces",serif;color:#3A2A20}}
+.handle{{position:absolute;left:0;right:0;bottom:34px;text-align:center;font:500 24px "DM Sans";opacity:.5}}
+.ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
+</style><div class="num">{s.get('n','')}</div><div class="frame"><img src="{s['img']}" style="object-position:{s.get('pos','center')}"></div>
+<div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="name">{em(s['label'])}<span class="price">{html.escape(s['price'])}</span></div>
+<div class="line">{em(s['line'])}</div>{HANDLE}<div class="ad">#AD</div>"""
+
+
+def story(s):
+    """1080x1920 Story frame: pine background, eyebrow, big title, optional image card, button-like CTA pill.
+    Fields: eyebrow, title, img (optional), cta, note (optional), code (optional ticket)."""
+    img = f'<div class="card"><img src="{s["img"]}"></div>' if s.get("img") else ""
+    return f"""<style>html,body{{margin:0;width:1080px;height:1920px}}body{{position:relative;overflow:hidden;background:#2F4A3A;color:#F4EBDD;font-family:"DM Sans",sans-serif}}
+.eb{{position:absolute;left:0;right:0;top:230px;text-align:center;font:700 34px "Courier Prime",monospace;letter-spacing:.2em;color:#F8E2A8}}
+.t{{position:absolute;left:90px;right:90px;top:300px;text-align:center;font:600 104px/1.02 "Fraunces",serif}}
+.card{{position:absolute;left:150px;right:150px;top:620px;height:860px;border-radius:390px 390px 26px 26px;overflow:hidden;background:#fff}}
+.card img{{width:100%;height:100%;object-fit:cover}}
+.cta{{position:absolute;left:50%;transform:translateX(-50%);top:1560px;background:#F4EBDD;color:#2F4A3A;font:700 44px "DM Sans";padding:26px 60px;border-radius:60px;white-space:nowrap}}
+.note{{position:absolute;left:0;right:0;top:1690px;text-align:center;font:italic 400 38px "Fraunces",serif;opacity:.9}}
+</style><div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="t">{em(s['title'])}</div>{img}
+<div class="cta">{html.escape(s.get('cta','link in bio'))}</div><div class="note">{em(s.get('note',''))}</div>{code_badge(s)}"""
+
+
 def tweet(s):
     """Viral plain-text one-liner (looks like a screenshot-able thought, huge send rates).
     Fields: text (use \\n for line breaks), align left|center, bg (default near-white), size (default 62)."""
@@ -195,7 +229,7 @@ body{{background:{bg}}}
 </style>{items}{title}{note}<div class="ad">#AD</div>"""
 
 
-KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide}
+KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story}
 
 
 def render(spec):
@@ -204,7 +238,7 @@ def render(spec):
     page.write_text(f'<!doctype html><html><head><meta charset="utf-8">{FONTS}</head><body>{body}</body></html>', encoding="utf-8")
     out = HERE / "out" / f"{spec['name']}.png"
     out.parent.mkdir(exist_ok=True)
-    subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--window-size=1080,1350",
+    subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", f"--window-size=1080,{spec.get('h', 1920 if spec['type'] == 'story' else 1350)}",
                     "--virtual-time-budget=5000", f"--screenshot={out.as_posix()}", page.as_uri()],
                    capture_output=True, timeout=90)
     print(out.name, "ok" if out.exists() else "FAILED")
