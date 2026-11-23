@@ -85,14 +85,14 @@ def cta(s):
     items = "".join(f"<li>{html.escape(t)}</li>" for t in s["items"])
     return f"""<style>{BASE}
 body{{background:#2F4A3A;color:#F4EBDD;font-family:"DM Sans",sans-serif}}
-.wrap{{position:absolute;left:110px;right:110px;top:50%;transform:translateY(-54%);display:flex;flex-direction:column;gap:40px}}
-h1{{margin:0;font:600 88px/1.0 "Fraunces",serif}}
+.wrap{{position:absolute;left:80px;right:80px;top:50%;transform:translateY(-54%);display:flex;flex-direction:column;gap:40px}}
+h1{{margin:0;font:600 108px/1.0 "Fraunces",serif}}
 ol{{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px;counter-reset:n}}
-li{{counter-increment:n;display:flex;gap:24px;align-items:center;font:500 42px/1.2 "DM Sans",sans-serif}}
-li::before{{content:counter(n);flex:none;width:60px;height:60px;border-radius:50%;background:#F4EBDD;color:#2F4A3A;font:700 30px/60px "Courier Prime",monospace;text-align:center}}
+li{{counter-increment:n;display:flex;gap:26px;align-items:center;font:500 56px/1.15 "DM Sans",sans-serif}}
+li::before{{content:counter(n);flex:none;width:72px;height:72px;border-radius:50%;background:#F4EBDD;color:#2F4A3A;font:700 36px/72px "Courier Prime",monospace;text-align:center}}
 li:nth-child(3n+2)::before{{background:#C8963E;color:#3A2A20}}
-.key{{align-self:flex-start;background:#F8E2A8;color:#2F4A3A;font:700 46px "Courier Prime",monospace;padding:16px 30px;border-radius:10px;transform:rotate(-2deg);margin-top:10px}}
-.sub{{font:500 32px/1.35 "DM Sans",sans-serif;opacity:.9}}
+.key{{align-self:flex-start;background:#F8E2A8;color:#2F4A3A;font:700 58px "Courier Prime",monospace;padding:16px 30px;border-radius:10px;transform:rotate(-2deg);margin-top:10px}}
+.sub{{font:500 40px/1.3 "DM Sans",sans-serif;opacity:.9}}
 .handle{{position:absolute;left:0;right:0;bottom:64px;text-align:center;font:500 28px "DM Sans";letter-spacing:.03em;opacity:.85}}
 </style><div class="wrap"><h1>{html.escape(s.get('title','Shop the picks'))}</h1><ol>{items}</ol>
 <div class="key">link in bio</div><div class="sub">{html.escape(s.get("sub","My Amazon favorites for every item, all in one place."))}</div></div>{HANDLE}"""
@@ -155,8 +155,8 @@ def code_badge(s):
         return ""
     return (f'<div style="position:absolute;right:40px;top:40px;z-index:6;background:#F4EBDD;color:#2F4A3A;border:3px dashed #9E2B32;'
             f'border-radius:18px;padding:16px 28px;text-align:center;transform:rotate(4deg);box-shadow:0 8px 20px rgba(0,0,0,.3)">'
-            f'<div style="font:700 24px Courier Prime,monospace;letter-spacing:.14em;color:#9E2B32">{html.escape(s.get("code_note", "USE CODE"))}</div>'
-            f'<div style="font:700 60px/1.05 Fraunces,serif;letter-spacing:.02em">{html.escape(s["code"])}</div></div>')
+            f'<div style="font:700 30px Courier Prime,monospace;letter-spacing:.12em;color:#9E2B32">{html.escape(s.get("code_note", "USE CODE"))}</div>'
+            f'<div style="font:700 84px/1.05 Fraunces,serif;letter-spacing:.02em">{html.escape(s["code"])}</div></div>')
 
 
 def product(s):
@@ -164,13 +164,13 @@ def product(s):
     Fields: img, n (slide number), name, price, line, eyebrow (optional small caps, e.g. 'UNDER $25')."""
     return f"""<style>{BASE}
 body{{background:#F4EBDD;font-family:"DM Sans",sans-serif;color:#2F4A3A}}
-.frame{{position:absolute;left:90px;right:90px;top:90px;height:820px;border-radius:450px 450px 28px 28px;overflow:hidden;background:#fff;box-shadow:0 18px 40px rgba(47,74,58,.18)}}
+.frame{{position:absolute;left:90px;right:90px;top:80px;height:740px;border-radius:450px 450px 28px 28px;overflow:hidden;background:#fff;box-shadow:0 18px 40px rgba(47,74,58,.18)}}
 .frame img{{width:100%;height:100%;object-fit:cover}}
 .num{{position:absolute;left:70px;top:70px;width:96px;height:96px;border-radius:50%;background:#9E2B32;color:#F4EBDD;font:600 50px/96px "Fraunces",serif;text-align:center;z-index:3}}
-.eb{{position:absolute;left:0;right:0;top:950px;text-align:center;font:700 26px "Courier Prime",monospace;letter-spacing:.2em;color:#C8963E}}
-.name{{position:absolute;left:80px;right:80px;top:995px;text-align:center;font:600 64px/1.05 "Fraunces",serif}}
+.eb{{position:absolute;left:0;right:0;top:855px;text-align:center;font:700 34px "Courier Prime",monospace;letter-spacing:.16em;color:#B07F2E}}
+.name{{position:absolute;left:60px;right:60px;top:905px;text-align:center;font:600 92px/1.02 "Fraunces",serif}}
 .price{{display:inline-block;margin-left:14px;font:700 40px "Courier Prime",monospace;color:#9E2B32;vertical-align:middle}}
-.line{{position:absolute;left:110px;right:110px;top:1150px;text-align:center;font:italic 400 40px/1.25 "Fraunces",serif;color:#3A2A20}}
+.line{{position:absolute;left:70px;right:70px;top:1035px;text-align:center;font:italic 400 58px/1.18 "Fraunces",serif;color:#3A2A20}}
 .handle{{position:absolute;left:0;right:0;bottom:34px;text-align:center;font:500 24px "DM Sans";opacity:.5}}
 .ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
 </style><div class="num">{s.get('n','')}</div><div class="frame"><img src="{s['img']}" style="object-position:{s.get('pos','center')}"></div>
@@ -183,12 +183,12 @@ def story(s):
     Fields: eyebrow, title, img (optional), cta, note (optional), code (optional ticket)."""
     img = f'<div class="card"><img src="{s["img"]}"></div>' if s.get("img") else ""
     return f"""<style>html,body{{margin:0;width:1080px;height:1920px}}body{{position:relative;overflow:hidden;background:#2F4A3A;color:#F4EBDD;font-family:"DM Sans",sans-serif}}
-.eb{{position:absolute;left:0;right:0;top:230px;text-align:center;font:700 34px "Courier Prime",monospace;letter-spacing:.2em;color:#F8E2A8}}
-.t{{position:absolute;left:90px;right:90px;top:300px;text-align:center;font:600 104px/1.02 "Fraunces",serif}}
-.card{{position:absolute;left:150px;right:150px;top:620px;height:860px;border-radius:390px 390px 26px 26px;overflow:hidden;background:#fff}}
+.eb{{position:absolute;left:0;right:0;top:210px;text-align:center;font:700 44px "Courier Prime",monospace;letter-spacing:.2em;color:#F8E2A8}}
+.t{{position:absolute;left:60px;right:60px;top:285px;text-align:center;font:600 124px/1.0 "Fraunces",serif}}
+.card{{position:absolute;left:150px;right:150px;top:640px;height:840px;border-radius:390px 390px 26px 26px;overflow:hidden;background:#fff}}
 .card img{{width:100%;height:100%;object-fit:cover}}
-.cta{{position:absolute;left:50%;transform:translateX(-50%);top:1560px;background:#F4EBDD;color:#2F4A3A;font:700 44px "DM Sans";padding:26px 60px;border-radius:60px;white-space:nowrap}}
-.note{{position:absolute;left:0;right:0;top:1690px;text-align:center;font:italic 400 38px "Fraunces",serif;opacity:.9}}
+.cta{{position:absolute;left:50%;transform:translateX(-50%);top:1550px;background:#F4EBDD;color:#2F4A3A;font:700 56px "DM Sans";padding:30px 64px;border-radius:60px;white-space:nowrap}}
+.note{{position:absolute;left:40px;right:40px;top:1705px;text-align:center;font:italic 400 54px "Fraunces",serif;opacity:.9}}
 </style><div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="t">{em(s['title'])}</div>{img}
 <div class="cta">{html.escape(s.get('cta','link in bio'))}</div><div class="note">{em(s.get('note',''))}</div>{code_badge(s)}"""
 
@@ -202,10 +202,10 @@ body{{background:{s.get('bg', '#F4EBDD')};font-family:"DM Sans",sans-serif;color
 .grid{{position:absolute;left:60px;right:60px;top:60px;display:grid;grid-template-columns:1fr 1fr;gap:22px}}
 .tile{{height:380px;border-radius:26px;overflow:hidden;background:#fff;box-shadow:0 10px 26px rgba(47,74,58,.16)}}
 .tile img{{width:100%;height:100%;object-fit:cover}}
-.eb{{position:absolute;left:0;right:0;top:895px;text-align:center;font:700 28px "Courier Prime",monospace;letter-spacing:.22em;color:#9E2B32}}
+.eb{{position:absolute;left:0;right:0;top:888px;text-align:center;font:700 36px "Courier Prime",monospace;letter-spacing:.22em;color:#9E2B32}}
 .t{{position:absolute;left:30px;right:30px;top:935px;text-align:center;font:600 {s.get('size',150)}px/1 "Fraunces",serif;letter-spacing:-.02em}}
-.sub{{position:absolute;left:0;right:0;top:1110px;text-align:center;font:italic 400 70px/1 "Fraunces",serif;color:#3A2A20}}
-.swipe{{position:absolute;left:0;right:0;bottom:60px;text-align:center;font:700 24px "Courier Prime",monospace;letter-spacing:.2em;color:#2F4A3A;opacity:.7}}
+.sub{{position:absolute;left:0;right:0;top:1105px;text-align:center;font:italic 400 80px/1 "Fraunces",serif;color:#3A2A20}}
+.swipe{{position:absolute;left:0;right:0;bottom:50px;text-align:center;font:700 32px "Courier Prime",monospace;letter-spacing:.2em;color:#2F4A3A;opacity:.7}}
 .ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
 </style><div class="grid">{tiles}</div><div class="eb">{html.escape(s.get('eyebrow',''))}</div>
 <div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div><div class="swipe">SWIPE →</div><div class="ad">#AD</div>"""
