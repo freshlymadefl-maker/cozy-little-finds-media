@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=DM+Sans:wght@500;600&display=swap">
+<style>
+  html, body { margin:0; width:1080px; height:1350px; }
+  body { position:relative; overflow:hidden; background:#2F4A3A url("src/pattern.png") center/cover no-repeat; }
+  .photo { position:absolute; left:0; top:0; width:520px; height:1350px; background:url("src/outfit.png") 50% 85%/auto 1700px no-repeat; box-shadow:6px 0 18px rgba(0,0,0,.25); }
+  .item { position:absolute; filter:drop-shadow(0 10px 14px rgba(0,0,0,.38)); }
+  .tag { position:absolute; left:64px; top:820px; background:#fff; color:#111; font:400 64px/1.1 "Courier Prime", monospace; padding:22px 34px; text-align:center; box-shadow:0 6px 18px rgba(0,0,0,.25); }
+  .link { position:absolute; left:64px; top:1010px; display:flex; align-items:center; gap:14px; background:#fff; border-radius:22px; padding:16px 30px 16px 22px; font:500 46px "DM Sans", sans-serif; color:#111; box-shadow:0 6px 18px rgba(0,0,0,.25); }
+  .link svg { width:46px; height:46px; }
+  .ad { position:absolute; right:28px; bottom:28px; background:#F4EBDD; color:#2F4A3A; font:700 24px "Courier Prime", monospace; letter-spacing:.06em; padding:6px 12px; border-radius:6px; }
+</style></head>
+<body>
+  <div class="photo"></div>
+  <img class="item" src="src/headband.png" style="left:600px; top:40px; width:400px; transform:rotate(-8deg)">
+  <img class="item" src="src/earrings.png" style="left:560px; top:470px; width:230px; transform:rotate(-6deg)">
+  <img class="item" src="src/bow.png" style="left:800px; top:440px; width:250px; transform:rotate(12deg)">
+  <img class="item" src="src/bag.png" style="left:600px; top:730px; width:300px; transform:rotate(4deg)">
+  <img class="item" src="src/loafers.png" style="left:620px; top:1080px; width:430px; transform:rotate(-5deg)">
+  <div class="tag">plaid +<br>pearls</div>
+  <div class="link"><svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>All on amazon</div>
+  <div class="ad">#AD</div>
+</body></html>
