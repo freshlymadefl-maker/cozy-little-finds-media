@@ -161,7 +161,31 @@ body{{background:{s.get('bg', '#FBFAF8')};display:flex;align-items:center;justif
 </style><div class="t">{lines}</div><div class="h">@cozylittlefindsdaily</div>"""
 
 
-KINDS = {"tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide}
+def outfit(s):
+    """One outfit per slide (for multi-slide outfit carousels, like the owner's reference "Thanksgiving outfits" 13-slide post).
+    The garment is the cut-out centerpiece (no person), accessories around it, an occasional whimsical prop.
+    Fields: bg (pattern image) or bg_color, title, title_style "script" (handwritten, white) | "banner" (bold caps on a plum bar),
+    note (optional small script line bottom-left), items [{img,x,y,w,rot}] (first = garment, paint order = list order)."""
+    bg = f'url("{s["bg"]}") center/cover no-repeat' if s.get("bg") else s.get("bg_color", "#4A1430")
+    items = "".join(
+        f'<img class="item" src="{i["img"]}" style="left:{i["x"]}px;top:{i["y"]}px;width:{i["w"]}px;transform:rotate({i.get("rot", 0)}deg)">'
+        for i in s["items"])
+    if s.get("title_style") == "banner":
+        title = f'<div class="banner">{html.escape(s["title"])}</div>'
+    else:
+        title = f'<div class="script">{html.escape(s["title"])}</div>'
+    note = f'<div class="note">{html.escape(s["note"])}</div>' if s.get("note") else ""
+    return f"""<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Anton&display=swap" rel="stylesheet"><style>{BASE}
+body{{background:{bg}}}
+.item{{position:absolute;filter:drop-shadow(0 8px 12px rgba(0,0,0,.3))}}
+.script{{position:absolute;left:40px;right:40px;top:44px;text-align:center;color:#fff;font:400 88px/1.05 "Caveat Brush",cursive;text-shadow:0 2px 10px rgba(0,0,0,.35);z-index:5}}
+.banner{{position:absolute;left:90px;right:90px;top:50px;background:#4A1430;color:#fff;text-align:center;font:400 72px/1.25 "Anton",sans-serif;letter-spacing:.01em;padding:10px 20px;z-index:5}}
+.note{{position:absolute;left:60px;bottom:70px;max-width:520px;color:#fff;font:400 54px/1.1 "Caveat Brush",cursive;text-shadow:0 2px 8px rgba(0,0,0,.35);z-index:5}}
+.ad{{position:absolute;right:24px;bottom:22px;background:#F4EBDD;color:#2F4A3A;font:700 22px "Courier Prime",monospace;padding:5px 11px;border-radius:6px;z-index:6}}
+</style>{items}{title}{note}<div class="ad">#AD</div>"""
+
+
+KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide}
 
 
 def render(spec):
