@@ -1,0 +1,16 @@
+[
+  {"name": "1128-bank-horror", "type": "plain", "eyebrow": "THE WEEKEND AFTER BLACK FRIDAY", "text": "Checking my bank account like it's a *horror movie.*", "size": 82},
+  {"name": "1201-done-shopping", "type": "vintage", "img": "src/shopping.png", "text": "Me telling everyone I'm done Christmas shopping", "focus": "40%"},
+  {"name": "1202-hostess-board", "type": "board", "img": "src/hostess.png", "tag": "hostess gifts she'll love",
+   "dots": [[300, 280], [440, 230], [940, 150], [60, 760], [470, 700], [960, 780]]},
+  {"name": "1202-hostess-cta", "type": "cta", "title": "Shop the hostess picks",
+   "items": ["Linen napkins + gold rings", "Amber jar candle", "Fancy olive oil", "Cinnamon + velvet bow", "Crystal coupes", "Artisan chocolate"]},
+  {"name": "1203-group-chat", "type": "plain", "dark": true, "text": "December is just one long group chat about *who's bringing what.*", "size": 78},
+  {"name": "1204-wrapping-cardio", "type": "engraving", "img": "src/giftbox.png", "bg": "rgb(41,73,56)", "eyebrow": "HOLIDAY FACT", "text": "Wrapping presents counts as *cardio.*", "size": 84},
+  {"name": "1205-movie-night", "type": "vintage", "img": "src/movienight.png", "text": "Weekend plans: matching pajamas and every holiday movie ever made", "size": 50},
+  {"name": "1206-stocking-board", "type": "board", "img": "src/stocking.png", "tag": "stocking stuffers for her",
+   "dots": [[560, 200], [720, 110], [170, 640], [880, 470], [100, 960], [640, 900], [900, 1000]]},
+  {"name": "1206-stocking-cta", "type": "cta", "title": "Shop the stocking stuffers",
+   "items": ["Cozy socks", "Mini candle", "Claw clip", "Silk scrunchie", "Lip balm", "Hand cream", "Gold bow clip"]},
+  {"name": "1207-chill-bottle", "type": "engraving", "img": "src/icebucket.png", "bg": "rgb(37,63,46)", "eyebrow": "HOSTING TIP", "text": "Chill a bottle in *15 minutes.*", "sub": "Ice, water and a big handful of salt in a bucket. Give the bottle a spin every few minutes. *You're welcome.*", "size": 80, "art_top": 600, "art": 600}
+]
