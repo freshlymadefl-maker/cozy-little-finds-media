@@ -1,0 +1,8 @@
+[{"name":"collage-for-him","type":"collage","bg":"src/him_plaid.png","photo":"src/him_outfit.png","photo_pos":"50% 92%/auto 1780px",
+ "tag":"for the\nhusband","tag_y":840,
+ "items":[
+  {"img":"src/beanie.png","x":590,"y":50,"w":320,"rot":-7},
+  {"img":"src/watch.png","x":900,"y":40,"w":140,"rot":14},
+  {"img":"src/wallet.png","x":810,"y":560,"w":240,"rot":9},
+  {"img":"src/glass.png","x":570,"y":470,"w":270,"rot":-3},
+  {"img":"src/moccasins.png","x":580,"y":980,"w":460,"rot":-4}]}]

@@ -7,6 +7,8 @@ Images referenced by "img" are paths relative to this folder (e.g. "src/x.png").
 import html, json, pathlib, subprocess, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
+if HERE.name == "tools":  # in the repo, src/ and out/ live at the repo root
+    HERE = HERE.parent
 EDGE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 FONTS = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;'
          '0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=DM+Sans:wght@500;700&family=Courier+Prime:wght@700'
@@ -96,7 +98,37 @@ li:nth-child(3n+2)::before{{background:#C8963E;color:#3A2A20}}
 <div class="key">link in bio</div><div class="sub">My Amazon favorites for every item, all in one place.</div></div>{HANDLE}"""
 
 
-KINDS = {"vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta}
+LINK_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2.4" stroke-linecap="round" '
+            'stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>'
+            '<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>')
+
+
+def collage(s):
+    """Hand-assembled cut-out collage (like the owner's "classic + cozy" post).
+    Fields: bg (pattern image), photo (optional outfit/scene photo for the left panel), photo_pos (CSS bg position/size,
+    default "50% 85%/auto 1700px"), photo_w (default 520), items: [{img, x, y, w, rot}] in paint order (earlier = behind),
+    tag (typewriter label, use \\n for a line break), tag_x/tag_y, link (sticker text, default "All on amazon"),
+    tag_side "left"|"right". Cut-outs come from tools/cutout.py (transparent PNGs)."""
+    pw = s.get("photo_w", 520)
+    photo = (f'<div class="photo" style="width:{pw}px;background:url(\'{s["photo"]}\') {s.get("photo_pos", "50% 85%/auto 1700px")} no-repeat"></div>'
+             if s.get("photo") else "")
+    items = "".join(
+        f'<img class="item" src="{i["img"]}" style="left:{i["x"]}px;top:{i["y"]}px;width:{i["w"]}px;transform:rotate({i.get("rot", 0)}deg)">'
+        for i in s["items"])
+    tx, ty = s.get("tag_x", 64), s.get("tag_y", 820)
+    tag = "<br>".join(html.escape(t) for t in s["tag"].split("\n"))
+    return f"""<style>{BASE}
+body{{background:#2F4A3A url("{s['bg']}") center/cover no-repeat}}
+.photo{{position:absolute;left:0;top:0;height:1350px;box-shadow:6px 0 18px rgba(0,0,0,.25)}}
+.item{{position:absolute;filter:drop-shadow(0 10px 14px rgba(0,0,0,.38))}}
+.tag{{position:absolute;left:{tx}px;top:{ty}px;background:#fff;color:#111;font:400 64px/1.1 "Courier Prime",monospace;padding:22px 34px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.25)}}
+.link{{position:absolute;left:{tx}px;top:{ty + s.get('link_gap', 190)}px;display:flex;align-items:center;gap:14px;background:#fff;border-radius:22px;padding:16px 30px 16px 22px;font:500 46px "DM Sans",sans-serif;color:#111;box-shadow:0 6px 18px rgba(0,0,0,.25)}}
+.link svg{{width:46px;height:46px}}
+.ad{{position:absolute;right:28px;bottom:28px;background:#F4EBDD;color:#2F4A3A;font:700 24px "Courier Prime",monospace;letter-spacing:.06em;padding:6px 12px;border-radius:6px}}
+</style>{photo}{items}<div class="tag">{tag}</div><div class="link">{LINK_SVG}{html.escape(s.get('link', 'All on amazon'))}</div><div class="ad">#AD</div>"""
+
+
+KINDS = {"vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage}
 
 
 def render(spec):
