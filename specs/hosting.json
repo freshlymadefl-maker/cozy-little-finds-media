@@ -1,0 +1,7 @@
+[
+{"name":"host-2","type":"edit","eyebrow":"THE TABLE","title":"Set it like you mean it","line":"Guests will think it was *catered.*","items":["Gold charger plates","Gold flatware set","Linen napkins","Velvet ribbon napkin ties","Woven placemats","Burgundy table runner"]},
+{"name":"host-3","type":"edit","eyebrow":"THE GLOW","title":"Candlelight does the work","line":"Low lights, *high standards.*","items":["Ivory taper candles","Brass candlestick holders","Voluspa Baltic Amber candle","Candle warmer lamp"],"start":7},
+{"name":"host-4","type":"edit","eyebrow":"THE BAR","title":"Pour something pretty","line":"The coupes are *non-negotiable.*","items":["Libbey coupe glasses","Crystal wine glasses","Decanter with aerator","Electric wine opener","Cocktail shaker set","Insulated ice bucket"],"start":11},
+{"name":"host-5","type":"edit","eyebrow":"THE SPREAD","title":"Serve it on something nice","line":"Even if dessert is *store-bought.*","items":["Charcuterie board","Large white serving platters","Porcelain gravy boat","Wood cake stand with dome","Salt + pepper grinders"],"start":17},
+{"name":"host-6","type":"cta","title":"Comment HOSTING","items":["I'll DM you all 21 links","Or tap the link in bio","Save this for the big night"],"sub":"Prices and deals at time of posting. Check before you buy."}
+]

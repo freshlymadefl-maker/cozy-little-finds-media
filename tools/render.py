@@ -265,7 +265,27 @@ body{{background:#1d1a16;font-family:"DM Sans",sans-serif;color:#F4EBDD}}
 <div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div><div class="ad">#AD</div><div class="swipe">SWIPE →</div>"""
 
 
-KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook}
+def edit(s):
+    """Cream 'the edit' slide: eyebrow, big title, italic line, numbered items (no photos). Fields: eyebrow,title,line,items,start."""
+    st=s.get('start',1)
+    items = "".join(f"<li><b>{i}</b><span>{em(t)}</span></li>" for i,t in enumerate(s["items"], st))
+    return f"""<style>{BASE}
+body{{background:{s.get('bg','#F4EBDD')};color:#2F4A3A;font-family:"DM Sans",sans-serif}}
+.wrap{{position:absolute;left:84px;right:84px;top:47%;transform:translateY(-50%)}}
+.eb{{font:700 34px "Courier Prime",monospace;letter-spacing:.22em;color:#9E2B32}}
+h1{{margin:14px 0 6px;font:600 112px/1 "Fraunces",serif;letter-spacing:-.02em}}
+.line{{font:italic 400 58px/1.15 "Fraunces",serif;color:#3A2A20;margin:12px 0 48px}}
+ol{{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:26px}}
+li{{display:flex;gap:26px;align-items:center;font:500 60px/1.12 "DM Sans",sans-serif}}
+li b{{flex:none;width:72px;height:72px;border-radius:50%;background:#2F4A3A;color:#F4EBDD;font:700 34px/72px "Courier Prime",monospace;text-align:center}}
+li:nth-child(even) b{{background:#C8963E;color:#3A2A20}}
+li em{{font-style:italic;font-family:"Fraunces",serif;font-weight:400;color:#9E2B32}}
+.handle{{position:absolute;left:0;right:0;bottom:60px;text-align:center;font:500 28px "DM Sans";opacity:.7}}
+.ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
+</style><div class="wrap"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><h1>{em(s['title'])}</h1><div class="line">{em(s.get('line',''))}</div><ol>{items}</ol></div>{HANDLE}<div class="ad">#AD</div>"""
+
+
+KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
 
 
 def render(spec):
