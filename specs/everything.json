@@ -1,0 +1,88 @@
+[
+{
+"name": "ev-1",
+"type": "cover",
+"imgs": [
+"src/bf/barefoot.jpg",
+"src/bf/blissy_w.jpg",
+"src/u25/laneige.jpg",
+"src/u25/sdj.jpg"
+],
+"eyebrow": "GIFT GUIDE FOR HER",
+"title": "She has *everything*",
+"sub": "…except these.",
+"size": 118
+},
+{
+"name": "ev-2",
+"type": "edit",
+"eyebrow": "THE SPLURGE",
+"title": "Go big or go home",
+"line": "She'll *cry.* (Happy tears.)",
+"items": [
+"Aura digital photo frame",
+"Kindle Paperwhite",
+"Shark FlexStyle",
+"Theragun Prime",
+"Nespresso Vertuo pods",
+"UGG Tasman slippers"
+]
+},
+{
+"name": "ev-3",
+"type": "edit",
+"eyebrow": "THE COZY",
+"title": "Make her *never* leave the couch",
+"line": "Softest things on Amazon.",
+"items": [
+"Barefoot Dreams throw",
+"Satin button-up pajamas",
+"Cashmere-feel wrap scarf",
+"Blissy silk pillowcase",
+"Voluspa Baltic Amber candle"
+],
+"start": 7
+},
+{
+"name": "ev-4",
+"type": "edit",
+"eyebrow": "THE LITTLE LUXURIES",
+"title": "Stocking-sized, *big* energy",
+"line": "The ones she'd never buy herself.",
+"items": [
+"Kendra Scott Elisa necklace",
+"Travel jewelry case",
+"Apple AirTag",
+"Revlon One-Step blowout brush",
+"Laneige lip mask",
+"Sol de Janeiro 62 mist"
+],
+"start": 12
+},
+{
+"name": "ev-5",
+"type": "edit",
+"eyebrow": "THE EXTRAS",
+"title": "Little things she'll *love*",
+"line": "Easy add-ons for any budget.",
+"items": [
+"Gua sha + ice roller set",
+"Everywhere belt bag",
+"Satin scrunchies",
+"Refillable perfume atomizer",
+"Travel makeup bag"
+],
+"start": 18
+},
+{
+"name": "ev-6",
+"type": "cta",
+"title": "Comment SPOIL",
+"items": [
+"I'll DM you all 22 links",
+"Or tap the link in bio",
+"Send this to her person"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+}
+]
