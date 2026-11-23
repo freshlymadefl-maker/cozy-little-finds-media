@@ -193,6 +193,24 @@ def story(s):
 <div class="cta">{html.escape(s.get('cta','link in bio'))}</div><div class="note">{em(s.get('note',''))}</div>{code_badge(s)}"""
 
 
+def cover(s):
+    """Carousel cover with NO cutouts: 2x2 grid of untouched brand photos in rounded frames, huge title below.
+    Fields: imgs (4 paths), title (big, e.g. 'Gifts under $25'), sub (italic line), eyebrow, bg (default cream)."""
+    tiles = "".join(f'<div class="tile"><img src="{i}"></div>' for i in s["imgs"][:4])
+    return f"""<style>{BASE}
+body{{background:{s.get('bg', '#F4EBDD')};font-family:"DM Sans",sans-serif;color:#2F4A3A}}
+.grid{{position:absolute;left:60px;right:60px;top:60px;display:grid;grid-template-columns:1fr 1fr;gap:22px}}
+.tile{{height:380px;border-radius:26px;overflow:hidden;background:#fff;box-shadow:0 10px 26px rgba(47,74,58,.16)}}
+.tile img{{width:100%;height:100%;object-fit:cover}}
+.eb{{position:absolute;left:0;right:0;top:895px;text-align:center;font:700 28px "Courier Prime",monospace;letter-spacing:.22em;color:#9E2B32}}
+.t{{position:absolute;left:30px;right:30px;top:935px;text-align:center;font:600 {s.get('size',150)}px/1 "Fraunces",serif;letter-spacing:-.02em}}
+.sub{{position:absolute;left:0;right:0;top:1110px;text-align:center;font:italic 400 70px/1 "Fraunces",serif;color:#3A2A20}}
+.swipe{{position:absolute;left:0;right:0;bottom:60px;text-align:center;font:700 24px "Courier Prime",monospace;letter-spacing:.2em;color:#2F4A3A;opacity:.7}}
+.ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
+</style><div class="grid">{tiles}</div><div class="eb">{html.escape(s.get('eyebrow',''))}</div>
+<div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div><div class="swipe">SWIPE →</div><div class="ad">#AD</div>"""
+
+
 def tweet(s):
     """Viral plain-text one-liner (looks like a screenshot-able thought, huge send rates).
     Fields: text (use \\n for line breaks), align left|center, bg (default near-white), size (default 62)."""
@@ -229,7 +247,7 @@ body{{background:{bg}}}
 </style>{items}{title}{note}<div class="ad">#AD</div>"""
 
 
-KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story}
+KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover}
 
 
 def render(spec):
