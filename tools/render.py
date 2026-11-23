@@ -249,7 +249,23 @@ body{{background:{bg}}}
 </style>{items}{title}{note}<div class="ad">#AD</div>"""
 
 
-KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover}
+def hook(s):
+    """Full-bleed AI scene with a huge title in the top third (clear of IG UI). Fields: img, eyebrow, title, sub."""
+    return f"""<style>{BASE}
+body{{background:#1d1a16;font-family:"DM Sans",sans-serif;color:#F4EBDD}}
+.bg{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:{s.get('pos','center bottom')}}}
+.shade{{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(180deg,rgba(20,24,20,.86) 0%,rgba(20,24,20,.62) 60%,rgba(20,24,20,0) 100%)}}
+.eb{{position:absolute;left:0;right:0;top:110px;text-align:center;font:700 36px "Courier Prime",monospace;letter-spacing:.24em;color:#F8E2A8}}
+.t{{position:absolute;left:60px;right:60px;top:170px;text-align:center;font:600 {s.get('size',112)}px/1.0 "Fraunces",serif;letter-spacing:-.02em;text-shadow:0 4px 24px rgba(0,0,0,.45)}}
+.t em{{font-style:italic;font-weight:400;color:#F8E2A8}}
+.sub{{position:absolute;left:0;right:0;top:{s.get('subtop',560)}px;text-align:center;font:italic 400 84px/1 "Fraunces",serif;color:#F8E2A8;text-shadow:0 4px 20px rgba(0,0,0,.5)}}
+.swipe{{position:absolute;right:60px;bottom:70px;background:#F4EBDD;color:#2F4A3A;font:700 30px "Courier Prime",monospace;letter-spacing:.16em;padding:12px 22px;border-radius:10px}}
+.ad{{position:absolute;left:60px;bottom:76px;background:#2F4A3A;color:#F4EBDD;font:700 24px "Courier Prime",monospace;padding:6px 12px;border-radius:6px}}
+</style><img class="bg" src="{s['img']}"><div class="shade"></div><div class="eb">{html.escape(s.get('eyebrow',''))}</div>
+<div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div><div class="ad">#AD</div><div class="swipe">SWIPE →</div>"""
+
+
+KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook}
 
 
 def render(spec):
