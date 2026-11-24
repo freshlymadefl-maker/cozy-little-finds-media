@@ -1,0 +1,232 @@
+[
+{
+"name": "mf-11-24",
+"type": "product",
+"n": "☕",
+"img": "src/u25/laneige.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · LANEIGE",
+"label": "The lip mask",
+"line": "On every nightstand *for a reason.*"
+},
+{
+"name": "mf-11-29",
+"type": "product",
+"n": "☕",
+"img": "src/bf/blissy_w.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · BLISSY",
+"label": "The pillowcase",
+"line": "Sunday morning, *but make it silk.*"
+},
+{
+"name": "mf-11-30",
+"type": "product",
+"n": "☕",
+"img": "src/bf/thera_w.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · THERAGUN",
+"label": "The massager",
+"line": "Cyber Monday *self-care.*"
+},
+{
+"name": "mf-12-01",
+"type": "product",
+"n": "☕",
+"img": "src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · BAREFOOT DREAMS",
+"label": "The socks",
+"line": "Cold floors, *who?*"
+},
+{
+"name": "mf-12-02",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/dash.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · DASH",
+"label": "The waffle maker",
+"line": "Breakfast, *but cuter.*"
+},
+{
+"name": "mf-12-03",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/kendra.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · KENDRA SCOTT",
+"label": "The necklace",
+"line": "She'll wear it *every single day.*"
+},
+{
+"name": "mf-12-04",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/bose_flex.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · BOSE",
+"label": "The speaker",
+"line": "Kitchen dance party, *7am edition.*"
+},
+{
+"name": "mf-12-05",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/jellycat.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · JELLYCAT",
+"label": "The bunny",
+"line": "Grown adults *will* fight for it."
+},
+{
+"name": "mf-12-06",
+"type": "product",
+"n": "☕",
+"img": "src/him/airtag.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · APPLE",
+"label": "The AirTag",
+"line": "For the keys he *always* loses."
+},
+{
+"name": "mf-12-07",
+"type": "product",
+"n": "☕",
+"img": "src/brand/ugg.png",
+"fit": "contain",
+"eyebrow": "MORNING FIND · UGG",
+"label": "The slippers",
+"line": "Coffee run? *In these.*"
+},
+{
+"name": "mf-12-08",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/tiesta.png",
+"fit": "contain",
+"eyebrow": "MORNING FIND · TIESTA TEA",
+"label": "The tea",
+"line": "Eight flavors of *peace and quiet.*"
+},
+{
+"name": "mf-12-09",
+"type": "product",
+"n": "☕",
+"img": "src/bf/barefoot.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · BAREFOOT DREAMS",
+"label": "The blanket",
+"line": "Five more minutes. *Ten, tops.*"
+},
+{
+"name": "mf-12-10",
+"type": "product",
+"n": "☕",
+"img": "src/him/leatherman.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · LEATHERMAN",
+"label": "The multitool",
+"line": "Fixes everything. *Allegedly.*"
+},
+{
+"name": "mf-12-11",
+"type": "product",
+"n": "☕",
+"img": "src/u25/sdj.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · SOL DE JANEIRO",
+"label": "The mist",
+"line": "Smells like a vacation *you didn't take.*"
+},
+{
+"name": "mf-12-12",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/yankee.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · YANKEE CANDLE",
+"label": "The candle",
+"line": "Instant \"I *totally* cleaned.\""
+},
+{
+"name": "mf-12-13",
+"type": "product",
+"n": "☕",
+"img": "src/u25/claw.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · KITSCH",
+"label": "The claw clip",
+"line": "The *entire* Sunday hairstyle."
+},
+{
+"name": "mf-12-14",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/ribbon.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · VELVET RIBBON",
+"label": "The ribbon",
+"line": "Velvet does *all* the work."
+},
+{
+"name": "mf-12-15",
+"type": "product",
+"n": "☕",
+"img": "src/u25/pillow.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · KITSCH",
+"label": "The pillowcase",
+"line": "Stocking-sized *beauty sleep.*"
+},
+{
+"name": "mf-12-16",
+"type": "product",
+"n": "☕",
+"img": "src/brand/bose.png",
+"fit": "contain",
+"eyebrow": "MORNING FIND · BOSE",
+"label": "The headphones",
+"line": "Peace and quiet, *gift-wrapped.*"
+},
+{
+"name": "mf-12-17",
+"type": "product",
+"n": "☕",
+"img": "src/him/beanie.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · CARHARTT",
+"label": "The beanie",
+"line": "He'll wear it *every single day.*"
+},
+{
+"name": "mf-12-18",
+"type": "product",
+"n": "☕",
+"img": "src/dec3/kong.jpg",
+"fit": "contain",
+"eyebrow": "MORNING FIND · KONG",
+"label": "The KONG",
+"line": "Peanut butter = *peace.*"
+},
+{
+"name": "mf-12-19",
+"type": "product",
+"n": "☕",
+"img": "src/bf/stanley_w.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · STANLEY",
+"label": "The tumbler",
+"line": "Still *the* tumbler."
+},
+{
+"name": "mf-12-20",
+"type": "product",
+"n": "☕",
+"img": "src/u25/candle.jpg",
+"fit": "cover",
+"eyebrow": "MORNING FIND · VOLUSPA",
+"label": "The candle",
+"line": "Makes any bathroom *a hotel.*"
+}
+]
