@@ -1,0 +1,312 @@
+[
+{
+"name": "pin-mom-b",
+"type": "pin",
+"eyebrow": "CHRISTMAS 2026",
+"title": "Mom gifts she'll *love*",
+"sub": "the ones she won't return",
+"imgs": [
+"src/bf/blissy_w.jpg",
+"src/dec3/kendra.jpg",
+"src/bf/barefoot.jpg",
+"src/dec3/bose_flex.jpg"
+],
+"size": 104,
+"dark": true
+},
+{
+"name": "pin-him-b",
+"type": "pin",
+"eyebrow": "CHRISTMAS 2026",
+"title": "Gifts *he.ll* actually use",
+"sub": "husband · dad · brother",
+"imgs": [
+"src/him/yeti.png",
+"src/him/leatherman.jpg",
+"src/him/beanie.jpg",
+"src/him/airtag.jpg"
+],
+"size": 104,
+"dark": true
+},
+{
+"name": "pin-rush-b",
+"type": "pin",
+"eyebrow": "SHIPS FAST",
+"title": "Last-minute gifts she'll *love*",
+"sub": "order by Dec 18",
+"imgs": [
+"src/brand/ugg.png",
+"src/dec3/kendra.jpg",
+"src/u25/laneige.jpg",
+"src/u25/sdj.jpg"
+],
+"size": 104,
+"dark": true
+},
+{
+"name": "pin-swap-b",
+"type": "pin",
+"eyebrow": "GIFT EXCHANGE",
+"title": "White elephant gifts *under $50*",
+"sub": "the ones people steal",
+"imgs": [
+"src/bf/stanley_w.jpg",
+"src/dec3/dash.jpg",
+"src/brand/jbl.png",
+"src/him/yeti.png"
+],
+"size": 100,
+"dark": true
+},
+{
+"name": "pin-teach-b",
+"type": "pin",
+"eyebrow": "TEACHER GIFTS",
+"title": "Teacher gifts that aren't *another mug*",
+"sub": "they'll actually use these",
+"imgs": [
+"src/dec3/tiesta.png",
+"src/u25/laneige.jpg",
+"src/him/yeti.png",
+"src/bf/stanley_w.jpg"
+],
+"size": 98,
+"dark": true
+},
+{
+"name": "pin-cozy-b",
+"type": "pin",
+"eyebrow": "COZY GIFTS",
+"title": "Cozy gifts for *her*",
+"sub": "blankets · slippers · candles",
+"imgs": [
+"src/bf/barefoot.jpg",
+"src/brand/ugg.png",
+"src/dec3/yankee.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg"
+],
+"size": 120,
+"dark": true
+},
+{
+"name": "pin-dog-b",
+"type": "pin",
+"eyebrow": "DOG LOVER GIFTS",
+"title": "Gifts for *dog lovers*",
+"sub": "and a stocking for the pup",
+"imgs": [
+"src/dec3/kong.jpg",
+"src/dec3/benebone.jpg",
+"src/bf/barefoot.jpg",
+"src/bf/stanley_w.jpg"
+],
+"size": 112,
+"dark": true
+},
+{
+"name": "pin-morn-b",
+"type": "pin",
+"eyebrow": "CHRISTMAS MORNING",
+"title": "Cozy Christmas *morning*",
+"sub": "cozy, slow + a little luxe",
+"imgs": [
+"src/brand/ugg.png",
+"src/bf/blissy_w.jpg",
+"src/dec3/yankee.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg"
+],
+"size": 100,
+"dark": true
+},
+{
+"name": "pin-pjs-b",
+"type": "pin",
+"eyebrow": "CHRISTMAS EVE",
+"title": "Christmas Eve box *ideas*",
+"sub": "for the whole family",
+"imgs": [
+"src/bf/barefoot.jpg",
+"src/brand/ugg.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/bf/blissy_w.jpg"
+],
+"size": 112,
+"dark": true
+},
+{
+"name": "pin-wrap-b",
+"type": "pin",
+"eyebrow": "GIFT WRAP",
+"title": "Gift wrapping that looks *expensive*",
+"sub": "for under $30",
+"imgs": [
+"src/dec3/kraft.jpg",
+"src/dec3/ribbon.jpg",
+"src/dec3/oranges.jpg",
+"src/dec3/ribbons2.jpg"
+],
+"size": 100,
+"dark": true
+},
+{
+"name": "pin-u25-b",
+"type": "pin",
+"eyebrow": "STOCKING STUFFERS",
+"title": "Stocking stuffers *for her*",
+"sub": "all under $25",
+"imgs": [
+"src/u25/sdj.jpg",
+"src/u25/laneige.jpg",
+"src/u25/claw.jpg",
+"src/u25/candle.jpg"
+],
+"size": 112,
+"dark": true
+},
+{
+"name": "pin-her-c",
+"type": "pin",
+"eyebrow": "AMAZON FINDS",
+"title": "Christmas gifts for *her*",
+"sub": "the ones on every wishlist",
+"imgs": [
+"src/brand/ugg.png",
+"src/bf/blissy_w.jpg",
+"src/dec3/kendra.jpg",
+"src/u25/laneige.jpg",
+"src/u25/sdj.jpg",
+"src/bf/barefoot.jpg",
+"src/bf/stanley_w.jpg",
+"src/bf/thera_w.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg"
+],
+"size": 108,
+"dark": false
+},
+{
+"name": "pin-him-c",
+"type": "pin",
+"eyebrow": "AMAZON FINDS",
+"title": "Gifts for the man who has *everything*",
+"sub": "practical + actually cool",
+"imgs": [
+"src/him/yeti.png",
+"src/him/airtag.jpg",
+"src/him/leatherman.jpg",
+"src/him/beanie.jpg",
+"src/brand/bose.png",
+"src/bf/thera_w.jpg",
+"src/bf/stanley_w.jpg",
+"src/brand/jbl.png",
+"src/dec3/dash.jpg"
+],
+"size": 96,
+"dark": false
+},
+{
+"name": "pin-cozy-c",
+"type": "pin",
+"eyebrow": "AMAZON FINDS",
+"title": "Cozy Amazon finds for *winter*",
+"sub": "everything soft + warm",
+"imgs": [
+"src/bf/barefoot.jpg",
+"src/brand/ugg.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/dec3/yankee.jpg",
+"src/bf/blissy_w.jpg",
+"src/u25/candle.jpg",
+"src/u25/pillow.jpg",
+"src/u25/laneige.jpg",
+"src/bf/stanley_w.jpg"
+],
+"size": 108,
+"dark": false
+},
+{
+"name": "pin-u25-c",
+"type": "pin",
+"eyebrow": "AMAZON FINDS",
+"title": "Gifts under $25 that look *expensive*",
+"sub": "small gifts, big wow",
+"imgs": [
+"src/u25/laneige.jpg",
+"src/u25/sdj.jpg",
+"src/u25/claw.jpg",
+"src/u25/candle.jpg",
+"src/u25/pillow.jpg",
+"src/dec3/ribbon.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/dec3/tiesta.png",
+"src/dec3/oranges.jpg"
+],
+"size": 96,
+"dark": false
+},
+{
+"name": "pin-swap-c",
+"type": "pin",
+"eyebrow": "AMAZON FINDS",
+"title": "Best white elephant gifts *2026*",
+"sub": "fun, useful + steal-worthy",
+"imgs": [
+"src/dec3/dash.jpg",
+"src/bf/stanley_w.jpg",
+"src/him/yeti.png",
+"src/brand/jbl.png",
+"src/dec3/jellycat.jpg",
+"src/dec3/kong.jpg",
+"src/dec3/tiesta.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/u25/laneige.jpg"
+],
+"size": 100,
+"dark": false
+},
+{
+"name": "pin-spoil-a",
+"type": "pin",
+"eyebrow": "GIFT GUIDE",
+"title": "Gifts for the woman who has *everything*",
+"sub": "spoil her a little",
+"imgs": [
+"src/bf/thera_w.jpg",
+"src/u25/sdj.jpg",
+"src/u25/laneige.jpg",
+"src/bf/blissy_w.jpg"
+],
+"size": 100,
+"dark": false
+},
+{
+"name": "pin-spoil-b",
+"type": "pin",
+"eyebrow": "SELF-CARE GIFTS",
+"title": "Luxe self-care gifts *she'll love*",
+"sub": "spa night, at home",
+"imgs": [
+"src/bf/blissy_w.jpg",
+"src/bf/thera_w.jpg",
+"src/bf/barefoot.jpg",
+"src/u25/sdj.jpg"
+],
+"size": 104,
+"dark": true
+},
+{
+"name": "pin-stock-a",
+"type": "pin",
+"eyebrow": "STOCKING STUFFERS",
+"title": "Stocking stuffers *she'll actually use*",
+"sub": "beauty + cozy minis",
+"imgs": [
+"src/u25/laneige.jpg",
+"src/u25/sdj.jpg",
+"src/u25/claw.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg"
+],
+"size": 104,
+"dark": false
+}
+]

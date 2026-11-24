@@ -358,16 +358,16 @@ def pin(s):
     th = 470 if n == 2 else 310
     return f"""<style>{BASE}
 html,body{{height:1620px}}
-body{{background:{s.get('bg','#F4EBDD')};font-family:"DM Sans",sans-serif;color:#2F4A3A}}
+body{{background:{'#2F4A3A' if s.get('dark') else s.get('bg','#F4EBDD')};font-family:"DM Sans",sans-serif;color:{'#F4EBDD' if s.get('dark') else '#2F4A3A'}}}
 .head{{position:absolute;left:50px;right:50px;top:40px;height:420px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}}
-.eb{{font:700 38px "Courier Prime",monospace;letter-spacing:.22em;color:#9E2B32}}
+.eb{{font:700 38px "Courier Prime",monospace;letter-spacing:.22em;color:{'#F8E2A8' if s.get('dark') else '#9E2B32'}}}
 .t{{margin-top:16px;font:600 {s.get('size',112)}px/1.02 "Fraunces",serif;letter-spacing:-.02em}}
-.t em{{font-style:italic;font-weight:400;color:#9E2B32}}
-.sub{{margin-top:22px;font:italic 400 58px/1.05 "Fraunces",serif;color:#3A2A20}}
+.t em{{font-style:italic;font-weight:400;color:{'#F8E2A8' if s.get('dark') else '#9E2B32'}}}
+.sub{{margin-top:22px;font:italic 400 58px/1.05 "Fraunces",serif;color:{'#F8E2A8' if s.get('dark') else '#3A2A20'}}}
 .grid{{position:absolute;left:54px;right:54px;top:490px;display:grid;grid-template-columns:repeat({n},1fr);gap:20px}}
 .tile{{height:{th}px;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 10px 26px rgba(47,74,58,.14)}}
 .tile img{{width:100%;height:100%;object-fit:contain;padding:22px;box-sizing:border-box}}
-.ft{{position:absolute;left:0;right:0;bottom:46px;text-align:center;font:700 30px "Courier Prime",monospace;letter-spacing:.14em;color:#2F4A3A}}
+.ft{{position:absolute;left:0;right:0;bottom:46px;text-align:center;font:700 30px "Courier Prime",monospace;letter-spacing:.14em;color:{'#F4EBDD' if s.get('dark') else '#2F4A3A'}}}
 </style><div class="head"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div></div>
 <div class="grid">{tiles}</div><div class="ft">{html.escape(s.get('foot','SHOP THE LIST · COZY LITTLE FINDS'))}</div>"""
 
