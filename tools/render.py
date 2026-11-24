@@ -285,6 +285,26 @@ li em{{font-style:italic;font-family:"Fraunces",serif;font-weight:400;color:#9E2
 </style><div class="wrap"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><h1>{em(s['title'])}</h1><div class="line">{em(s.get('line',''))}</div><ol>{items}</ol></div>{HANDLE}<div class="ad">#AD</div>"""
 
 
+def numbers(s):
+    """Save-worthy phone list card: cream paper, double pine rule frame, rows of name / big number / note."""
+    rows = "".join(f'<div class="r"><div class="n">{em(r["name"])}</div><div class="p">{html.escape(r["num"])}</div><div class="w">{html.escape(r["note"])}</div></div>' for r in s["rows"])
+    return f"""<style>{BASE}
+body{{background:#F4EBDD;color:#2F4A3A;font-family:"DM Sans",sans-serif}}
+.f{{position:absolute;inset:40px;border:3px solid #2F4A3A;border-radius:6px}}.f2{{position:absolute;inset:54px;border:1px solid #2F4A3A;border-radius:4px}}
+.top{{position:absolute;left:110px;right:110px;top:110px;text-align:center}}
+.eb{{font:700 32px "Courier Prime",monospace;letter-spacing:.2em;color:#9E2B32}}
+h1{{margin:16px 0 0;font:600 86px/1.02 "Fraunces",serif;letter-spacing:-.01em}}h1 em{{font-style:italic;font-weight:400;color:#9E2B32}}
+.list{{position:absolute;left:110px;right:110px;top:{s.get('listtop',420)}px;display:flex;flex-direction:column}}
+.r{{padding:20px 0;border-top:2px solid rgba(47,74,58,.25);text-align:center}}.r:last-child{{border-bottom:2px solid rgba(47,74,58,.25)}}
+.n{{font:italic 500 46px/1.1 "Fraunces",serif;color:#2F4A3A}}.n em{{color:#9E2B32}}
+.p{{margin-top:6px;font:700 58px/1 "DM Sans";letter-spacing:.04em}}
+.w{{margin-top:8px;font:500 32px/1.2 "DM Sans";color:#6b5a45}}
+.ft{{position:absolute;left:0;right:0;bottom:74px;text-align:center;font:500 24px "DM Sans";color:#6b5a45}}
+</style><div class="f"></div><div class="f2"></div>
+<div class="top"><div class="eb">{html.escape(s['eyebrow'])}</div><h1>{em(s['title'])}</h1></div>
+<div class="list">{rows}</div><div class="ft">{html.escape(s.get('foot',''))}</div>"""
+
+
 def reel(s):
     """One 1080x1920 Reel frame: dimmed full-bleed photo, big serif line, optional building list, optional CTA pill.
     Text stays inside the Reels safe zone (y 300-1400, clear of the right 160px)."""
@@ -311,7 +331,7 @@ li span{{flex:none;width:84px;height:84px;border-radius:50%;background:#F8E2A8;c
 <div class="h">@cozylittlefindsdaily</div>"""
 
 
-KINDS = {"reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
+KINDS = {"numbers": numbers, "reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
 
 
 def render(spec):
