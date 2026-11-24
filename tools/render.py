@@ -371,7 +371,27 @@ body{{background:{'#2F4A3A' if s.get('dark') else s.get('bg','#F4EBDD')};font-fa
 </style><div class="head"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div></div>
 <div class="grid">{tiles}</div><div class="ft">{html.escape(s.get('foot','SHOP THE LIST · COZY LITTLE FINDS'))}</div>"""
 
-KINDS = {"pin": pin, "pack": pack, "numbers": numbers, "reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
+def find(s):
+    """Single-product 'find' post (1080x1350): optional deal badge, big first-person hook, arched photo, comment-keyword bar."""
+    deal = f'<div class="deal">{html.escape(s["deal"])}</div>' if s.get("deal") else ""
+    return f"""<style>{BASE}
+body{{background:#F4EBDD;font-family:"DM Sans",sans-serif;color:#2F4A3A}}
+.deal{{position:absolute;left:50%;transform:translateX(-50%) rotate(-2deg);top:44px;background:#9E2B32;color:#F4EBDD;font:700 38px "Courier Prime",monospace;letter-spacing:.12em;padding:14px 34px;border-radius:10px;white-space:nowrap;z-index:3}}
+.eb{{position:absolute;left:0;right:0;top:{142 if s.get('deal') else 64}px;text-align:center;font:700 30px "Courier Prime",monospace;letter-spacing:.18em;color:#B07F2E}}
+.hook{{position:absolute;left:60px;right:60px;top:{196 if s.get('deal') else 118}px;text-align:center;font:600 {s.get('size',88)}px/1.02 "Fraunces",serif;letter-spacing:-.015em}}
+.hook em{{font-style:italic;font-weight:400;color:#9E2B32}}
+.frame{{position:absolute;left:220px;right:220px;top:{470 if s.get('deal') else 420}px;height:{560 if s.get('deal') else 610}px;border-radius:330px 330px 24px 24px;overflow:hidden;background:#fff;box-shadow:0 16px 36px rgba(47,74,58,.16)}}
+.frame img{{width:100%;height:100%;object-fit:{s.get('fit','cover')};{'padding:50px 40px 20px;box-sizing:border-box' if s.get('fit')=='contain' else ''}}}
+.name{{position:absolute;left:60px;right:60px;top:1062px;text-align:center;font:italic 400 42px "Fraunces",serif;color:#3A2A20}}
+.bar{{position:absolute;left:0;right:0;bottom:0;height:170px;background:#2F4A3A;display:flex;align-items:center;justify-content:center;gap:22px;color:#F4EBDD;font:600 46px "DM Sans",sans-serif}}
+.bar b{{background:#F8E2A8;color:#2F4A3A;font:700 54px "Courier Prime",monospace;padding:10px 26px;border-radius:10px;letter-spacing:.06em}}
+.ad{{position:absolute;right:22px;top:20px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
+</style>{deal}<div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="hook">{em(s['hook'])}</div>
+<div class="frame"><img src="{s['img']}"></div><div class="name">{html.escape(s['prod'])}</div>
+<div class="bar">Tap to shop <span style="opacity:.6">·</span> or comment <b>{html.escape(s['kw'])}</b></div><div class="ad">#AD</div>"""
+
+
+KINDS = {"find": find, "pin": pin, "pack": pack, "numbers": numbers, "reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
 
 
 def render(spec):
