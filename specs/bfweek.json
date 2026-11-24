@@ -1,0 +1,321 @@
+[
+{
+"name": "pin-bf-a",
+"type": "pin",
+"eyebrow": "BLACK FRIDAY 2026",
+"title": "Black Friday deals *worth it*",
+"sub": "the only ones I'd buy",
+"imgs": [
+"src/bf/barefoot.jpg",
+"src/bf/blissy_w.jpg",
+"src/bf/stanley_w.jpg",
+"src/bf/thera_w.jpg"
+],
+"size": 108,
+"dark": false
+},
+{
+"name": "pin-bf-b",
+"type": "pin",
+"eyebrow": "BLACK FRIDAY",
+"title": "Big gifts to buy *on sale*",
+"sub": "the splurges worth waiting for",
+"imgs": [
+"src/bf/thera_w.jpg",
+"src/brand/bose.png",
+"src/brand/ugg.png",
+"src/bf/barefoot.jpg"
+],
+"size": 108,
+"dark": true
+},
+{
+"name": "pin-bf-c",
+"type": "pin",
+"eyebrow": "AMAZON FINDS",
+"title": "Best Black Friday *gift* finds",
+"sub": "for her, him + the house",
+"imgs": [
+"src/bf/barefoot.jpg",
+"src/brand/ugg.png",
+"src/bf/blissy_w.jpg",
+"src/him/yeti.png",
+"src/bf/thera_w.jpg",
+"src/dec3/kendra.jpg",
+"src/bf/stanley_w.jpg",
+"src/brand/bose.png",
+"src/u25/laneige.jpg"
+],
+"size": 100,
+"dark": false
+},
+{
+"name": "pin-bf-d",
+"type": "pin",
+"eyebrow": "CYBER MONDAY",
+"title": "Cyber Monday gifts *worth it*",
+"sub": "last call on the good stuff",
+"imgs": [
+"src/brand/ugg.png",
+"src/dec3/kendra.jpg",
+"src/bf/thera_w.jpg",
+"src/bf/blissy_w.jpg"
+],
+"size": 104,
+"dark": true
+},
+{
+"name": "pin-surv-a",
+"type": "pin",
+"eyebrow": "HOLIDAY SURVIVAL KIT",
+"title": "Cozy things to get you *through December*",
+"sub": "blanket, silk + a big tumbler",
+"imgs": [
+"src/bf/barefoot.jpg",
+"src/bf/blissy_w.jpg",
+"src/bf/stanley_w.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg"
+],
+"size": 96,
+"dark": false
+},
+{
+"name": "rbf-1",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"eyebrow": "BLACK FRIDAY RULE",
+"text": "Only buy it on sale if you'd pay *full price* for it."
+},
+{
+"name": "rbf-2",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.6,
+"eyebrow": "PASSED THE TEST",
+"text": "Worth it:",
+"items": [
+"The Barefoot Dreams throw"
+]
+},
+{
+"name": "rbf-3",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.6,
+"eyebrow": "PASSED THE TEST",
+"text": "Worth it:",
+"items": [
+"The Barefoot Dreams throw",
+"A Blissy silk pillowcase"
+]
+},
+{
+"name": "rbf-4",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.6,
+"eyebrow": "PASSED THE TEST",
+"text": "Worth it:",
+"items": [
+"The Barefoot Dreams throw",
+"A Blissy silk pillowcase",
+"The Stanley",
+"A Theragun"
+]
+},
+{
+"name": "rbf-5",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "Everything else can *wait.*",
+"sub": "28 deals I'd actually buy",
+"pill": "Link in bio"
+},
+{
+"name": "rsg-1",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"eyebrow": "BLACK FRIDAY, HONESTLY",
+"text": "Went in for *one* gift for my sister."
+},
+{
+"name": "rsg-2",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.6,
+"eyebrow": "BLACK FRIDAY, HONESTLY",
+"text": "Somehow I bought:",
+"items": [
+"The blanket (for me)"
+]
+},
+{
+"name": "rsg-3",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.6,
+"eyebrow": "BLACK FRIDAY, HONESTLY",
+"text": "Somehow I bought:",
+"items": [
+"The blanket (for me)",
+"The slippers (also me)"
+]
+},
+{
+"name": "rsg-4",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.6,
+"eyebrow": "BLACK FRIDAY, HONESTLY",
+"text": "Somehow I bought:",
+"items": [
+"The blanket (for me)",
+"The slippers (also me)",
+"Silk pillowcase (me)",
+"Her gift (forgot)"
+]
+},
+{
+"name": "rsg-5",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "Self-gifting is *self-care.*",
+"size": 96,
+"sub": "the deals I caved on",
+"pill": "Link in bio"
+},
+{
+"name": "st-tue-pm",
+"type": "story",
+"eyebrow": "COLD GIRL STARTER PACK",
+"title": "Always *freezing?*",
+"img": "src/bf/barefoot.jpg",
+"cta": "link in bio",
+"note": "28 cozy gifts for her"
+},
+{
+"name": "st-wed-am",
+"type": "story",
+"eyebrow": "BLACK FRIDAY CAME EARLY",
+"title": "Deals worth *it*",
+"img": "src/bf/stanley_w.jpg",
+"cta": "link in bio",
+"note": "new post at 4 ✨"
+},
+{
+"name": "st-wed-pm",
+"type": "story",
+"eyebrow": "BEFORE TOMORROW'S CHAOS",
+"title": "Gifts for *him*, sorted",
+"img": "src/him/beanie.jpg",
+"cta": "link in bio",
+"note": "he'll actually use these"
+},
+{
+"name": "st-thu-pm",
+"type": "story",
+"eyebrow": "BLACK FRIDAY STARTS NOW",
+"title": "Leftovers + *deals*",
+"img": "src/bf/thera_w.jpg",
+"cta": "link in bio",
+"note": "my deal sheet is up"
+},
+{
+"name": "st-fri-4",
+"type": "story",
+"eyebrow": "THE SPLURGE EDIT",
+"title": "Wait for the *sale*",
+"img": "src/brand/bose.png",
+"cta": "link in bio",
+"note": "big gifts worth it"
+},
+{
+"name": "st-fri-9",
+"type": "story",
+"eyebrow": "STILL SHOPPING?",
+"title": "Same. *Same.*",
+"img": "src/brand/ugg.png",
+"cta": "link in bio",
+"note": "everything's in one place"
+},
+{
+"name": "spl-1",
+"type": "cover",
+"eyebrow": "BLACK FRIDAY",
+"title": "Wait for the *sale*",
+"sub": "…the splurges worth it.",
+"size": 132,
+"imgs": [
+"src/bf/thera_w.jpg",
+"src/brand/bose.png",
+"src/brand/ugg.png",
+"src/bf/barefoot.jpg"
+],
+"fit": "contain"
+},
+{
+"name": "spl-2",
+"type": "product",
+"n": 1,
+"img": "src/bf/thera_w.jpg",
+"fit": "cover",
+"eyebrow": "THERAGUN",
+"label": "The massager",
+"line": "For whoever carried *every* bag in."
+},
+{
+"name": "spl-3",
+"type": "product",
+"n": 2,
+"img": "src/brand/bose.png",
+"fit": "contain",
+"eyebrow": "BOSE QUIETCOMFORT HEADPHONES",
+"label": "The headphones",
+"line": "Peace and quiet, *finally affordable.*"
+},
+{
+"name": "spl-4",
+"type": "product",
+"n": 3,
+"img": "src/brand/ugg.png",
+"fit": "contain",
+"eyebrow": "UGG TASMAN SLIPPERS",
+"label": "The slippers",
+"line": "If they dip, *grab them.*"
+},
+{
+"name": "spl-5",
+"type": "product",
+"n": 4,
+"img": "src/bf/barefoot.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC THROW",
+"label": "The blanket",
+"line": "The one you've been *waiting on.*"
+},
+{
+"name": "spl-6",
+"type": "product",
+"n": 5,
+"img": "src/dec3/kendra.jpg",
+"fit": "contain",
+"eyebrow": "KENDRA SCOTT ELISA NECKLACE",
+"label": "The necklace",
+"line": "She'll wear it *every single day.*"
+},
+{
+"name": "spl-7",
+"type": "cta",
+"title": "Shop the splurges",
+"items": [
+"Tap the link in my bio",
+"Check the price first",
+"Not on sale? Wait for Monday"
+],
+"sub": "Prices change fast, so check before you buy."
+}
+]
