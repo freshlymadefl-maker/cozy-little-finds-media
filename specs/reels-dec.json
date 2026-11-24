@@ -1,0 +1,19 @@
+[
+{"name":"rh-1","type":"reel","img":"src/hosting/hook.png","eyebrow":"HOSTING SEASON","text":"POV: you said \"come over, it's *nothing fancy*\""},
+{"name":"rh-2","type":"reel","img":"src/hosting/hook.png","dim":0.6,"eyebrow":"HOSTING SEASON","text":"…and then you bought","items":["Gold chargers"]},
+{"name":"rh-3","type":"reel","img":"src/hosting/hook.png","dim":0.6,"eyebrow":"HOSTING SEASON","text":"…and then you bought","items":["Gold chargers","Ivory taper candles"]},
+{"name":"rh-4","type":"reel","img":"src/hosting/hook.png","dim":0.6,"eyebrow":"HOSTING SEASON","text":"…and then you bought","items":["Gold chargers","Ivory taper candles","Crystal coupes","A charcuterie board"]},
+{"name":"rh-5","type":"reel","img":"src/hosting/hook.png","dim":0.62,"ad":true,"text":"It's giving *catered.*","sub":"21 hosting finds on Amazon","pill":"Comment HOSTING"},
+
+{"name":"rc-1","type":"reel","img":"src/dec/cozy.jpg","eyebrow":"FRIDAY NIGHT PLANS","text":"Sorry, I can't come out tonight. I have *plans* with my…"},
+{"name":"rc-2","type":"reel","img":"src/dec/cozy.jpg","dim":0.6,"eyebrow":"FRIDAY NIGHT PLANS","text":"My plans:","items":["Sherpa throw"]},
+{"name":"rc-3","type":"reel","img":"src/dec/cozy.jpg","dim":0.6,"eyebrow":"FRIDAY NIGHT PLANS","text":"My plans:","items":["Sherpa throw","Candle warmer lamp"]},
+{"name":"rc-4","type":"reel","img":"src/dec/cozy.jpg","dim":0.6,"eyebrow":"FRIDAY NIGHT PLANS","text":"My plans:","items":["Sherpa throw","Candle warmer lamp","Hot cocoa gift set","1000-piece puzzle"]},
+{"name":"rc-5","type":"reel","img":"src/dec/cozy.jpg","dim":0.62,"ad":true,"text":"Best night *ever.*","sub":"22 cozy finds on Amazon","pill":"Comment COZY"},
+
+{"name":"rs-1","type":"reel","img":"src/dec/swap.jpg","eyebrow":"WHITE ELEPHANT RULE #1","text":"Never bring *another candle.*"},
+{"name":"rs-2","type":"reel","img":"src/dec/swap.jpg","dim":0.6,"eyebrow":"WHITE ELEPHANT RULE #2","text":"Bring the gift people *steal:*","items":["Dash mini waffle maker"]},
+{"name":"rs-3","type":"reel","img":"src/dec/swap.jpg","dim":0.6,"eyebrow":"WHITE ELEPHANT RULE #2","text":"Bring the gift people *steal:*","items":["Dash mini waffle maker","Instax Mini 12"]},
+{"name":"rs-4","type":"reel","img":"src/dec/swap.jpg","dim":0.6,"eyebrow":"WHITE ELEPHANT RULE #2","text":"Bring the gift people *steal:*","items":["Dash mini waffle maker","Instax Mini 12","Whiskey smoker kit","Owala FreeSip"]},
+{"name":"rs-5","type":"reel","img":"src/dec/swap.jpg","dim":0.62,"ad":true,"text":"Guard it with your *life.*","sub":"21 gift-swap finds on Amazon","pill":"Comment SWAP"}
+]

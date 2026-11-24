@@ -285,7 +285,33 @@ li em{{font-style:italic;font-family:"Fraunces",serif;font-weight:400;color:#9E2
 </style><div class="wrap"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><h1>{em(s['title'])}</h1><div class="line">{em(s.get('line',''))}</div><ol>{items}</ol></div>{HANDLE}<div class="ad">#AD</div>"""
 
 
-KINDS = {"outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
+def reel(s):
+    """One 1080x1920 Reel frame: dimmed full-bleed photo, big serif line, optional building list, optional CTA pill.
+    Text stays inside the Reels safe zone (y 300-1400, clear of the right 160px)."""
+    items = "".join(f'<li><span>{i + s.get("start", 1)}</span>{em(t)}</li>' for i, t in enumerate(s.get("items", [])))
+    eyebrow = f'<div class="eb">{html.escape(s["eyebrow"])}</div>' if s.get("eyebrow") else ""
+    sub = f'<div class="sub">{em(s["sub"])}</div>' if s.get("sub") else ""
+    pill = f'<div class="pill">{html.escape(s["pill"])}</div>' if s.get("pill") else ""
+    return f"""<style>html,body{{margin:0;width:1080px;height:1920px}}body{{position:relative;overflow:hidden;background:#1c1a17}}
+.bg{{position:absolute;inset:0;background:url("{s['img']}") {s.get('pos','center')}/cover no-repeat}}
+.sh{{position:absolute;inset:0;background:rgba(18,14,10,{s.get('dim',.5)})}}
+.wrap{{position:absolute;left:90px;right:170px;top:{s.get('top',470)}px;display:flex;flex-direction:column;gap:34px;color:#F4EBDD}}
+.eb{{font:700 40px "Courier Prime",monospace;letter-spacing:.16em;color:#F8E2A8}}
+.t{{font:600 {s.get('size',112)}px/1.04 "Fraunces",serif;letter-spacing:-.01em;text-shadow:0 2px 18px rgba(0,0,0,.45)}}
+.t em{{font-style:italic;font-weight:400;color:#F8E2A8}}
+.sub{{font:italic 400 64px/1.2 "Fraunces",serif;color:#F8E2A8}}
+ol{{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:30px}}
+li{{display:flex;align-items:center;gap:30px;font:500 64px/1.1 "DM Sans",sans-serif}}
+li span{{flex:none;width:84px;height:84px;border-radius:50%;background:#F8E2A8;color:#2F4A3A;font:700 40px/84px "DM Sans";text-align:center}}
+.pill{{align-self:flex-start;margin-top:10px;background:#F8E2A8;color:#2F4A3A;font:700 52px "Courier Prime",monospace;padding:22px 40px;border-radius:20px}}
+.h{{position:absolute;left:90px;top:1440px;color:#F4EBDD;opacity:.8;font:500 34px "DM Sans"}}
+.ad{{position:absolute;left:90px;top:300px;background:rgba(244,235,221,.9);color:#2F4A3A;font:700 26px "DM Sans";padding:6px 12px;border-radius:8px}}
+</style><div class="bg"></div><div class="sh"></div>{'<div class="ad">#AD</div>' if s.get('ad') else ''}
+<div class="wrap">{eyebrow}<div class="t">{em(s['text'])}</div>{sub}{'<ol>'+items+'</ol>' if items else ''}{pill}</div>
+<div class="h">@cozylittlefindsdaily</div>"""
+
+
+KINDS = {"reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
 
 
 def render(spec):
@@ -294,7 +320,7 @@ def render(spec):
     page.write_text(f'<!doctype html><html><head><meta charset="utf-8">{FONTS}</head><body>{body}</body></html>', encoding="utf-8")
     out = HERE / "out" / f"{spec['name']}.png"
     out.parent.mkdir(exist_ok=True)
-    subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", f"--window-size=1080,{spec.get('h', 1920 if spec['type'] == 'story' else 1350)}",
+    subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", f"--window-size=1080,{spec.get('h', 1920 if spec['type'] in ('story', 'reel') else 1350)}",
                     "--virtual-time-budget=5000", f"--screenshot={out.as_posix()}", page.as_uri()],
                    capture_output=True, timeout=90)
     print(out.name, "ok" if out.exists() else "FAILED")
