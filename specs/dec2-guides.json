@@ -1,0 +1,500 @@
+[
+{
+"name": "t-1",
+"type": "hook",
+"img": "src/dec2/teacher.jpg",
+"eyebrow": "TEACHER + COWORKER GIFTS",
+"title": "Gifts they'll *actually* use",
+"sub": "…not another mug.",
+"size": 106,
+"subtop": 420,
+"pos": "center center"
+},
+{
+"name": "t-2",
+"type": "edit",
+"eyebrow": "THE SIPS",
+"title": "Fill their *cup*",
+"line": "Caffeine is a love language.",
+"items": [
+"Teacher tumbler",
+"YETI Rambler",
+"Tea sampler",
+"Coffee sampler",
+"Hot cocoa bombs",
+"Chocolate gift basket",
+"Snack box"
+],
+"start": 1
+},
+{
+"name": "t-3",
+"type": "edit",
+"eyebrow": "THE PAMPER",
+"title": "A little *self-care*",
+"line": "They deserve it. Truly.",
+"items": [
+"Goat milk hand cream",
+"Burt's Bees lip set",
+"Bath bomb set",
+"Fuzzy socks",
+"Rechargeable hand warmer"
+],
+"start": 8
+},
+{
+"name": "t-4",
+"type": "edit",
+"eyebrow": "THE DESK GLOW",
+"title": "Make the desk *cozy*",
+"line": "Fluorescent lights, who?",
+"items": [
+"Teacher candle",
+"Candle gift set",
+"Faux succulents",
+"Ceramic plant pots"
+],
+"start": 13
+},
+{
+"name": "t-5",
+"type": "edit",
+"eyebrow": "THE DESK",
+"title": "The *pretty* basics",
+"line": "Stationery, but make it nice.",
+"items": [
+"Gold luxury pen",
+"Pretty notebook",
+"Clear sticky notes",
+"Desk organizer",
+"Corduroy tote"
+],
+"start": 17
+},
+{
+"name": "t-6",
+"type": "cta",
+"title": "Comment TEACHER",
+"items": [
+"I'll DM you all 21 links",
+"Or tap the link in bio",
+"Send this to the room parent"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"name": "h-1",
+"type": "hook",
+"img": "src/dec2/him.jpg",
+"eyebrow": "GIFTS FOR HIM",
+"title": "He said he doesn't *need* anything",
+"sub": "…he's getting these.",
+"size": 100,
+"subtop": 440,
+"pos": "center center"
+},
+{
+"name": "h-2",
+"type": "edit",
+"eyebrow": "THE EVERYDAY",
+"title": "Stuff he'll use *daily*",
+"line": "Practical is romantic.",
+"items": [
+"RFID leather wallet",
+"Apple AirTag 4-pack",
+"Anker power bank",
+"Leatherman multitool",
+"Car trash can",
+"YETI Rambler"
+],
+"start": 1
+},
+{
+"name": "h-3",
+"type": "edit",
+"eyebrow": "THE COZY",
+"title": "Make him *warm*",
+"line": "Flannel season is here.",
+"items": [
+"Carhartt beanie",
+"Bluetooth beanie",
+"Memory foam slippers",
+"Plush robe",
+"Merino wool socks",
+"Flannel shirt",
+"Quarter-zip fleece"
+],
+"start": 7
+},
+{
+"name": "h-4",
+"type": "edit",
+"eyebrow": "THE GRILL + BAR",
+"title": "For the *grill guy*",
+"line": "You know the one.",
+"items": [
+"Grill tool set",
+"Meat thermometer",
+"Hot sauce gift set",
+"Whiskey rocks glasses"
+],
+"start": 14
+},
+{
+"name": "h-5",
+"type": "edit",
+"eyebrow": "THE EXTRAS",
+"title": "A few *nice* things",
+"line": "He'll pretend he isn't thrilled.",
+"items": [
+"Beard grooming kit",
+"Nautica Voyage cologne",
+"Leather journal",
+"Echo Dot"
+],
+"start": 18
+},
+{
+"name": "h-6",
+"type": "cta",
+"title": "Comment GENT",
+"items": [
+"I'll DM you all 21 links",
+"Or tap the link in bio",
+"Send this to his person"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"name": "p-1",
+"type": "hook",
+"img": "src/dec2/pjs.jpg",
+"eyebrow": "THE PAJAMA EDIT",
+"title": "Matching pajamas are *mandatory*",
+"sub": "…the dog too.",
+"size": 104,
+"subtop": 430,
+"pos": "center center"
+},
+{
+"name": "p-2",
+"type": "edit",
+"eyebrow": "THE MATCHING SET",
+"title": "Photos at *7am sharp*",
+"line": "Everyone matches. No exceptions.",
+"items": [
+"Family matching pajamas",
+"Kids' Christmas pajamas",
+"Baby Christmas pajamas",
+"Couples plaid set",
+"Dog Christmas pajamas"
+],
+"start": 1
+},
+{
+"name": "p-3",
+"type": "edit",
+"eyebrow": "FOR HER",
+"title": "Soft, *softer*, softest",
+"line": "Lounging is a lifestyle.",
+"items": [
+"Plaid flannel set",
+"Satin pajama set",
+"Fleece pajama set",
+"Knit lounge set",
+"Waffle knit robe",
+"Cozy cardigan",
+"Sherpa zip hoodie"
+],
+"start": 6
+},
+{
+"name": "p-4",
+"type": "edit",
+"eyebrow": "FOR HIM + THE KIDS",
+"title": "Everyone gets *cozy*",
+"line": "Even the ones who complain.",
+"items": [
+"Flannel pajama pants",
+"Plush robe",
+"Moccasin slippers",
+"Kids' animal slippers"
+],
+"start": 13
+},
+{
+"name": "p-5",
+"type": "edit",
+"eyebrow": "THE EXTRAS",
+"title": "Finish the *look*",
+"line": "Slippers and throws, obviously.",
+"items": [
+"UGG slippers",
+"Fuzzy slipper socks",
+"Christmas socks",
+"Silk sleep mask",
+"Fleece throw",
+"Sherpa throw"
+],
+"start": 17
+},
+{
+"name": "p-6",
+"type": "cta",
+"title": "Comment PJS",
+"items": [
+"I'll DM you all 22 links",
+"Or tap the link in bio",
+"Send this to the family chat"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"name": "w-1",
+"type": "hook",
+"img": "src/dec2/wrap.jpg",
+"eyebrow": "THE WRAPPING EDIT",
+"title": "Gifts that look *boutique-wrapped*",
+"sub": "…for a lot less.",
+"size": 100,
+"subtop": 440,
+"pos": "center center"
+},
+{
+"name": "w-2",
+"type": "edit",
+"eyebrow": "THE PAPER",
+"title": "Start with *kraft*",
+"line": "Simple paper, big impact.",
+"items": [
+"Kraft paper roll",
+"Red plaid paper",
+"Christmas tissue paper",
+"Kraft gift bags",
+"Magnetic gift boxes"
+],
+"start": 1
+},
+{
+"name": "w-3",
+"type": "edit",
+"eyebrow": "THE RIBBON",
+"title": "Velvet does the *work*",
+"line": "Ribbon is the whole look.",
+"items": [
+"Red velvet ribbon",
+"Ivory satin ribbon",
+"Jute twine",
+"EZ Bow Maker",
+"Kraft gift tags"
+],
+"start": 6
+},
+{
+"name": "w-4",
+"type": "edit",
+"eyebrow": "THE DETAILS",
+"title": "The *boutique* touches",
+"line": "This is where the magic is.",
+"items": [
+"Wax seal kit",
+"Gold embossed seals",
+"Gold paint pens",
+"Dried orange slices",
+"Cinnamon sticks",
+"Christmas gift tags"
+],
+"start": 11
+},
+{
+"name": "w-5",
+"type": "edit",
+"eyebrow": "THE TOOLS",
+"title": "Wrap *faster*",
+"line": "Less tape drama.",
+"items": [
+"Tape dispenser",
+"Wrapping paper cutter",
+"Fiskars scissors",
+"Wrap organizer",
+"Under-bed storage"
+],
+"start": 17
+},
+{
+"name": "w-6",
+"type": "cta",
+"title": "Comment WRAP",
+"items": [
+"I'll DM you all 21 links",
+"Or tap the link in bio",
+"Save this for wrapping night"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"name": "f-1",
+"type": "hook",
+"img": "src/dec2/fast.jpg",
+"eyebrow": "LAST-MINUTE GIFTS",
+"title": "Forgot someone? *Same.*",
+"sub": "…these ship fast.",
+"size": 112,
+"subtop": 400,
+"pos": "center center"
+},
+{
+"name": "f-2",
+"type": "edit",
+"eyebrow": "FOR HER",
+"title": "The *sure* things",
+"line": "She'll think you planned ahead.",
+"items": [
+"UGG Tasman slippers",
+"Laneige lip mask",
+"Sol de Janeiro mist",
+"Kendra Scott necklace",
+"Blissy pillowcase",
+"Barefoot Dreams throw",
+"Revlon One-Step"
+],
+"start": 1
+},
+{
+"name": "f-3",
+"type": "edit",
+"eyebrow": "THE TECH",
+"title": "Plug in, *wow*",
+"line": "The ones everyone asks for.",
+"items": [
+"Kindle Paperwhite",
+"AirPods Pro 3",
+"Bose QuietComfort",
+"Instax Mini 12",
+"Apple Watch band"
+],
+"start": 8
+},
+{
+"name": "f-4",
+"type": "edit",
+"eyebrow": "THE BIG ONES",
+"title": "Go *big*",
+"line": "When it has to be impressive.",
+"items": [
+"Shark FlexStyle",
+"Theragun mini",
+"Nespresso Vertuo pods",
+"Ninja Creami"
+],
+"start": 13
+},
+{
+"name": "f-5",
+"type": "edit",
+"eyebrow": "THE EASY WINS",
+"title": "Can't *miss*",
+"line": "Everyone uses these.",
+"items": [
+"Stanley Quencher",
+"Owala FreeSip",
+"YETI Rambler",
+"LEGO flower bouquet"
+],
+"start": 17
+},
+{
+"name": "f-6",
+"type": "cta",
+"title": "Comment RUSH",
+"items": [
+"I'll DM you all 20 links",
+"Or tap the link in bio",
+"Check delivery dates at checkout"
+],
+"sub": "Prices at time of posting. Delivery dates vary, so check before you buy."
+},
+{
+"name": "d-1",
+"type": "hook",
+"img": "src/dec2/dog.jpg",
+"eyebrow": "GIFTS FOR THE DOG MOM",
+"title": "The dog gets a *stocking* too",
+"sub": "…obviously.",
+"size": 104,
+"subtop": 430,
+"pos": "center center"
+},
+{
+"name": "d-2",
+"type": "edit",
+"eyebrow": "FOR THE DOG",
+"title": "Good boy *gifts*",
+"line": "Toys they won't destroy by noon.",
+"items": [
+"KONG Classic",
+"Benebone wishbone",
+"No-stuffing squeaky toys",
+"Puzzle toy",
+"Snuffle mat",
+"Lick mat",
+"Calming dog bed"
+],
+"start": 1
+},
+{
+"name": "d-3",
+"type": "edit",
+"eyebrow": "THE CHRISTMAS CARD",
+"title": "Dressed for the *photo*",
+"line": "Bribery treats not included.",
+"items": [
+"Christmas sweater",
+"Christmas pajamas",
+"Christmas bandanas",
+"Burlap stockings"
+],
+"start": 8
+},
+{
+"name": "d-4",
+"type": "edit",
+"eyebrow": "FOR THE DOG MOM",
+"title": "Dog mom *essentials*",
+"line": "Life, but easier.",
+"items": [
+"Dog mom sweatshirt",
+"Furbo pet camera",
+"ChomChom hair roller",
+"Ceramic treat jar",
+"AirTag collar holder",
+"Car seat cover"
+],
+"start": 12
+},
+{
+"name": "d-5",
+"type": "edit",
+"eyebrow": "THE GROOMING",
+"title": "Spa day, *for them*",
+"line": "Muddy paws, be gone.",
+"items": [
+"MudBuster paw cleaner",
+"Oatmeal shampoo",
+"Quiet nail grinder",
+"Travel water bottle"
+],
+"start": 18
+},
+{
+"name": "d-6",
+"type": "cta",
+"title": "Comment WOOF",
+"items": [
+"I'll DM you all 21 links",
+"Or tap the link in bio",
+"Send this to a dog mom"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+}
+]

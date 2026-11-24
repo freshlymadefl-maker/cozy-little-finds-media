@@ -1,0 +1,380 @@
+[
+{
+"name": "rm-1",
+"type": "reel",
+"img": "src/dec/mom.jpg",
+"eyebrow": "GIFTS FOR MOM",
+"text": "Mom: \"I don't want *anything.*\""
+},
+{
+"name": "rm-2",
+"type": "reel",
+"img": "src/dec/mom.jpg",
+"dim": 0.6,
+"eyebrow": "GIFTS FOR MOM",
+"text": "Also mom, opening:",
+"items": [
+"Aura photo frame"
+]
+},
+{
+"name": "rm-3",
+"type": "reel",
+"img": "src/dec/mom.jpg",
+"dim": 0.6,
+"eyebrow": "GIFTS FOR MOM",
+"text": "Also mom, opening:",
+"items": [
+"Aura photo frame",
+"Heated eye mask"
+]
+},
+{
+"name": "rm-4",
+"type": "reel",
+"img": "src/dec/mom.jpg",
+"dim": 0.6,
+"eyebrow": "GIFTS FOR MOM",
+"text": "Also mom, opening:",
+"items": [
+"Aura photo frame",
+"Heated eye mask",
+"Plush robe",
+"Mom's Story journal"
+]
+},
+{
+"name": "rm-5",
+"type": "reel",
+"img": "src/dec/mom.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "She *cried.* (Happy tears.)",
+"sub": "22 gifts for mom on Amazon",
+"pill": "Comment MOM"
+},
+{
+"name": "rv-1",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"eyebrow": "SHE HAS EVERYTHING",
+"text": "What do you get the girl who has *everything?*"
+},
+{
+"name": "rv-2",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.6,
+"eyebrow": "SHE HAS EVERYTHING",
+"text": "Things she'd never buy herself:",
+"items": [
+"Blissy silk pillowcase"
+]
+},
+{
+"name": "rv-3",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.6,
+"eyebrow": "SHE HAS EVERYTHING",
+"text": "Things she'd never buy herself:",
+"items": [
+"Blissy silk pillowcase",
+"Barefoot Dreams throw"
+]
+},
+{
+"name": "rv-4",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.6,
+"eyebrow": "SHE HAS EVERYTHING",
+"text": "Things she'd never buy herself:",
+"items": [
+"Blissy silk pillowcase",
+"Barefoot Dreams throw",
+"Kendra Scott necklace",
+"Laneige lip mask"
+]
+},
+{
+"name": "rv-5",
+"type": "reel",
+"img": "src/dec2/spoil.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "*Spoiled.*",
+"sub": "22 gifts for her on Amazon",
+"pill": "Comment SPOIL"
+},
+{
+"name": "rn-1",
+"type": "reel",
+"img": "src/dec/morn.jpg",
+"eyebrow": "CHRISTMAS MORNING",
+"text": "The real gift is *coffee* at 6am"
+},
+{
+"name": "rn-2",
+"type": "reel",
+"img": "src/dec/morn.jpg",
+"dim": 0.6,
+"eyebrow": "CHRISTMAS MORNING",
+"text": "The morning lineup:",
+"items": [
+"Matching pajamas"
+]
+},
+{
+"name": "rn-3",
+"type": "reel",
+"img": "src/dec/morn.jpg",
+"dim": 0.6,
+"eyebrow": "CHRISTMAS MORNING",
+"text": "The morning lineup:",
+"items": [
+"Matching pajamas",
+"Milk frother"
+]
+},
+{
+"name": "rn-4",
+"type": "reel",
+"img": "src/dec/morn.jpg",
+"dim": 0.6,
+"eyebrow": "CHRISTMAS MORNING",
+"text": "The morning lineup:",
+"items": [
+"Matching pajamas",
+"Milk frother",
+"Belgian waffle maker",
+"Champagne flutes"
+]
+},
+{
+"name": "rn-5",
+"type": "reel",
+"img": "src/dec/morn.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "Merry *everything.*",
+"sub": "21 Christmas morning finds",
+"pill": "Comment MORNING"
+},
+{
+"name": "rk-1",
+"type": "reel",
+"img": "src/dec2/stocking.jpg",
+"eyebrow": "STOCKING STUFFERS",
+"text": "The stocking is the *best* part. Don't argue."
+},
+{
+"name": "rk-2",
+"type": "reel",
+"img": "src/dec2/stocking.jpg",
+"dim": 0.6,
+"eyebrow": "STOCKING STUFFERS",
+"text": "Hers, this year:",
+"items": [
+"Fuzzy socks"
+]
+},
+{
+"name": "rk-3",
+"type": "reel",
+"img": "src/dec2/stocking.jpg",
+"dim": 0.6,
+"eyebrow": "STOCKING STUFFERS",
+"text": "Hers, this year:",
+"items": [
+"Fuzzy socks",
+"Claw clip"
+]
+},
+{
+"name": "rk-4",
+"type": "reel",
+"img": "src/dec2/stocking.jpg",
+"dim": 0.6,
+"eyebrow": "STOCKING STUFFERS",
+"text": "Hers, this year:",
+"items": [
+"Fuzzy socks",
+"Claw clip",
+"Silk scrunchies",
+"Hand cream"
+]
+},
+{
+"name": "rk-5",
+"type": "reel",
+"img": "src/dec2/stocking.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "Little things, *big* love.",
+"sub": "26 stocking stuffers on Amazon",
+"pill": "Comment STOCKING"
+},
+{
+"name": "ru-1",
+"type": "reel",
+"img": "src/dec2/whiskey.jpg",
+"eyebrow": "FOR THE HUSBAND",
+"text": "Him: \"Don't get me *anything.*\""
+},
+{
+"name": "ru-2",
+"type": "reel",
+"img": "src/dec2/whiskey.jpg",
+"dim": 0.6,
+"eyebrow": "FOR THE HUSBAND",
+"text": "Me, adding to cart:",
+"items": [
+"Shearling slippers"
+]
+},
+{
+"name": "ru-3",
+"type": "reel",
+"img": "src/dec2/whiskey.jpg",
+"dim": 0.6,
+"eyebrow": "FOR THE HUSBAND",
+"text": "Me, adding to cart:",
+"items": [
+"Shearling slippers",
+"Whiskey glass + ice sphere"
+]
+},
+{
+"name": "ru-4",
+"type": "reel",
+"img": "src/dec2/whiskey.jpg",
+"dim": 0.6,
+"eyebrow": "FOR THE HUSBAND",
+"text": "Me, adding to cart:",
+"items": [
+"Shearling slippers",
+"Whiskey glass + ice sphere",
+"Leather wallet",
+"Cozy quarter-zip"
+]
+},
+{
+"name": "ru-5",
+"type": "reel",
+"img": "src/dec2/whiskey.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "He *loved* it.",
+"sub": "28 gifts for him on Amazon",
+"pill": "Comment HUSBAND"
+},
+{
+"name": "ry-1",
+"type": "reel",
+"img": "src/dec2/cocoa.jpg",
+"eyebrow": "HOLIDAY SURVIVAL KIT",
+"text": "One week left. *Deep breaths.*"
+},
+{
+"name": "ry-2",
+"type": "reel",
+"img": "src/dec2/cocoa.jpg",
+"dim": 0.6,
+"eyebrow": "HOLIDAY SURVIVAL KIT",
+"text": "Survival kit:",
+"items": [
+"Barefoot Dreams throw"
+]
+},
+{
+"name": "ry-3",
+"type": "reel",
+"img": "src/dec2/cocoa.jpg",
+"dim": 0.6,
+"eyebrow": "HOLIDAY SURVIVAL KIT",
+"text": "Survival kit:",
+"items": [
+"Barefoot Dreams throw",
+"Blissy pillowcase"
+]
+},
+{
+"name": "ry-4",
+"type": "reel",
+"img": "src/dec2/cocoa.jpg",
+"dim": 0.6,
+"eyebrow": "HOLIDAY SURVIVAL KIT",
+"text": "Survival kit:",
+"items": [
+"Barefoot Dreams throw",
+"Blissy pillowcase",
+"Voluspa candle",
+"Theragun"
+]
+},
+{
+"name": "ry-5",
+"type": "reel",
+"img": "src/dec2/cocoa.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "You've *got* this.",
+"sub": "22 holiday survival finds",
+"pill": "Comment HOLIDAY"
+},
+{
+"name": "rl-1",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"eyebrow": "GIFTS UNDER $25",
+"text": "Gifts that look *expensive*"
+},
+{
+"name": "rl-2",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.6,
+"eyebrow": "GIFTS UNDER $25",
+"text": "Nobody has to know:",
+"items": [
+"Laneige lip mask"
+]
+},
+{
+"name": "rl-3",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.6,
+"eyebrow": "GIFTS UNDER $25",
+"text": "Nobody has to know:",
+"items": [
+"Laneige lip mask",
+"Sol de Janeiro mist"
+]
+},
+{
+"name": "rl-4",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.6,
+"eyebrow": "GIFTS UNDER $25",
+"text": "Nobody has to know:",
+"items": [
+"Laneige lip mask",
+"Sol de Janeiro mist",
+"Satin pillowcase",
+"Claw clips"
+]
+},
+{
+"name": "rl-5",
+"type": "reel",
+"img": "src/dec2/gifts.jpg",
+"dim": 0.62,
+"ad": true,
+"text": "Looks *luxe.*",
+"sub": "25 gifts under $25 on Amazon",
+"pill": "Comment LUXE"
+}
+]

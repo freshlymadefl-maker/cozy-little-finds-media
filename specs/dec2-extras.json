@@ -1,0 +1,159 @@
+[
+{
+"name": "wrap-cheat",
+"type": "numbers",
+"eyebrow": "SAVE THIS FOR WRAPPING NIGHT",
+"title": "Gift wrapping *cheat sheet*",
+"listtop": 370,
+"rows": [
+{
+"name": "The *length* rule",
+"num": "Around once + 2 in",
+"note": "Wrap it around the box, then add 2 inches of overlap"
+},
+{
+"name": "The *ends* rule",
+"num": "Box height + 1 in",
+"note": "Paper past each end, just over the box's height"
+},
+{
+"name": "The *tape* rule",
+"num": "Double-sided",
+"note": "Tape under the seams, so none shows"
+},
+{
+"name": "The *ribbon* rule",
+"num": "4 sides + 20 in",
+"note": "Go around both ways, plus extra for the bow"
+}
+],
+"foot": "@cozylittlefindsdaily · comment WRAP for my wrapping list"
+},
+{
+"name": "eve-timeline",
+"type": "numbers",
+"eyebrow": "SAVE THIS FOR CHRISTMAS EVE",
+"title": "The hosting *countdown*",
+"listtop": 370,
+"rows": [
+{
+"name": "3 days *out*",
+"num": "Shop + set",
+"note": "Set the table, iron napkins, buy extra ice"
+},
+{
+"name": "1 day *out*",
+"num": "Prep + chill",
+"note": "Make the dips, chill the bubbly, pick the playlist"
+},
+{
+"name": "3 hours *out*",
+"num": "Candles + coupes",
+"note": "Set out glasses, light candles, start the oven"
+},
+{
+"name": "30 minutes *out*",
+"num": "Sit down.",
+"note": "Pour yourself one first. You earned it."
+}
+],
+"foot": "@cozylittlefindsdaily · comment HOSTING for my hosting list"
+},
+{
+"name": "movies-1",
+"type": "edit",
+"eyebrow": "THE CHRISTMAS MOVIE COUNTDOWN",
+"title": "One movie a *night*",
+"line": "Dec 13 to 24. Pajamas required.",
+"ad": false,
+"items": [
+"White Christmas",
+"Miracle on 34th Street",
+"The Polar Express",
+"Elf",
+"The Holiday",
+"Klaus"
+],
+"start": 13
+},
+{
+"name": "movies-2",
+"type": "edit",
+"eyebrow": "THE CHRISTMAS MOVIE COUNTDOWN",
+"title": "The *home stretch*",
+"line": "Saving the best for Christmas Eve.",
+"ad": false,
+"items": [
+"Home Alone",
+"The Grinch",
+"Christmas Vacation",
+"Love Actually",
+"It's a Wonderful Life",
+"Muppet Christmas Carol"
+],
+"start": 19
+},
+{
+"name": "j-1208",
+"type": "plain",
+"text": "My love language is someone *else* wrapping the presents.",
+"dark": false,
+"size": 84
+},
+{
+"name": "j-1209",
+"type": "plain",
+"text": "Me: I'm on a budget this year. Also me: *it's for the stockings.*",
+"dark": true,
+"size": 84
+},
+{
+"name": "j-1210",
+"type": "plain",
+"text": "Pretending the Elf on the Shelf moved itself. *Again.*",
+"dark": false,
+"size": 84
+},
+{
+"name": "j-1213",
+"type": "plain",
+"text": "Christmas cookies count as a food group in December. *I checked.*",
+"dark": true,
+"size": 84
+},
+{
+"name": "j-1215",
+"type": "plain",
+"text": "Every year I say I'll start shopping in October. *Every year.*",
+"dark": false,
+"size": 84
+},
+{
+"name": "j-1216",
+"type": "plain",
+"text": "Currently hiding presents in places *I will absolutely forget.*",
+"dark": true,
+"size": 84
+},
+{
+"name": "j-1217",
+"type": "plain",
+"text": "Me at the gift exchange, pretending I didn't want *the waffle maker.*",
+"dark": false,
+"size": 84
+},
+{
+"name": "j-1219",
+"type": "plain",
+"text": "Last-minute shopping is a sport and I am *an athlete.*",
+"dark": true,
+"size": 84
+},
+{
+"name": "j-1220",
+"type": "plain",
+"text": "Officially out of tape. *Merry Christmas.*",
+"dark": false,
+"size": 84
+}
+]

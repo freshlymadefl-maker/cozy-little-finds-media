@@ -282,7 +282,7 @@ li:nth-child(even) b{{background:#C8963E;color:#3A2A20}}
 li em{{font-style:italic;font-family:"Fraunces",serif;font-weight:400;color:#9E2B32}}
 .handle{{position:absolute;left:0;right:0;bottom:60px;text-align:center;font:500 28px "DM Sans";opacity:.7}}
 .ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
-</style><div class="wrap"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><h1>{em(s['title'])}</h1><div class="line">{em(s.get('line',''))}</div><ol>{items}</ol></div>{HANDLE}<div class="ad">#AD</div>"""
+</style><div class="wrap"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><h1>{em(s['title'])}</h1><div class="line">{em(s.get('line',''))}</div><ol>{items}</ol></div>{HANDLE}{"<div class=\"ad\">#AD</div>" if s.get("ad", True) else ""}"""
 
 
 def numbers(s):
