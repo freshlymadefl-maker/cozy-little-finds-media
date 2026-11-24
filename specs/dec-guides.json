@@ -1,0 +1,25 @@
+[
+{"name":"cozy-2","type":"edit","eyebrow":"THE NEST","title":"Couch, blanket, *do not disturb*","line":"Softest setup on Amazon.","items":["Sherpa fleece throw","Weighted throw blanket","Fuzzy grip socks","UGG slippers","Oversized cardigan","Bed reading pillow"]},
+{"name":"cozy-3","type":"edit","eyebrow":"THE BATH","title":"Spa night, *at home*","line":"Cancel your plans.","items":["Bath bomb gift set","Shower steamers","Hair towel wrap","Silk sleep mask","Heated foot massager"],"start":7},
+{"name":"cozy-4","type":"edit","eyebrow":"THE GLOW","title":"Lights low, *mood high*","line":"Overheads are for amateurs.","items":["Candle warmer lamp","Wax melt warmer","Sunset lamp","Yankee Candle jar","Rechargeable book light"],"start":12},
+{"name":"cozy-5","type":"edit","eyebrow":"THE NIGHT IN","title":"Best plans *ever*","line":"Pajamas are the dress code.","items":["Hot air popcorn maker","Hot cocoa gift set","1000-piece puzzle","Matte ceramic mugs","Shower speaker","Barefoot Dreams socks"],"start":17},
+{"name":"cozy-6","type":"cta","title":"Comment COZY","items":["I'll DM you all 22 links","Or tap the link in bio","Save this for tonight"],"sub":"Prices and deals at time of posting. Check before you buy."},
+
+{"name":"mom-2","type":"edit","eyebrow":"THE SPLURGE","title":"Make her *cry* (happy)","line":"She deserves the big one.","items":["Aura photo frame","Ninja air fryer","Bose SoundLink Flex","Nespresso Vertuo","Insulated tumbler"]},
+{"name":"mom-3","type":"edit","eyebrow":"THE SENTIMENTAL","title":"The ones she'll *keep*","line":"Bring tissues.","items":["Mom's Story journal","Mother-daughter necklace","Jewelry box","Blank recipe book","Photo album"],"start":6},
+{"name":"mom-4","type":"edit","eyebrow":"THE PAMPER","title":"Mom, *off duty*","line":"Finally, a day off.","items":["Shiatsu neck massager","Heated eye mask","Plush robe","Oil diffuser","Satin pillowcases","Hand cream gift set"],"start":11},
+{"name":"mom-5","type":"edit","eyebrow":"THE EVERYDAY","title":"She'll use it *daily*","line":"Practical, but pretty.","items":["Gardening tool set","Indoor herb garden","Canvas tote bag","Cookbook stand","Soft wrap scarf","Kendra Scott necklace"],"start":17},
+{"name":"mom-6","type":"cta","title":"Comment MOM","items":["I'll DM you all 22 links","Or tap the link in bio","Send this to your siblings"],"sub":"Prices and deals at time of posting. Check before you buy."},
+
+{"name":"swap-2","type":"edit","eyebrow":"THE ONES PEOPLE STEAL","title":"Worth *stealing*","line":"Expect a fight.","items":["Dash mini waffle maker","Owala FreeSip bottle","JBL Go 4 speaker","Instax Mini 12 camera","Whiskey smoker kit","Tile tracker"]},
+{"name":"swap-3","type":"edit","eyebrow":"THE COZY","title":"Nobody hates a *blanket*","line":"Safe for any coworker.","items":["Faux fur throw","Cozy socks gift box","Jellycat bunny","HotHands warmers","Fuzzy reading socks"],"start":7},
+{"name":"swap-4","type":"edit","eyebrow":"THE CROWD-PLEASERS","title":"Instant *party* points","line":"Everyone laughs. Everyone wins.","items":["What Do You Meme?","Hot sauce gift set","Charcuterie board set","Jumbo wine glass","Popcorn seasonings"],"start":12},
+{"name":"swap-5","type":"edit","eyebrow":"THE EASY WINS","title":"Last-minute, *still cute*","line":"Nobody will know.","items":["Handheld milk frother","Bath bomb gift set","Rechargeable lighter","Lindt chocolates","MagSafe power bank"],"start":17},
+{"name":"swap-6","type":"cta","title":"Comment SWAP","items":["I'll DM you all 21 links","Or tap the link in bio","Send this to your office"],"sub":"Prices and deals at time of posting. Check before you buy."},
+
+{"name":"morn-2","type":"edit","eyebrow":"THE PAJAMAS","title":"Matching is *mandatory*","line":"Photos at 7am sharp.","items":["Family matching pajamas","Satin pajama set","Men's flannel pajamas","Waffle robe"]},
+{"name":"morn-3","type":"edit","eyebrow":"THE COFFEE BAR","title":"Santa needs *caffeine*","line":"So do the parents.","items":["Electric milk frother","Torani syrup set","French press","Gooseneck kettle","Matte ceramic mugs"],"start":5},
+{"name":"morn-4","type":"edit","eyebrow":"THE BRUNCH","title":"Breakfast, but *festive*","line":"Mimosas count as juice.","items":["Belgian waffle maker","Lodge cast iron skillet","Champagne flutes","Stemless mimosa glasses","Cake stand with dome"],"start":10},
+{"name":"morn-5","type":"edit","eyebrow":"THE MAGIC","title":"The little *details*","line":"Make the morning.","items":["Stocking holders","Knit stockings","Faux fur tree skirt","Instax Mini 12","Cinnamon candle","Cookie cutter set","Plaid table runner"],"start":15},
+{"name":"morn-6","type":"cta","title":"Comment MORNING","items":["I'll DM you all 21 links","Or tap the link in bio","Save this for Christmas"],"sub":"Prices and deals at time of posting. Check before you buy."}
+]
