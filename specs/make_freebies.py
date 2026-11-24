@@ -8,13 +8,15 @@ OUT = ROOT / "out"
 EDGE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 FONTS = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;'
          '1,9..144,500&family=DM+Sans:wght@500;700&family=Courier+Prime:wght@700&display=swap">')
+XL = ('<a href="https://freshlymadefl.etsy.com/listing/4624952800/white-elephant-game-cards-printable" '
+      'style="color:#9E2B32;font-weight:700;text-decoration:none">Hosting a gift swap? Get Chaos Cards, the white elephant twist game &#8594;</a>')
 BASE = """@page{size:8.5in 11in;margin:0}*{box-sizing:border-box}html,body{margin:0}
 body{font-family:'DM Sans',sans-serif;color:#2F4A3A;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .page{width:8.5in;height:11in;position:relative;overflow:hidden;page-break-after:always;background:#F4EBDD;padding:.55in .6in}
 .eb{font:700 10pt 'Courier Prime',monospace;letter-spacing:.24em;color:#9E2B32;text-align:center}
 h1{font:600 34pt/1 Fraunces,serif;text-align:center;margin:.08in 0 .04in}h1 em{font-style:italic;color:#9E2B32;font-weight:500}
 .sub{text-align:center;font:500 11pt 'DM Sans';opacity:.8}
-.ft{position:absolute;left:0;right:0;bottom:.35in;text-align:center;font:500 9pt 'DM Sans';opacity:.7}"""
+.ft{position:absolute;left:0;right:0;bottom:.28in;line-height:1.6;text-align:center;font:500 9pt 'DM Sans';opacity:.7}"""
 
 SQ = ["Big-city career woman moves back home", "The small-town bakery is in trouble", "Hot cocoa with a mountain of whipped cream",
       "Snow starts at the perfect moment", "An ugly sweater", "The Christmas festival committee meets", "Someone says \"the true meaning of Christmas\"",
@@ -33,7 +35,7 @@ def bingo(seed):
     return f"""<div class="page"><div class="eb">MOVIE NIGHT · CARD {seed}</div><h1>Cheesy Christmas <em>Movie Bingo</em></h1>
 <div class="sub">Mark a square every time it happens. Five in a row picks the next movie.</div>
 <div class="bg">{''.join(f'<div class="h">{l}</div>' for l in 'BINGO')}{tds}</div>
-<div class="ft">Free printable from @cozylittlefindsdaily · for personal use</div></div>"""
+<div class="ft">{XL}<br>Free printable from @cozylittlefindsdaily · for personal use</div></div>"""
 
 
 BCSS = """.bg{display:grid;grid-template-columns:repeat(5,1fr);gap:.06in;margin-top:.28in}
@@ -58,7 +60,7 @@ def tracker():
 <table><tr><th>FOR</th><th>GIFT IDEA</th><th>BUDGET</th><th>BOUGHT</th><th>WRAPPED</th></tr>{rows}</table>
 <div class="two"><div class="box"><b>Stocking stuffers</b>{lines}</div><div class="box"><b>Don't forget</b>
 <div style="font:500 9.5pt 'DM Sans';opacity:.75;margin-top:.03in">teachers · mail carrier · hostess · dog</div>{lines}</div></div>
-<div class="ft">Stuck on ideas? My gift guides are linked in my bio: @cozylittlefindsdaily</div></div>"""
+<div class="ft">{XL}<br>Stuck on ideas? My gift guides are linked in my bio: @cozylittlefindsdaily</div></div>"""
 
 
 def build(name, css, pages):
