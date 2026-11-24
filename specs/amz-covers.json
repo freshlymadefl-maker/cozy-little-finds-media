@@ -1,0 +1,152 @@
+[
+{
+"type": "cover",
+"eyebrow": "GIFTS FOR MOM",
+"title": "She wants *nothing*",
+"sub": "…so get her these.",
+"size": 132,
+"name": "amz-mom",
+"imgs": [
+"src/dec3/kendra.jpg",
+"src/dec3/bose_flex.jpg",
+"src/bf/barefoot.jpg",
+"src/bf/blissy_w.jpg"
+],
+"fit": "contain",
+"swipe": false
+},
+{
+"type": "cover",
+"eyebrow": "CHRISTMAS MORNING",
+"title": "Christmas *morning*",
+"sub": "…but make it cozy.",
+"size": 128,
+"name": "amz-morn",
+"imgs": [
+"src/dec3/yankee.jpg",
+"src/brand/ugg.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/bf/blissy_w.jpg"
+],
+"fit": "contain",
+"swipe": false
+},
+{
+"type": "cover",
+"eyebrow": "TEACHER + COWORKER GIFTS",
+"title": "Gifts they'll *actually* use",
+"sub": "…not another mug.",
+"size": 108,
+"name": "amz-teach",
+"imgs": [
+"src/him/yeti.png",
+"src/dec3/tiesta.png",
+"src/u25/laneige.jpg",
+"src/bf/stanley_w.jpg"
+],
+"fit": "contain",
+"swipe": false
+},
+{
+"type": "cover",
+"eyebrow": "GIFTS FOR HIM",
+"title": "He'll *actually* use these",
+"sub": "…he said he needs nothing.",
+"size": 118,
+"name": "amz-him",
+"imgs": [
+"src/him/airtag.jpg",
+"src/him/beanie.jpg",
+"src/him/leatherman.jpg",
+"src/him/yeti.png"
+],
+"fit": "contain",
+"swipe": false
+},
+{
+"type": "pack",
+"eyebrow": "LAST-MINUTE GIFTS",
+"title": "Forgot someone?",
+"sub": "*Same.* These ship fast.",
+"size": 118,
+"subtop": 1070,
+"name": "amz-rush",
+"imgs": [
+"src/brand/ugg.png",
+"src/u25/laneige.jpg",
+"src/brand/bose.png",
+"src/bf/thera_w.jpg",
+"src/bf/stanley_w.jpg",
+"src/dec3/kendra.jpg",
+"src/u25/sdj.jpg",
+"src/bf/blissy_w.jpg",
+"src/bf/barefoot.jpg"
+],
+"fit": "contain",
+"swipe": false
+},
+{
+"name": "amz-dog",
+"type": "cover",
+"fit": "contain",
+"swipe": false,
+"imgs": [
+"src/dec3/kong.jpg",
+"src/dec3/benebone.jpg",
+"src/bf/barefoot.jpg",
+"src/bf/stanley_w.jpg"
+],
+"eyebrow": "GIFTS FOR THE DOG MOM",
+"title": "The dog gets a *stocking*",
+"sub": "…obviously.",
+"size": 112
+},
+{
+"name": "amz-cozy",
+"type": "cover",
+"fit": "contain",
+"swipe": false,
+"imgs": [
+"src/dec3/yankee.jpg",
+"src/bf/barefoot.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/brand/ugg.png"
+],
+"eyebrow": "THE COZY NIGHT IN EDIT",
+"title": "My idea of a *wild night*",
+"sub": "…is staying in.",
+"size": 112
+},
+{
+"name": "amz-swap",
+"type": "cover",
+"fit": "contain",
+"swipe": false,
+"imgs": [
+"src/dec3/dash.jpg",
+"src/bf/stanley_w.jpg",
+"src/him/yeti.png",
+"src/brand/jbl.png"
+],
+"eyebrow": "GIFT EXCHANGE EDIT",
+"title": "Gifts people *steal*",
+"sub": "…bring one of these.",
+"size": 128
+},
+{
+"name": "amz-pjs",
+"type": "cover",
+"fit": "contain",
+"swipe": false,
+"imgs": [
+"src/brand/ugg.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/bf/blissy_w.jpg",
+"src/bf/barefoot.jpg"
+],
+"eyebrow": "THE PAJAMA EDIT",
+"title": "PJs are *mandatory*",
+"sub": "…the dog too.",
+"size": 128
+}
+]

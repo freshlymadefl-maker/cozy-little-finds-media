@@ -210,7 +210,7 @@ body{{background:{s.get('bg', '#F4EBDD')};font-family:"DM Sans",sans-serif;color
 .swipe{{position:absolute;left:0;right:0;bottom:50px;text-align:center;font:700 32px "Courier Prime",monospace;letter-spacing:.2em;color:#2F4A3A;opacity:.7}}
 .ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
 </style><div class="grid">{tiles}</div><div class="eb">{html.escape(s.get('eyebrow',''))}</div>
-<div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div><div class="swipe">SWIPE →</div><div class="ad">#AD</div>"""
+<div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div>{'<div class="swipe">SWIPE →</div>' if s.get('swipe', True) else ''}<div class="ad">#AD</div>"""
 
 
 def tweet(s):
@@ -321,7 +321,7 @@ body{{background:#2F4A3A;font-family:"DM Sans",sans-serif;color:#F4EBDD}}
 .swipe{{position:absolute;left:0;right:0;bottom:46px;text-align:center;font:700 30px "Courier Prime",monospace;letter-spacing:.2em;opacity:.75}}
 .ad{{position:absolute;right:28px;bottom:24px;background:#F4EBDD;color:#2F4A3A;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
 </style><div class="grid">{tiles}</div><div class="eb">{html.escape(s.get('eyebrow',''))}</div>
-<div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div><div class="swipe">SWIPE →</div><div class="ad">#AD</div>"""
+<div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div>{'<div class="swipe">SWIPE →</div>' if s.get('swipe', True) else ''}<div class="ad">#AD</div>"""
 
 
 def reel(s):
@@ -350,7 +350,28 @@ li span{{flex:none;width:84px;height:84px;border-radius:50%;background:#F8E2A8;c
 <div class="h">@cozylittlefindsdaily</div>"""
 
 
-KINDS = {"pack": pack, "numbers": numbers, "reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
+def pin(s):
+    """Pinterest 2:3 pin (1080x1620): keyword title block on top, 2x2 (or 3x3) grid of untouched product photos, footer.
+    Fields: eyebrow, title, sub, imgs (4 or 9), size, foot."""
+    n = 3 if len(s["imgs"]) > 4 else 2
+    tiles = "".join(f'<div class="tile"><img src="{i}"></div>' for i in s["imgs"][:n*n])
+    th = 470 if n == 2 else 310
+    return f"""<style>{BASE}
+html,body{{height:1620px}}
+body{{background:{s.get('bg','#F4EBDD')};font-family:"DM Sans",sans-serif;color:#2F4A3A}}
+.head{{position:absolute;left:50px;right:50px;top:40px;height:420px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}}
+.eb{{font:700 38px "Courier Prime",monospace;letter-spacing:.22em;color:#9E2B32}}
+.t{{margin-top:16px;font:600 {s.get('size',112)}px/1.02 "Fraunces",serif;letter-spacing:-.02em}}
+.t em{{font-style:italic;font-weight:400;color:#9E2B32}}
+.sub{{margin-top:22px;font:italic 400 58px/1.05 "Fraunces",serif;color:#3A2A20}}
+.grid{{position:absolute;left:54px;right:54px;top:490px;display:grid;grid-template-columns:repeat({n},1fr);gap:20px}}
+.tile{{height:{th}px;border-radius:24px;overflow:hidden;background:#fff;box-shadow:0 10px 26px rgba(47,74,58,.14)}}
+.tile img{{width:100%;height:100%;object-fit:contain;padding:22px;box-sizing:border-box}}
+.ft{{position:absolute;left:0;right:0;bottom:46px;text-align:center;font:700 30px "Courier Prime",monospace;letter-spacing:.14em;color:#2F4A3A}}
+</style><div class="head"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div></div>
+<div class="grid">{tiles}</div><div class="ft">{html.escape(s.get('foot','SHOP THE LIST · COZY LITTLE FINDS'))}</div>"""
+
+KINDS = {"pin": pin, "pack": pack, "numbers": numbers, "reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
 
 
 def render(spec):
@@ -359,7 +380,7 @@ def render(spec):
     page.write_text(f'<!doctype html><html><head><meta charset="utf-8">{FONTS}</head><body>{body}</body></html>', encoding="utf-8")
     out = HERE / "out" / f"{spec['name']}.png"
     out.parent.mkdir(exist_ok=True)
-    subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", f"--window-size=1080,{spec.get('h', 1920 if spec['type'] in ('story', 'reel') else 1350)}",
+    subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", f"--window-size=1080,{spec.get('h', 1920 if spec['type'] in ('story', 'reel') else (1620 if spec['type']=='pin' else 1350))}",
                     "--virtual-time-budget=5000", f"--screenshot={out.as_posix()}", page.as_uri()],
                    capture_output=True, timeout=90)
     print(out.name, "ok" if out.exists() else "FAILED")

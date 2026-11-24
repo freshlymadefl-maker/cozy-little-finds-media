@@ -1,0 +1,161 @@
+[
+{
+"name": "pin-mom",
+"type": "pin",
+"eyebrow": "GIFT GUIDE",
+"title": "Gifts for the mom who has *everything*",
+"sub": "…she'll actually use these.",
+"imgs": [
+"src/dec3/kendra.jpg",
+"src/dec3/bose_flex.jpg",
+"src/bf/barefoot.jpg",
+"src/bf/blissy_w.jpg"
+],
+"size": 100
+},
+{
+"name": "pin-morn",
+"type": "pin",
+"eyebrow": "CHRISTMAS MORNING",
+"title": "Cozy Christmas *morning* gifts",
+"sub": "slippers, socks + silk",
+"imgs": [
+"src/dec3/yankee.jpg",
+"src/brand/ugg.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/bf/blissy_w.jpg"
+],
+"size": 112
+},
+{
+"name": "pin-teach",
+"type": "pin",
+"eyebrow": "GIFT GUIDE",
+"title": "Teacher gifts they'll *actually* use",
+"sub": "…not another mug.",
+"imgs": [
+"src/him/yeti.png",
+"src/dec3/tiesta.png",
+"src/u25/laneige.jpg",
+"src/bf/stanley_w.jpg"
+],
+"size": 104
+},
+{
+"name": "pin-him",
+"type": "pin",
+"eyebrow": "GIFT GUIDE",
+"title": "Gifts for the man who wants *nothing*",
+"sub": "he'll use these every day",
+"imgs": [
+"src/him/airtag.jpg",
+"src/him/beanie.jpg",
+"src/him/leatherman.jpg",
+"src/him/yeti.png"
+],
+"size": 100
+},
+{
+"name": "pin-rush",
+"type": "pin",
+"eyebrow": "LAST-MINUTE GIFTS",
+"title": "Last-minute gifts that *ship fast*",
+"sub": "everyone actually wants these",
+"imgs": [
+"src/brand/ugg.png",
+"src/u25/laneige.jpg",
+"src/brand/bose.png",
+"src/bf/thera_w.jpg",
+"src/bf/stanley_w.jpg",
+"src/dec3/kendra.jpg",
+"src/u25/sdj.jpg",
+"src/bf/blissy_w.jpg",
+"src/bf/barefoot.jpg"
+],
+"size": 104
+},
+{
+"name": "pin-dog",
+"type": "pin",
+"eyebrow": "GIFT GUIDE",
+"title": "Gifts for the *dog mom*",
+"sub": "(and the dog)",
+"imgs": [
+"src/dec3/kong.jpg",
+"src/dec3/benebone.jpg",
+"src/bf/barefoot.jpg",
+"src/bf/stanley_w.jpg"
+],
+"size": 120
+},
+{
+"name": "pin-cozy",
+"type": "pin",
+"eyebrow": "COZY NIGHT IN",
+"title": "Cozy gifts for a night *in*",
+"sub": "blankets, candles + socks",
+"imgs": [
+"src/dec3/yankee.jpg",
+"src/bf/barefoot.jpg",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/brand/ugg.png"
+],
+"size": 112
+},
+{
+"name": "pin-swap",
+"type": "pin",
+"eyebrow": "WHITE ELEPHANT",
+"title": "White elephant gifts people *steal*",
+"sub": "gift exchange ideas",
+"imgs": [
+"src/dec3/dash.jpg",
+"src/bf/stanley_w.jpg",
+"src/him/yeti.png",
+"src/brand/jbl.png"
+],
+"size": 104
+},
+{
+"name": "pin-pjs",
+"type": "pin",
+"eyebrow": "CHRISTMAS EVE",
+"title": "Christmas Eve *box* ideas",
+"sub": "cozy layers for the whole family",
+"imgs": [
+"src/brand/ugg.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/bf/blissy_w.jpg",
+"src/bf/barefoot.jpg"
+],
+"size": 112
+},
+{
+"name": "pin-wrap",
+"type": "pin",
+"eyebrow": "GIFT WRAPPING",
+"title": "Pretty gift wrapping *ideas*",
+"sub": "kraft paper, velvet ribbon + oranges",
+"imgs": [
+"src/dec3/ribbon.jpg",
+"src/dec3/kraft.jpg",
+"src/dec3/oranges.jpg",
+"src/dec3/ribbons2.jpg"
+],
+"size": 112
+},
+{
+"name": "pin-u25",
+"type": "pin",
+"eyebrow": "UNDER $25",
+"title": "Gifts under $25 that look *expensive*",
+"sub": "stocking stuffers + small gifts",
+"imgs": [
+"src/u25/laneige.jpg",
+"src/u25/sdj.jpg",
+"src/u25/candle.jpg",
+"src/u25/claw.jpg"
+],
+"size": 100
+}
+]
