@@ -174,8 +174,8 @@ body{{background:#F4EBDD;font-family:"DM Sans",sans-serif;color:#2F4A3A}}
 .line{{position:absolute;left:70px;right:70px;top:1035px;text-align:center;font:italic 400 58px/1.18 "Fraunces",serif;color:#3A2A20}}
 .handle{{position:absolute;left:0;right:0;bottom:34px;text-align:center;font:500 24px "DM Sans";opacity:.5}}
 .ad{{position:absolute;right:28px;bottom:24px;background:#2F4A3A;color:#F4EBDD;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
-</style><div class="num">{s.get('n','')}</div><div class="frame"><img src="{s['img']}" style="object-position:{s.get('pos','center')}"></div>
-<div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="name">{em(s['label'])}<span class="price">{html.escape(s['price'])}</span></div>
+</style><div class="num">{s.get('n','')}</div><div class="frame"><img src="{s['img']}" style="object-position:{s.get('pos','center')};object-fit:{s.get('fit','cover')};{'padding:70px 60px 30px;box-sizing:border-box' if s.get('fit')=='contain' else ''}"></div>
+<div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="name">{em(s['label'])}<span class="price">{html.escape(s.get('price',''))}</span></div>
 <div class="line">{em(s['line'])}</div>{HANDLE}<div class="ad">#AD</div>"""
 
 
@@ -203,7 +203,7 @@ def cover(s):
 body{{background:{s.get('bg', '#F4EBDD')};font-family:"DM Sans",sans-serif;color:#2F4A3A}}
 .grid{{position:absolute;left:60px;right:60px;top:60px;display:grid;grid-template-columns:1fr 1fr;gap:22px}}
 .tile{{height:380px;border-radius:26px;overflow:hidden;background:#fff;box-shadow:0 10px 26px rgba(47,74,58,.16)}}
-.tile img{{width:100%;height:100%;object-fit:cover}}
+.tile img{{width:100%;height:100%;object-fit:{s.get('fit','cover')};{'padding:24px;box-sizing:border-box' if s.get('fit')=='contain' else ''}}}
 .eb{{position:absolute;left:0;right:0;top:888px;text-align:center;font:700 36px "Courier Prime",monospace;letter-spacing:.22em;color:#9E2B32}}
 .t{{position:absolute;left:30px;right:30px;top:935px;text-align:center;font:600 {s.get('size',150)}px/1 "Fraunces",serif;letter-spacing:-.02em}}
 .sub{{position:absolute;left:0;right:0;top:1105px;text-align:center;font:italic 400 80px/1 "Fraunces",serif;color:#3A2A20}}
@@ -305,6 +305,25 @@ h1{{margin:16px 0 0;font:600 86px/1.02 "Fraunces",serif;letter-spacing:-.01em}}h
 <div class="list">{rows}</div><div class="ft">{html.escape(s.get('foot',''))}</div>"""
 
 
+def pack(s):
+    """Dense collage cover: 3x3 grid of untouched brand photos (contain-fit on white tiles), big title below.
+    Fields: imgs (9 paths), eyebrow, title, sub, size."""
+    tiles = "".join(f'<div class="tile"><img src="{i}"></div>' for i in s["imgs"][:9])
+    return f"""<style>{BASE}
+body{{background:#2F4A3A;font-family:"DM Sans",sans-serif;color:#F4EBDD}}
+.grid{{position:absolute;left:44px;right:44px;top:44px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}}
+.tile{{height:250px;border-radius:20px;overflow:hidden;background:#fff}}
+.tile img{{width:100%;height:100%;object-fit:contain;padding:14px;box-sizing:border-box}}
+.eb{{position:absolute;left:0;right:0;top:880px;text-align:center;font:700 36px "Courier Prime",monospace;letter-spacing:.22em;color:#F8E2A8}}
+.t{{position:absolute;left:30px;right:30px;top:930px;text-align:center;font:600 {s.get('size',120)}px/1 "Fraunces",serif;letter-spacing:-.02em}}
+.t em{{font-style:italic;font-weight:400;color:#F8E2A8}}
+.sub{{position:absolute;left:0;right:0;top:{s.get('subtop',1100)}px;text-align:center;font:italic 400 66px/1 "Fraunces",serif;color:#F8E2A8}}
+.swipe{{position:absolute;left:0;right:0;bottom:46px;text-align:center;font:700 30px "Courier Prime",monospace;letter-spacing:.2em;opacity:.75}}
+.ad{{position:absolute;right:28px;bottom:24px;background:#F4EBDD;color:#2F4A3A;font:700 20px "Courier Prime",monospace;padding:4px 10px;border-radius:6px}}
+</style><div class="grid">{tiles}</div><div class="eb">{html.escape(s.get('eyebrow',''))}</div>
+<div class="t">{em(s['title'])}</div><div class="sub">{em(s.get('sub',''))}</div><div class="swipe">SWIPE →</div><div class="ad">#AD</div>"""
+
+
 def reel(s):
     """One 1080x1920 Reel frame: dimmed full-bleed photo, big serif line, optional building list, optional CTA pill.
     Text stays inside the Reels safe zone (y 300-1400, clear of the right 160px)."""
@@ -331,7 +350,7 @@ li span{{flex:none;width:84px;height:84px;border-radius:50%;background:#F8E2A8;c
 <div class="h">@cozylittlefindsdaily</div>"""
 
 
-KINDS = {"numbers": numbers, "reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
+KINDS = {"pack": pack, "numbers": numbers, "reel": reel, "outfit": outfit, "tweet": tweet, "vintage": vintage, "plain": plain, "engraving": engraving, "board": board, "cta": cta, "collage": collage, "guide": guide, "product": product, "story": story, "cover": cover, "hook": hook, "edit": edit}
 
 
 def render(spec):

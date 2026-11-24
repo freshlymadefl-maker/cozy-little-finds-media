@@ -1,0 +1,603 @@
+[
+{
+"name": "v-cozy-2",
+"type": "product",
+"n": 1,
+"img": "src/bf/barefoot.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC THROW",
+"label": "The blanket",
+"line": "The one everyone *fights over.*"
+},
+{
+"name": "v-cozy-3",
+"type": "product",
+"n": 2,
+"img": "src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC SOCKS",
+"label": "The socks",
+"line": "Because someone *always* sets the heat to 64."
+},
+{
+"name": "v-cozy-4",
+"type": "product",
+"n": 3,
+"img": "src/brand/ugg.png",
+"fit": "contain",
+"eyebrow": "UGG TASMAN SLIPPERS",
+"label": "The slippers",
+"line": "Errands? *In these?* Absolutely."
+},
+{
+"name": "v-cozy-5",
+"type": "product",
+"n": 4,
+"img": "src/dec3/yankee.jpg",
+"fit": "contain",
+"eyebrow": "YANKEE CANDLE LARGE JAR",
+"label": "The candle",
+"line": "Instant \"I *totally* cleaned.\""
+},
+{
+"name": "v-cozy-6",
+"type": "cta",
+"title": "Comment COZY",
+"items": [
+"I'll DM you all 23 links",
+"Or tap the link in bio",
+"Save this for tonight"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"type": "cover",
+"eyebrow": "GIFTS FOR MOM",
+"title": "She wants *nothing*",
+"sub": "…so get her these.",
+"size": 132,
+"name": "v-mom-1",
+"imgs": [
+"src/dec3/kendra.jpg",
+"src/dec3/bose_flex.jpg",
+"src/bf/barefoot.jpg",
+"src/bf/blissy_w.jpg"
+],
+"fit": "contain"
+},
+{
+"name": "v-mom-2",
+"type": "product",
+"n": 1,
+"img": "src/dec3/kendra.jpg",
+"fit": "contain",
+"eyebrow": "KENDRA SCOTT ELISA NECKLACE",
+"label": "The necklace",
+"line": "She'll wear it *every single day.*"
+},
+{
+"name": "v-mom-3",
+"type": "product",
+"n": 2,
+"img": "src/dec3/bose_flex.jpg",
+"fit": "cover",
+"eyebrow": "BOSE SOUNDLINK FLEX",
+"label": "The speaker",
+"line": "Kitchen dance parties, *upgraded.*"
+},
+{
+"name": "v-mom-4",
+"type": "product",
+"n": 3,
+"img": "src/bf/barefoot.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC THROW",
+"label": "The blanket",
+"line": "The softest thing she'll *ever* own."
+},
+{
+"name": "v-mom-5",
+"type": "product",
+"n": 4,
+"img": "src/bf/blissy_w.jpg",
+"fit": "cover",
+"eyebrow": "BLISSY SILK PILLOWCASE",
+"label": "The pillowcase",
+"line": "Beauty sleep, *but make it silk.*"
+},
+{
+"name": "v-mom-6",
+"type": "cta",
+"title": "Comment MOM",
+"items": [
+"I'll DM you all 24 links",
+"Or tap the link in bio",
+"Send this to your siblings"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"name": "v-swap-2",
+"type": "product",
+"n": 1,
+"img": "src/dec3/dash.jpg",
+"fit": "contain",
+"eyebrow": "DASH MINI WAFFLE MAKER",
+"label": "The waffle maker",
+"line": "The gift *everyone* steals."
+},
+{
+"name": "v-swap-3",
+"type": "product",
+"n": 2,
+"img": "src/bf/stanley_w.jpg",
+"fit": "cover",
+"eyebrow": "STANLEY QUENCHER",
+"label": "The tumbler",
+"line": "Instant *bidding war.*"
+},
+{
+"name": "v-swap-4",
+"type": "product",
+"n": 3,
+"img": "src/him/yeti.png",
+"fit": "contain",
+"eyebrow": "YETI RAMBLER 20 OZ",
+"label": "The other tumbler",
+"line": "For the *Stanley skeptics.*"
+},
+{
+"name": "v-swap-5",
+"type": "product",
+"n": 4,
+"img": "src/dec3/jellycat.jpg",
+"fit": "contain",
+"eyebrow": "JELLYCAT BASHFUL BUNNY",
+"label": "The bunny",
+"line": "Grown adults will *fight* for it."
+},
+{
+"name": "v-swap-6",
+"type": "cta",
+"title": "Comment SWAP",
+"items": [
+"I'll DM you all 23 links",
+"Or tap the link in bio",
+"Send this to your office"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"type": "cover",
+"eyebrow": "CHRISTMAS MORNING",
+"title": "Christmas *morning*",
+"sub": "…but make it cozy.",
+"size": 128,
+"name": "v-morn-1",
+"imgs": [
+"src/dec3/yankee.jpg",
+"src/brand/ugg.png",
+"src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"src/bf/blissy_w.jpg"
+],
+"fit": "contain"
+},
+{
+"name": "v-morn-2",
+"type": "product",
+"n": 1,
+"img": "src/dec3/yankee.jpg",
+"fit": "contain",
+"eyebrow": "YANKEE CANDLE · SUGARED CINNAMON APPLE",
+"label": "The candle",
+"line": "Smells like cinnamon rolls, *no baking.*"
+},
+{
+"name": "v-morn-3",
+"type": "product",
+"n": 2,
+"img": "src/brand/ugg.png",
+"fit": "contain",
+"eyebrow": "UGG TASMAN SLIPPERS",
+"label": "The slippers",
+"line": "Cold floors, *who?*"
+},
+{
+"name": "v-morn-4",
+"type": "product",
+"n": 3,
+"img": "src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC SOCKS",
+"label": "The socks",
+"line": "Stocking-sized, *cloud-soft.*"
+},
+{
+"name": "v-morn-5",
+"type": "product",
+"n": 4,
+"img": "src/bf/blissy_w.jpg",
+"fit": "cover",
+"eyebrow": "BLISSY SILK PILLOWCASE",
+"label": "The pillowcase",
+"line": "For sleeping in *after.*"
+},
+{
+"name": "v-morn-6",
+"type": "cta",
+"title": "Comment MORNING",
+"items": [
+"I'll DM you all 24 links",
+"Or tap the link in bio",
+"Save this for Christmas"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"type": "cover",
+"eyebrow": "TEACHER + COWORKER GIFTS",
+"title": "Gifts they'll *actually* use",
+"sub": "…not another mug.",
+"size": 108,
+"name": "v-teach-1",
+"imgs": [
+"src/him/yeti.png",
+"src/dec3/tiesta.png",
+"src/u25/laneige.jpg",
+"src/bf/stanley_w.jpg"
+],
+"fit": "contain"
+},
+{
+"name": "v-teach-2",
+"type": "product",
+"n": 1,
+"img": "src/him/yeti.png",
+"fit": "contain",
+"eyebrow": "YETI RAMBLER 20 OZ",
+"label": "The tumbler",
+"line": "Coffee stays hot *through recess.*"
+},
+{
+"name": "v-teach-3",
+"type": "product",
+"n": 2,
+"img": "src/bf/stanley_w.jpg",
+"fit": "cover",
+"eyebrow": "STANLEY QUENCHER",
+"label": "The big one",
+"line": "Hydration for *parent-teacher night.*"
+},
+{
+"name": "v-teach-4",
+"type": "product",
+"n": 3,
+"img": "src/dec3/tiesta.png",
+"fit": "contain",
+"eyebrow": "TIESTA TEA TOP SELLER SAMPLER",
+"label": "The tea",
+"line": "Eight flavors of *peace and quiet.*"
+},
+{
+"name": "v-teach-5",
+"type": "product",
+"n": 4,
+"img": "src/u25/laneige.jpg",
+"fit": "cover",
+"eyebrow": "LANEIGE LIP SLEEPING MASK",
+"label": "The lip mask",
+"line": "A little luxury *for the lounge.*"
+},
+{
+"name": "v-teach-6",
+"type": "cta",
+"title": "Comment TEACHER",
+"items": [
+"I'll DM you all 23 links",
+"Or tap the link in bio",
+"Send this to the room parent"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"type": "cover",
+"eyebrow": "GIFTS FOR HIM",
+"title": "He'll *actually* use these",
+"sub": "…he said he needs nothing.",
+"size": 118,
+"name": "v-him-1",
+"imgs": [
+"src/him/airtag.jpg",
+"src/him/beanie.jpg",
+"src/him/leatherman.jpg",
+"src/him/yeti.png"
+],
+"fit": "contain"
+},
+{
+"name": "v-him-2",
+"type": "product",
+"n": 1,
+"img": "src/him/beanie.jpg",
+"fit": "contain",
+"eyebrow": "CARHARTT KNIT CUFFED BEANIE",
+"label": "The beanie",
+"line": "He'll wear it *every single day.*"
+},
+{
+"name": "v-him-3",
+"type": "product",
+"n": 2,
+"img": "src/him/leatherman.jpg",
+"fit": "contain",
+"eyebrow": "LEATHERMAN WINGMAN",
+"label": "The multitool",
+"line": "Fixes everything. *Allegedly.*"
+},
+{
+"name": "v-him-4",
+"type": "product",
+"n": 3,
+"img": "src/him/airtag.jpg",
+"fit": "contain",
+"eyebrow": "APPLE AIRTAG 4-PACK",
+"label": "The AirTags",
+"line": "For the keys he *always* loses."
+},
+{
+"name": "v-him-5",
+"type": "product",
+"n": 4,
+"img": "src/him/yeti.png",
+"fit": "contain",
+"eyebrow": "YETI RAMBLER 20 OZ",
+"label": "The tumbler",
+"line": "Coffee, *still hot at noon.*"
+},
+{
+"name": "v-him-6",
+"type": "cta",
+"title": "Comment GENT",
+"items": [
+"I'll DM you all 21 links",
+"Or tap the link in bio",
+"Send this to his person"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"name": "v-pjs-2",
+"type": "product",
+"n": 1,
+"img": "src/brand/ugg.png",
+"fit": "contain",
+"eyebrow": "UGG TASMAN SLIPPERS",
+"label": "The slippers",
+"line": "Matching pajamas *need* matching slippers."
+},
+{
+"name": "v-pjs-3",
+"type": "product",
+"n": 2,
+"img": "src/bfd/BDWCC27064_STONE_MULTI_FRONT.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC SOCKS",
+"label": "The socks",
+"line": "Cozy toes for the *family photo.*"
+},
+{
+"name": "v-pjs-4",
+"type": "product",
+"n": 3,
+"img": "src/bf/blissy_w.jpg",
+"fit": "cover",
+"eyebrow": "BLISSY SILK PILLOWCASE",
+"label": "The pillowcase",
+"line": "Christmas Eve, *silk edition.*"
+},
+{
+"name": "v-pjs-5",
+"type": "product",
+"n": 4,
+"img": "src/bf/barefoot.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC THROW",
+"label": "The blanket",
+"line": "Movie night is *mandatory.*"
+},
+{
+"name": "v-pjs-6",
+"type": "cta",
+"title": "Comment PJS",
+"items": [
+"I'll DM you all 25 links",
+"Or tap the link in bio",
+"Send this to the family chat"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"name": "v-wrap-2",
+"type": "product",
+"n": 1,
+"img": "src/dec3/ribbon.jpg",
+"fit": "cover",
+"eyebrow": "RED VELVET RIBBON",
+"label": "The ribbon",
+"line": "Velvet does *all* the work."
+},
+{
+"name": "v-wrap-3",
+"type": "product",
+"n": 2,
+"img": "src/dec3/kraft.jpg",
+"fit": "cover",
+"eyebrow": "KRAFT PAPER + JUTE TWINE",
+"label": "The paper",
+"line": "Plain paper, *boutique* finish."
+},
+{
+"name": "v-wrap-4",
+"type": "product",
+"n": 3,
+"img": "src/dec2/gifts.jpg",
+"fit": "cover",
+"eyebrow": "WAX SEAL KIT",
+"label": "The seal",
+"line": "The detail everyone *notices.*"
+},
+{
+"name": "v-wrap-5",
+"type": "product",
+"n": 4,
+"img": "src/dec3/oranges.jpg",
+"fit": "cover",
+"eyebrow": "DRIED ORANGE SLICES",
+"label": "The garnish",
+"line": "Smells like Christmas, *looks expensive.*"
+},
+{
+"name": "v-wrap-6",
+"type": "cta",
+"title": "Comment WRAP",
+"items": [
+"I'll DM you all 21 links",
+"Or tap the link in bio",
+"Save this for wrapping night"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+},
+{
+"type": "pack",
+"eyebrow": "LAST-MINUTE GIFTS",
+"title": "Forgot someone?",
+"sub": "*Same.* These ship fast.",
+"size": 118,
+"subtop": 1070,
+"name": "v-rush-1",
+"imgs": [
+"src/brand/ugg.png",
+"src/u25/laneige.jpg",
+"src/brand/bose.png",
+"src/bf/thera_w.jpg",
+"src/bf/stanley_w.jpg",
+"src/dec3/kendra.jpg",
+"src/u25/sdj.jpg",
+"src/bf/blissy_w.jpg",
+"src/bf/barefoot.jpg"
+],
+"fit": "contain"
+},
+{
+"name": "v-rush-2",
+"type": "product",
+"n": 1,
+"img": "src/brand/ugg.png",
+"fit": "contain",
+"eyebrow": "UGG TASMAN SLIPPERS",
+"label": "The slippers",
+"line": "The gift *everyone* asked for."
+},
+{
+"name": "v-rush-3",
+"type": "product",
+"n": 2,
+"img": "src/u25/laneige.jpg",
+"fit": "cover",
+"eyebrow": "LANEIGE LIP SLEEPING MASK",
+"label": "The lip mask",
+"line": "Stocking-sized *cult favorite.*"
+},
+{
+"name": "v-rush-4",
+"type": "product",
+"n": 3,
+"img": "src/brand/bose.png",
+"fit": "contain",
+"eyebrow": "BOSE QUIETCOMFORT HEADPHONES",
+"label": "The headphones",
+"line": "Peace and quiet, *gift-wrapped.*"
+},
+{
+"name": "v-rush-5",
+"type": "product",
+"n": 4,
+"img": "src/bf/thera_w.jpg",
+"fit": "cover",
+"eyebrow": "THERAGUN MINI",
+"label": "The massager",
+"line": "For *after* all the shopping."
+},
+{
+"name": "v-rush-6",
+"type": "product",
+"n": 5,
+"img": "src/bf/stanley_w.jpg",
+"fit": "cover",
+"eyebrow": "STANLEY QUENCHER",
+"label": "The tumbler",
+"line": "Still *the* tumbler."
+},
+{
+"name": "v-rush-7",
+"type": "cta",
+"title": "Comment RUSH",
+"items": [
+"I'll DM you all 20 links",
+"Or tap the link in bio",
+"Check delivery dates at checkout"
+],
+"sub": "Prices at time of posting. Delivery dates vary, so check before you buy."
+},
+{
+"name": "v-dog-2",
+"type": "product",
+"n": 1,
+"img": "src/dec3/kong.jpg",
+"fit": "contain",
+"eyebrow": "KONG CLASSIC",
+"label": "The KONG",
+"line": "Peanut butter = *peace.*"
+},
+{
+"name": "v-dog-3",
+"type": "product",
+"n": 2,
+"img": "src/dec3/benebone.jpg",
+"fit": "contain",
+"eyebrow": "BENEBONE WISHBONE",
+"label": "The chew",
+"line": "Survives *the power chewer.*"
+},
+{
+"name": "v-dog-4",
+"type": "product",
+"n": 3,
+"img": "src/bf/barefoot.jpg",
+"fit": "cover",
+"eyebrow": "BAREFOOT DREAMS COZYCHIC THROW",
+"label": "The blanket",
+"line": "For dog-mom *couch naps.*"
+},
+{
+"name": "v-dog-5",
+"type": "product",
+"n": 4,
+"img": "src/bf/stanley_w.jpg",
+"fit": "cover",
+"eyebrow": "STANLEY QUENCHER",
+"label": "The tumbler",
+"line": "Walk fuel, *for her.*"
+},
+{
+"name": "v-dog-6",
+"type": "cta",
+"title": "Comment WOOF",
+"items": [
+"I'll DM you all 23 links",
+"Or tap the link in bio",
+"Send this to a dog mom"
+],
+"sub": "Prices and deals at time of posting. Check before you buy."
+}
+]

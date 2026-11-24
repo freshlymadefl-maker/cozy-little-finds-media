@@ -1,0 +1,5 @@
+[
+{"name":"hx-1","type":"cover","eyebrow":"GIFTS FOR HIM","title":"He'll *actually* use these","size":118,"sub":"…he said he needs nothing.","imgs":["src/him/airtag.jpg","src/him/beanie.jpg","src/him/leatherman.jpg","src/him/yeti.png"]},
+{"name":"hx-2","type":"product","n":1,"img":"src/him/beanie.jpg","eyebrow":"CARHARTT KNIT CUFFED BEANIE","label":"The beanie","price":"","line":"He'll wear it *every single day.*"},
+{"name":"hx-3","type":"product","n":2,"img":"src/him/leatherman.jpg","eyebrow":"LEATHERMAN WINGMAN","label":"The multitool","price":"","line":"Fixes everything. *Allegedly.*"}
+]
