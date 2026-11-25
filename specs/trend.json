@@ -1,0 +1,319 @@
+[
+{
+"name": "tr-her-1",
+"type": "cover",
+"imgs": [
+"src/trend/perfume.jpg",
+"src/trend/pearls.jpg",
+"src/trend/redknit.jpg",
+"src/trend/sf_minis.jpg"
+],
+"eyebrow": "THE MOST-SEARCHED GIFTS",
+"title": "What she *actually* wants",
+"size": 92,
+"sub": "trending this year"
+},
+{
+"name": "tr-her-2",
+"type": "product",
+"n": 1,
+"img": "src/trend/perfume.jpg",
+"eyebrow": "PERFUME DISCOVERY SETS",
+"label": "The *sampler*",
+"line": "The most-searched gift set of the year."
+},
+{
+"name": "tr-her-3",
+"type": "product",
+"n": 2,
+"img": "src/trend/kendra.jpg",
+"fit": "contain",
+"eyebrow": "KENDRA SCOTT · WILLA",
+"label": "The pearl *huggies*",
+"line": "Pearls are having *a moment.*"
+},
+{
+"name": "tr-her-4",
+"type": "product",
+"n": 3,
+"img": "src/trend/sf_minis.jpg",
+"fit": "contain",
+"eyebrow": "SUMMER FRIDAYS",
+"label": "The lip *butter*",
+"line": "Four minis. *Zero* chance she shares."
+},
+{
+"name": "tr-her-5",
+"type": "edit",
+"eyebrow": "ALSO TRENDING",
+"title": "The rest of *the list*",
+"line": "All on Amazon.",
+"start": 4,
+"items": [
+"The lymphatic face brush",
+"A *red* cardigan",
+"The striped sweater",
+"A cherry bag charm",
+"LED face mask",
+"Olaplex No.3"
+]
+},
+{
+"name": "tr-her-6",
+"type": "cta",
+"title": "Comment TRENDLIST",
+"items": [
+"I'll DM you all 20",
+"Perfume, pearls + the brush",
+"Save this for later"
+],
+"sub": "Or tap \"Trending gifts\" in my bio."
+},
+{
+"name": "tr-off-1",
+"type": "cover",
+"imgs": [
+"src/trend/puzzle.jpg",
+"src/trend/instax_pink.png",
+"src/trend/boardgame.jpg",
+"src/trend/instax_d1.png"
+],
+"fit": "cover",
+"eyebrow": "THE GREAT OFFLINE",
+"title": "Gifts to *unplug*",
+"size": 140,
+"sub": "phones down, game on"
+},
+{
+"name": "tr-off-2",
+"type": "product",
+"n": 1,
+"img": "src/trend/instax_pink.png",
+"fit": "contain",
+"eyebrow": "INSTAX MINI 12",
+"label": "The *camera*",
+"line": "Photos you can *actually* hold."
+},
+{
+"name": "tr-off-3",
+"type": "edit",
+"eyebrow": "GAME NIGHT",
+"title": "Upgrade the *family table*",
+"line": "Loser does the dishes.",
+"start": 2,
+"items": [
+"Ticket to Ride",
+"Codenames",
+"Herd Mentality",
+"Zombie Kittens",
+"Clue",
+"UNO (a classic)"
+]
+},
+{
+"name": "tr-off-4",
+"type": "edit",
+"eyebrow": "SLOW HOBBIES",
+"title": "For the *quiet* ones",
+"line": "Or the competitive ones.",
+"start": 8,
+"items": [
+"A cozy 1000-piece puzzle",
+"The puzzle board with drawers",
+"LEGO wildflower bouquet",
+"A watercolor set",
+"Pickleball set for four",
+"Spikeball"
+]
+},
+{
+"name": "tr-off-5",
+"type": "cta",
+"title": "Comment UNPLUG",
+"items": [
+"I'll DM you all 16",
+"Games, puzzles + the camera",
+"Send this to the group chat"
+],
+"sub": "Or tap \"Gifts to unplug\" in my bio."
+},
+{
+"name": "tr-host-1",
+"type": "cover",
+"imgs": [
+"src/trend/candles.jpg",
+"src/trend/nest.jpg",
+"src/trend/kettle_scene.jpg",
+"src/trend/cosori.png"
+],
+"eyebrow": "HOSTING, BUT MAKE IT CALM",
+"title": "Glow + *tea*",
+"size": 150,
+"sub": "the two things guests notice"
+},
+{
+"name": "tr-host-2",
+"type": "product",
+"n": 1,
+"img": "src/trend/nest.jpg",
+"fit": "contain",
+"eyebrow": "NEST NEW YORK · HOLIDAY",
+"label": "The *candle*",
+"line": "Pomegranate, pine + clove. *The whole house.*"
+},
+{
+"name": "tr-host-3",
+"type": "product",
+"n": 2,
+"img": "src/trend/cosori.png",
+"fit": "contain",
+"eyebrow": "COSORI GOOSENECK",
+"label": "The *kettle*",
+"line": "Tea, cocoa, pour-over. *Done in minutes.*"
+},
+{
+"name": "tr-host-4",
+"type": "cta",
+"title": "Comment HOSTING",
+"items": [
+"I'll DM you the hosting list",
+"24 finds, candles to coupes",
+"Save for the big night"
+],
+"sub": "Or tap \"Hosting Christmas finds\" in my bio."
+},
+{
+"name": "tr-fan",
+"type": "plain",
+"eyebrow": "OPRAH GETS IT",
+"text": "A personal fan made her Favorite Things list this year. Finally, a gift for *the women who are always warm.*",
+"size": 70
+},
+{
+"name": "tr-mf-perfume",
+"type": "find",
+"img": "src/trend/perfume.jpg",
+"eyebrow": "☕ MORNING FIND · PERFUME SETS",
+"hook": "Try every scent. *Commit later.*",
+"prod": "Perfume Discovery Sets",
+"kw": "TRENDLIST"
+},
+{
+"name": "tr-kid-1",
+"type": "reel",
+"img": "src/trend/presents.jpg",
+"dim": 0.55,
+"eyebrow": "MOM, SAVE THIS",
+"text": "What every kid is asking for *this year*",
+"sub": "(so you don't have to Google it)"
+},
+{
+"name": "tr-kid-2",
+"type": "reel",
+"img": "src/trend/presents.jpg",
+"dim": 0.62,
+"eyebrow": "THE LIST",
+"text": "Top of *every* list:",
+"items": [
+"Squishy advent calendars",
+"Toniebox 2"
+]
+},
+{
+"name": "tr-kid-3",
+"type": "reel",
+"img": "src/trend/presents.jpg",
+"dim": 0.62,
+"eyebrow": "THE LIST",
+"text": "Top of *every* list:",
+"items": [
+"Squishy advent calendars",
+"Toniebox 2",
+"Beyblade X",
+"Jellycat"
+]
+},
+{
+"name": "tr-kid-4",
+"type": "reel",
+"img": "src/trend/presents.jpg",
+"dim": 0.62,
+"eyebrow": "THE LIST",
+"text": "Top of *every* list:",
+"items": [
+"Squishy advent calendars",
+"Toniebox 2",
+"Beyblade X",
+"Jellycat",
+"Yoto Mini",
+"Magna-Tiles"
+]
+},
+{
+"name": "tr-kid-5",
+"type": "reel",
+"img": "src/trend/presents.jpg",
+"dim": 0.55,
+"eyebrow": "ALL 17 IN ONE LIST",
+"text": "You're *welcome.*",
+"sub": "Pokémon, LEGO Bluey, KPop Demon Hunters + more",
+"pill": "Comment KIDLIST"
+},
+{
+"name": "tr-pin-her",
+"type": "pin",
+"imgs": [
+"src/trend/perfume.jpg",
+"src/trend/kendra.jpg",
+"src/trend/sf_minis.jpg",
+"src/trend/pearls.jpg"
+],
+"eyebrow": "TRENDING GIFTS 2026",
+"title": "Gifts she'll *actually* use",
+"sub": "the most-searched gifts this year"
+},
+{
+"name": "tr-pin-kid",
+"type": "pin",
+"imgs": [
+"src/trend/magna.jpg",
+"src/trend/yoto.png",
+"src/trend/presents.jpg",
+"src/trend/tree.jpg"
+],
+"eyebrow": "TRENDING TOYS 2026",
+"title": "What every kid *wants*",
+"sub": "the 2026 wish list, sorted"
+},
+{
+"name": "tr-pin-off",
+"type": "pin",
+"imgs": [
+"src/trend/instax_pink.png",
+"src/trend/puzzle.jpg",
+"src/trend/boardgame.jpg",
+"src/trend/instax_d1.png"
+],
+"eyebrow": "FAMILY GIFT IDEAS",
+"title": "Gifts to *unplug*",
+"sub": "games, puzzles + the camera"
+},
+{
+"name": "tr-st-her",
+"type": "story",
+"eyebrow": "TRENDING GIFTS",
+"title": "What she *actually* wants",
+"img": "src/trend/perfume.jpg",
+"cta": "tap the link ↑",
+"note": "perfume sets, pearls + the face brush"
+},
+{
+"name": "tr-st-kid",
+"type": "story",
+"eyebrow": "MOM, SAVE THIS",
+"title": "The kids' *wish list*",
+"img": "src/trend/presents.jpg",
+"cta": "tap the link ↑",
+"note": "17 things every kid wants"
+}
+]
