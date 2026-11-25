@@ -1,0 +1,373 @@
+[
+ {
+  "name": "xw-1221-giftrules",
+  "type": "edit",
+  "eyebrow": "4 DAYS TO GO",
+  "title": "Last-minute *gift rules*",
+  "line": "for the one still on your list",
+  "items": [
+   "Check \u201carrives by\u201d first",
+   "One nice thing beats three okay things",
+   "Mini luxe sets look *planned*",
+   "Wrap it like you meant it"
+  ]
+ },
+ {
+  "name": "xw-1221-tote",
+  "type": "tweet",
+  "text": "me on december 21st: i'm done shopping\n\nme on december 22nd: holding a tote bag of \u201cone more little thing\u201d for every person i've ever met"
+ },
+ {
+  "name": "xw-1222-stocking",
+  "type": "edit",
+  "eyebrow": "STOCKING EMERGENCY",
+  "title": "Her stocking is *still empty*",
+  "line": "and it's the 22nd. the plan:",
+  "items": [
+   "Something for her lips",
+   "Something for her hair",
+   "Something cozy for her feet",
+   "One tiny luxury she'd *never* buy herself"
+  ]
+ },
+ {
+  "name": "xw-1222-bed",
+  "type": "plain",
+  "eyebrow": "A HOLIDAY TRUTH",
+  "text": "Christmas is a state of mind. So is being *in bed by nine.*",
+  "size": 92
+ },
+ {
+  "name": "xw-1223-morning",
+  "type": "edit",
+  "eyebrow": "CHRISTMAS MORNING",
+  "title": "The cold girl *dress code*",
+  "line": "for the coziest morning of the year",
+  "items": [
+   "Pajamas, obviously",
+   "The fuzzy socks",
+   "A blanket for the couch",
+   "Coffee in your *nicest* mug"
+  ]
+ },
+ {
+  "name": "xw-1223-tape",
+  "type": "tweet",
+  "text": "december 23rd is when everyone in the house wraps presents in a different room and pretends they can't hear each other's tape"
+ },
+ {
+  "name": "xw-1224-martini",
+  "type": "edit",
+  "eyebrow": "CHRISTMAS EVE",
+  "title": "Martini *hour*",
+  "line": "the only plan you need tonight",
+  "items": [
+   "Coupes in the freezer, 20 minutes",
+   "Olives on a pretty pick",
+   "The candle you've been saving",
+   "One record, on repeat"
+  ]
+ },
+ {
+  "name": "xw-1224-dishes",
+  "type": "plain",
+  "dark": true,
+  "eyebrow": "MERRY CHRISTMAS EVE",
+  "text": "Pour something nice. *Leave the dishes.*",
+  "size": 104
+ },
+ {
+  "name": "xw-1225-merry",
+  "type": "plain",
+  "eyebrow": "DECEMBER 25",
+  "text": "Merry Christmas from our cozy little corner to *yours.*",
+  "size": 96
+ },
+ {
+  "name": "xw-1225-giftcard",
+  "type": "edit",
+  "eyebrow": "GOT A GIFT CARD?",
+  "title": "Spend it like *this*",
+  "line": "pieces under $25 that look expensive",
+  "items": [
+   "Skip the \u201cuseful\u201d thing",
+   "Buy what you keep un-carting",
+   "Go for one that looks *pricey*",
+   "Screenshot this for later"
+  ]
+ },
+ {
+  "name": "xw-1226-pjs",
+  "type": "tweet",
+  "text": "december 26th: i have officially switched from \u201cfestive\u201d to \u201cwearing the new pajamas until further notice\u201d"
+ },
+ {
+  "name": "xw-1226-pearls",
+  "type": "edit",
+  "eyebrow": "NEW YEAR'S EVE IN 5 DAYS",
+  "title": "Plaid, pearls + *one bow*",
+  "line": "the outfit that works from now to midnight",
+  "items": [
+   "A plaid piece you'll rewear",
+   "Pearls (more than you think)",
+   "One bow, somewhere",
+   "Shoes you can actually *dance in*"
+  ]
+ },
+ {
+  "name": "xw-1227-softlaunch",
+  "type": "plain",
+  "eyebrow": "THE WEEK BETWEEN",
+  "text": "The days after Christmas are a *soft launch* for January.",
+  "size": 96
+ },
+ {
+  "name": "xw-1227-offline",
+  "type": "edit",
+  "eyebrow": "PHONES IN A BASKET",
+  "title": "The great *offline* week",
+  "line": "family gifts that get everyone off their phones",
+  "items": [
+   "A puzzle on the coffee table",
+   "A game that ends in yelling (lovingly)",
+   "The book someone gave you",
+   "Phones away till nine"
+  ]
+ },
+ {
+  "name": "xw-st-1221a",
+  "type": "story",
+  "eyebrow": "4 DAYS TO GO",
+  "title": "Still *shopping?*",
+  "cta": "today's list at noon",
+  "note": "we've got you."
+ },
+ {
+  "name": "xw-st-1221b",
+  "type": "story",
+  "eyebrow": "NEW POST",
+  "title": "Gifts she'll *actually* use",
+  "cta": "comment TRENDLIST",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-st-1222a",
+  "type": "story",
+  "eyebrow": "3 DAYS TO GO",
+  "title": "Stocking *check*",
+  "cta": "see today's post",
+  "note": "no judgment. we're behind too."
+ },
+ {
+  "name": "xw-st-1222b",
+  "type": "story",
+  "eyebrow": "NEW POST",
+  "title": "Stocking stuffers for *her*",
+  "cta": "comment STOCKING",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-st-1223a",
+  "type": "story",
+  "eyebrow": "2 DAYS TO GO",
+  "title": "Wrap night *energy*",
+  "cta": "tape, ribbon, wine",
+  "note": "in that order."
+ },
+ {
+  "name": "xw-st-1223b",
+  "type": "story",
+  "eyebrow": "NEW POST",
+  "title": "The cold girl *dress code*",
+  "cta": "comment COLD",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-st-1224a",
+  "type": "story",
+  "eyebrow": "CHRISTMAS EVE",
+  "title": "Martini *hour*",
+  "cta": "link in bio",
+  "note": "the bar cart list is up."
+ },
+ {
+  "name": "xw-st-1224b",
+  "type": "story",
+  "eyebrow": "TONIGHT",
+  "title": "Leave the *dishes*",
+  "cta": "merry christmas eve",
+  "note": "see you in the morning."
+ },
+ {
+  "name": "xw-st-1225a",
+  "type": "story",
+  "eyebrow": "DECEMBER 25",
+  "title": "Merry *Christmas*",
+  "cta": "from us to you",
+  "note": "thank you for being here."
+ },
+ {
+  "name": "xw-st-1225b",
+  "type": "story",
+  "eyebrow": "GOT A GIFT CARD?",
+  "title": "Spend it *beautifully*",
+  "cta": "comment GIFTS",
+  "note": "under-$25 pieces that look expensive"
+ },
+ {
+  "name": "xw-st-1226a",
+  "type": "story",
+  "eyebrow": "NEW YEAR'S IN 5 DAYS",
+  "title": "Pearls *on*",
+  "cta": "comment PEARLS",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-st-1226b",
+  "type": "story",
+  "eyebrow": "DECEMBER 26",
+  "title": "Pajama day *two*",
+  "cta": "no notes",
+  "note": "stay cozy."
+ },
+ {
+  "name": "xw-st-1227a",
+  "type": "story",
+  "eyebrow": "THE WEEK BETWEEN",
+  "title": "Phones *down*",
+  "cta": "comment UNPLUG",
+  "note": "family gifts to unplug"
+ },
+ {
+  "name": "xw-st-1227b",
+  "type": "story",
+  "eyebrow": "SUNDAY",
+  "title": "Puzzle on the *table*",
+  "cta": "link in bio",
+  "note": "the slowest, best week."
+ },
+ {
+  "name": "xw-gap-8",
+  "type": "story",
+  "eyebrow": "17 DAYS TO CHRISTMAS",
+  "title": "Teacher gifts they'll *use*",
+  "cta": "comment TEACHER",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-9",
+  "type": "story",
+  "eyebrow": "16 DAYS TO CHRISTMAS",
+  "title": "For the mom who wants *nothing*",
+  "cta": "comment MOM",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-10",
+  "type": "story",
+  "eyebrow": "15 DAYS TO CHRISTMAS",
+  "title": "He said he needs *nothing*",
+  "cta": "comment GENT",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-11",
+  "type": "story",
+  "eyebrow": "14 DAYS TO CHRISTMAS",
+  "title": "The girl who has *everything*",
+  "cta": "comment SPOIL",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-12",
+  "type": "story",
+  "eyebrow": "13 DAYS TO CHRISTMAS",
+  "title": "Matching pajamas, *mandatory*",
+  "cta": "comment PJS",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-13",
+  "type": "story",
+  "eyebrow": "12 DAYS TO CHRISTMAS",
+  "title": "Christmas morning, *cozy*",
+  "cta": "comment MORNING",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-14",
+  "type": "story",
+  "eyebrow": "11 DAYS TO CHRISTMAS",
+  "title": "Boutique wrap, *for less*",
+  "cta": "comment WRAP",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-15",
+  "type": "story",
+  "eyebrow": "10 DAYS TO CHRISTMAS",
+  "title": "The stocking is the *best part*",
+  "cta": "comment STOCKING",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-16",
+  "type": "story",
+  "eyebrow": "9 DAYS TO CHRISTMAS",
+  "title": "Forgot someone? *Same.*",
+  "cta": "comment RUSH",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-17",
+  "type": "story",
+  "eyebrow": "8 DAYS TO CHRISTMAS",
+  "title": "For him who wants *nothing*",
+  "cta": "comment HUSBAND",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-18",
+  "type": "story",
+  "eyebrow": "7 DAYS TO CHRISTMAS",
+  "title": "The dog gets a *stocking*",
+  "cta": "comment WOOF",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-19",
+  "type": "story",
+  "eyebrow": "6 DAYS TO CHRISTMAS",
+  "title": "One week left. *Breathe.*",
+  "cta": "comment HOLIDAY",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-gap-20",
+  "type": "story",
+  "eyebrow": "5 DAYS TO CHRISTMAS",
+  "title": "Looks expensive. *Isn't.*",
+  "cta": "comment LUXE",
+  "note": "or tap the link in my bio"
+ },
+ {
+  "name": "xw-reel-rule",
+  "type": "reel",
+  "img": "src/xw/gifts.png",
+  "eyebrow": "MY LAST-MINUTE GIFT RULE",
+  "text": "If it arrives after the 24th, it's a *New Year's gift* now.",
+  "size": 104,
+  "top": 560,
+  "dim": 0.42
+ },
+ {
+  "name": "xw-reel-card",
+  "type": "reel",
+  "img": "src/xw/after.png",
+  "eyebrow": "MY GIFT CARD RULE",
+  "text": "Spend it on the thing you'd *never buy yourself.*",
+  "size": 104,
+  "top": 560,
+  "dim": 0.42
+ }
+]

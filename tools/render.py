@@ -184,6 +184,17 @@ def story(s):
     """1080x1920 Story frame: pine background, eyebrow, big title, optional image card, button-like CTA pill.
     Fields: eyebrow, title, img (optional), cta, note (optional), code (optional ticket)."""
     img = f'<div class="card"><img src="{s["img"]}"></div>' if s.get("img") else ""
+    if not s.get("img"):  # photo-free variant: centered huge title inside a cream double-rule frame
+        return f"""<style>html,body{{margin:0;width:1080px;height:1920px}}body{{position:relative;overflow:hidden;background:#2F4A3A;color:#F4EBDD;font-family:"DM Sans",sans-serif}}
+.f{{position:absolute;left:70px;right:70px;top:260px;height:1300px;border:3px solid #F8E2A8;border-radius:8px}}.f2{{position:absolute;left:86px;right:86px;top:276px;height:1268px;border:1px solid rgba(248,226,168,.6);border-radius:6px}}
+.in{{position:absolute;left:120px;right:120px;top:300px;height:1220px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:56px;text-align:center}}
+.eb{{font:700 46px "Courier Prime",monospace;letter-spacing:.18em;color:#F8E2A8}}
+.t{{font:600 {s.get('size',150)}px/1.02 "Fraunces",serif;letter-spacing:-.015em}}.t em{{font-style:italic;font-weight:400;color:#F8E2A8}}
+.cta{{background:#F4EBDD;color:#2F4A3A;font:700 58px "DM Sans";padding:30px 64px;border-radius:60px;white-space:nowrap}}
+.note{{font:italic 400 56px/1.2 "Fraunces",serif;opacity:.92}}
+.mark{{position:absolute;left:0;right:0;top:1440px;text-align:center;font:700 26px/.95 "Fredoka",sans-serif;letter-spacing:.06em;opacity:.5}}
+</style><div class="f"></div><div class="f2"></div><div class="in"><div class="eb">{html.escape(s.get('eyebrow',''))}</div><div class="t">{em(s['title'])}</div>
+<div class="cta">{html.escape(s.get('cta','link in bio'))}</div><div class="note">{em(s.get('note',''))}</div></div>"""
     return f"""<style>html,body{{margin:0;width:1080px;height:1920px}}body{{position:relative;overflow:hidden;background:#2F4A3A;color:#F4EBDD;font-family:"DM Sans",sans-serif}}
 .eb{{position:absolute;left:0;right:0;top:280px;text-align:center;font:700 44px "Courier Prime",monospace;letter-spacing:.2em;color:#F8E2A8}}
 .t{{position:absolute;left:70px;right:70px;top:345px;text-align:center;font:600 124px/1.0 "Fraunces",serif}}
