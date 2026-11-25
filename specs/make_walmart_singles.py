@@ -42,6 +42,14 @@ PINS = [
  ("wm-spin-phase10", "phase10", "FAMILY GAME NIGHT", "The one <em>grandma always wins.</em>", "Phase 10 Card Game"),
  ("wm-spin-connect4", "connect4", "FAMILY GAME NIGHT", "The classic that <em>never gets old.</em>", "Connect 4 Classic Grid"),
  ("wm-spin-coupe", "coupe-thyme", "HOLIDAY HOSTING", "Gold rims make everything <em>taste fancier.</em>", "Thyme &amp; Table Gold Rim Coupes"),
+ # women's trending (owner Nov 25: "do we have any trending womens stuff too?")
+ ("wm-spin-juicy", "juicy", "TRENDING GIFT · PERFUME SETS", "The gift set she'll <em>actually</em> carry in her purse.", "Juicy Couture Viva La Juicy Travel Set"),
+ ("wm-spin-coach", "coach", "TRENDING GIFT · PERFUME SETS", "Smells like a <em>designer bag</em> feels.", "Coach Signature Eau de Parfum Gift Set"),
+ ("wm-spin-claw", "claw", "WALMART FIND · SCUNCI", "Her <em>entire</em> hairstyle, honestly.", "Scunci Open Cut Claw Clips, 3-Pack"),
+ ("wm-spin-satin", "satin", "WALMART FIND · SATIN", "Beauty sleep, <em>but make it satin.</em>", "Satin Pillowcases, 2-Pack"),
+ ("wm-spin-slippers", "slip-litfun", "COZY GIFTS FOR HER", "Memory foam for the <em>6am lunch shift.</em>", "Litfun Chenille Knit Slippers"),
+ ("wm-spin-sherpa", "sherpa", "COZY GIFTS FOR HER", "The couch's new <em>favorite accessory.</em>", "LOMAO Sherpa Fleece Throw"),
+ ("wm-spin-socks", "socks", "COZY GIFTS FOR HER", "Six pairs. <em>Zero cold feet.</em>", "MUK LUKS Fluffy Crew Socks, 6-Pack"),
 ]
 POSTS = [
  ("wm-find-needoh-ice", "needoh-ice", "WALMART FIND · NEEDOH", "The stocking stuffer they <em>won't put down.</em>", "NeeDoh Nice Ice Baby, 4-Pack"),
