@@ -20,6 +20,10 @@ M = {  # file: (text, 'top'|'bottom')
  "b13": ("The \u201cquick\u201d errand:<br>2 hours, 4 bags,<br>1 latte", "bottom"),
  "b14": ("When the trunk is full<br>but the list<br>still isn\u2019t done", "bottom"),
  "b15": ("Wrapping supplies: \u2705<br>Wrapping motivation: \u274c", "bottom"),
+ "c01": ("POV: the delivery driver<br>knows you by name", "bottom"),
+ "c02": ("When you find the<br>vintage Santa you didn’t<br>know you needed", "bottom"),
+ "c03": ("POV: you said “just<br>a few gifts” this year", "bottom"),
+ "c04": ("POV: the best gift is<br>the one you buy yourself", "bottom"),
  "b16": ("December personality:<br>Christmas movies,<br>popcorn, zero plans", "bottom"),
 }
 def html(img, text, where):
@@ -35,6 +39,7 @@ color:#f6dc8f;letter-spacing:-1px;text-shadow:0 3px 14px rgba(0,0,0,.6),0 1px 3p
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     for name, (text, where) in M.items():
+        if __import__("sys").argv[1:] and name not in __import__("sys").argv[1:]: continue
         p = OUT / f"{name}.html"; p.write_text(html((ROOT/'src'/'avatar'/f'{name}.png').as_uri(), text, where), encoding="utf-8")
         subprocess.run([EDGE, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--window-size=1080,1350",
                         "--virtual-time-budget=5000", f"--screenshot={(OUT/f'{name}.png').as_posix()}", p.as_uri()], check=True, capture_output=True)
