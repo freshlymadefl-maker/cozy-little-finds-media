@@ -24,6 +24,10 @@ M = {  # file: (text, 'top'|'bottom')
  "c02": ("When you find the<br>vintage Santa you didn’t<br>know you needed", "bottom"),
  "c03": ("POV: you said “just<br>a few gifts” this year", "bottom"),
  "c04": ("POV: the best gift is<br>the one you buy yourself", "bottom"),
+ "d01": ("POV: you opened the<br>white elephant gift<br>everyone wanted", "bottom"),
+ "d02": ("Went in for<br>ginger snaps", "bottom"),
+ "d03": ("Ugly sweater day<br>but you own 47<br>ugly sweaters", "bottom"),
+ "d04": ("Christmas Eve,<br>11pm, wrapping<br>break #6", "top"),
  "b16": ("December personality:<br>Christmas movies,<br>popcorn, zero plans", "bottom"),
 }
 def html(img, text, where):
