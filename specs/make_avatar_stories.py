@@ -10,6 +10,7 @@ S = {
  "e03": "Half the dough never<br>makes it to the oven",
  "e04": "When the tiny pink<br>tree finally arrives",
  "e05": "Errands, but make it a<br>cookie the size of your face",
+ "e07": "They’re not burnt,<br>they’re “extra toasty”",
  "e06": "The bigger the bow,<br>the better the day",
 }
 def html(img, text):
@@ -23,6 +24,7 @@ font-family:Montserrat;font-weight:800;font-size:64px;line-height:1.1;color:#f6d
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     for n, t in S.items():
+        if sys.argv[1:] and n not in sys.argv[1:]: continue
         img = (ROOT/'src'/'avatar'/f'{n}.png').as_uri()
         p = OUT/f"{n}.html"; p.write_text(html(img, t), encoding="utf-8")
         subprocess.run([EDGE,"--headless=new","--disable-gpu","--hide-scrollbars","--window-size=1080,1920","--virtual-time-budget=5000",
