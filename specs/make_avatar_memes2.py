@@ -49,6 +49,7 @@ M = {  # file: (text, 'top'|'bottom')
  "j_nails": ("45 minutes where<br>nobody needs<br>anything from me", "bottom"),
  "j_winebar": ("My emergency contact<br>and my wine contact.<br>Same person.", "bottom"),
  "j_keys": ("Keys? Phone? Wallet?<br>Every. Single. Time.", "bottom"),
+ "k_takeout": ("Girls’ night in:<br>same gossip, better pants", "top"),
  "b16": ("December personality:<br>Christmas movies,<br>popcorn, zero plans", "bottom"),
 }
 def html(img, text, where):
