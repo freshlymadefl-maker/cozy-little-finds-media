@@ -32,6 +32,7 @@ M = {  # file: (text, 'top'|'bottom')
  "f02": ("The star crown is<br>non-negotiable", "bottom"),
  "f03": ("New year,<br>same fuzzy socks", "top"),
  "f04": ("Countdown crew:<br>bubbles, snacks<br>and the couch", "bottom"),
+ "g03": ("January: the month we<br>“take a break<br>from spending”", "bottom"),
  "b16": ("December personality:<br>Christmas movies,<br>popcorn, zero plans", "bottom"),
 }
 def html(img, text, where):

@@ -1,0 +1,11 @@
+file '../out/rbf-1.png'
+duration 3.5
+file '../out/rbf-2.png'
+duration 2.5
+file '../out/rbf-3.png'
+duration 2.5
+file '../out/rbf-4.png'
+duration 4
+file '../out/rbf-5.png'
+duration 4
+file '../out/rbf-5.png'
