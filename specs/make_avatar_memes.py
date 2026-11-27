@@ -8,6 +8,9 @@ MEMES = [
     ("cart", "My husband:<br>we have enough<br>decorations<br><br>Me:", "bottom:70px"),
     ("cafe", "Me pretending I<br>didn't just spend<br>$400 on Black Friday", "bottom:80px"),
     ("pjs", "Christmas Eve plans:<br>matching PJs,<br>champagne,<br>zero cooking", "bottom:70px"),
+    ("wrap", "Me: I'll wrap early<br>this year<br>Also me, Dec 24, 11pm:", "bottom:60px"),
+    ("receipt", "When the receipt<br>is longer than<br>your Christmas list", "bottom:60px"),
+    ("closet", "Hiding gifts from<br>my husband like it's<br>a full-time job", "bottom:60px"),
     ("wine", "Financially<br>irresponsible,<br>but festively", "bottom:90px"),
 ]
 def html(img, text, pos):
