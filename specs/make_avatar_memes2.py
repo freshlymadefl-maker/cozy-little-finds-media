@@ -28,6 +28,10 @@ M = {  # file: (text, 'top'|'bottom')
  "d02": ("Went in for<br>ginger snaps", "bottom"),
  "d03": ("Ugly sweater day<br>but you own 47<br>ugly sweaters", "bottom"),
  "d04": ("Christmas Eve,<br>11pm, wrapping<br>break #6", "top"),
+ "f01": ("NYE outfit crisis:<br>velvet or sequins?", "bottom"),
+ "f02": ("The star crown is<br>non-negotiable", "bottom"),
+ "f03": ("New year,<br>same fuzzy socks", "top"),
+ "f04": ("Countdown crew:<br>bubbles, snacks<br>and the couch", "bottom"),
  "b16": ("December personality:<br>Christmas movies,<br>popcorn, zero plans", "bottom"),
 }
 def html(img, text, where):
