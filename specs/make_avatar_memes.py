@@ -5,10 +5,10 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "posts" / "avatar"
 EDGE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 MEMES = [
-    ("cart", "My husband:<br>we have enough<br>decorations<br><br>Me:", "top:150px"),
-    ("cafe", "Me pretending I<br>didn't just spend<br>$400 on Black Friday", "top:120px"),
-    ("pjs", "Christmas Eve plans:<br>matching PJs,<br>champagne,<br>zero cooking", "top:120px"),
-    ("wine", "Financially<br>irresponsible,<br>but festively", "top:760px"),
+    ("cart", "My husband:<br>we have enough<br>decorations<br><br>Me:", "bottom:70px"),
+    ("cafe", "Me pretending I<br>didn't just spend<br>$400 on Black Friday", "bottom:80px"),
+    ("pjs", "Christmas Eve plans:<br>matching PJs,<br>champagne,<br>zero cooking", "bottom:70px"),
+    ("wine", "Financially<br>irresponsible,<br>but festively", "bottom:90px"),
 ]
 def html(img, text, pos):
     return f"""<html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
