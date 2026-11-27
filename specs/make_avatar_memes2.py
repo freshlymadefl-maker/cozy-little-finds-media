@@ -12,7 +12,7 @@ M = {  # file: (text, 'top'|'bottom')
  "b05": ("Getting ready for the<br>holiday party like<br>it\u2019s the Met Gala", "bottom"),
  "b06": ("POV: buying cookies<br>for the neighbors<br>(and a tin for the car)", "bottom"),
  "b07": ("POV: you came in<br>for one sweater", "bottom"),
- "b08": ("December errands:<br>iced coffee first,<br>responsibilities later", "bottom"),
+ "b08": ("Weekend errands:<br>iced coffee first,<br>responsibilities later", "bottom"),
  "b09": ("Treat yourself after<br>you treat everyone else", "bottom"),
  "b10": ("Retail therapy:<br>still cheaper than<br>actual therapy", "bottom"),
  "b11": ("Vintage ornament<br>season is the<br>best season", "bottom"),
